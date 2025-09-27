@@ -1,0 +1,1917 @@
+customer_id,customer_type,age_group,chronic_conditions,has_chronic,monthly_visits,preferred_branch,monthly_spend,member_since_months
+CUST000001,Chronic Patient,0-12,Type 2 Diabetes,True,4,Guardian Ang Mo Kio,323.8972486588949,24
+CUST000002,Chronic Patient,0-12,"Hypertension, Arthritis",True,6,Guardian Bedok,314.2762423503201,19
+CUST000003,Chronic Patient,0-12,Asthma,True,7,Guardian Jurong,315.74406472343196,42
+CUST000004,Chronic Patient,0-12,Arthritis,True,8,Guardian Tampines,396.93985014233084,40
+CUST000005,Chronic Patient,0-12,"Type 2 Diabetes, Hypertension",True,8,Guardian Ang Mo Kio,95.39624431814394,45
+CUST000006,Chronic Patient,0-12,Type 2 Diabetes,True,6,Guardian Bedok,372.46384652975837,11
+CUST000007,Chronic Patient,0-12,High Cholesterol,True,11,Guardian Tampines,183.96592175381323,4
+CUST000008,Chronic Patient,0-12,Hypertension,True,8,Guardian Jurong,190.2972897921859,35
+CUST000009,Chronic Patient,0-12,High Cholesterol,True,9,Guardian Ang Mo Kio,284.87551492611277,19
+CUST000010,Chronic Patient,0-12,High Cholesterol,True,10,Guardian Tampines,196.79132048667674,35
+CUST000011,Chronic Patient,0-12,"Arthritis, Asthma",True,8,Guardian Bedok,201.92538331572592,47
+CUST000012,Chronic Patient,0-12,"Type 2 Diabetes, Arthritis",True,9,Guardian Bedok,329.6979701582373,56
+CUST000013,Chronic Patient,0-12,Arthritis,True,9,Guardian Ang Mo Kio,286.1747030210168,8
+CUST000014,Chronic Patient,0-12,"Arthritis, Asthma",True,8,Guardian Tampines,125.1405007813786,38
+CUST000015,Chronic Patient,0-12,Hypertension,True,4,Guardian Jurong,190.37729933460287,38
+CUST000016,Chronic Patient,0-12,Asthma,True,10,Guardian Ang Mo Kio,223.0775896567885,3
+CUST000017,Chronic Patient,0-12,"High Cholesterol, Hypertension",True,6,Guardian Ang Mo Kio,56.01761117411485,39
+CUST000018,Chronic Patient,0-12,Hypertension,True,7,Guardian Jurong,327.894179042587,21
+CUST000019,Chronic Patient,0-12,"Asthma, Hypertension",True,10,Guardian Tampines,176.86833154136554,2
+CUST000020,Chronic Patient,0-12,"High Cholesterol, Asthma",True,11,Guardian Tampines,375.7645394361789,46
+CUST000021,Chronic Patient,0-12,"Arthritis, High Cholesterol",True,4,Guardian Tampines,58.07206859885751,4
+CUST000022,Chronic Patient,0-12,Arthritis,True,4,Guardian Tampines,231.57686821094165,57
+CUST000023,Chronic Patient,0-12,High Cholesterol,True,11,Guardian Bedok,63.325411905706645,16
+CUST000024,Chronic Patient,0-12,Type 2 Diabetes,True,5,Guardian Bedok,186.0364942712663,17
+CUST000025,Chronic Patient,0-12,Hypertension,True,11,Guardian Bedok,316.14938526836784,13
+CUST000026,Chronic Patient,0-12,High Cholesterol,True,6,Guardian Jurong,137.50968110173403,26
+CUST000027,Chronic Patient,0-12,"Asthma, High Cholesterol",True,11,Guardian Orchard,264.3104712444774,39
+CUST000028,Chronic Patient,0-12,"High Cholesterol, Type 2 Diabetes",True,10,Guardian Bedok,304.9752426872472,39
+CUST000029,Chronic Patient,0-12,"Type 2 Diabetes, High Cholesterol",True,9,Guardian Jurong,368.4434506575219,42
+CUST000030,Chronic Patient,0-12,Type 2 Diabetes,True,8,Guardian Orchard,229.53300720479896,44
+CUST000031,Chronic Patient,0-12,"Hypertension, High Cholesterol",True,11,Guardian Orchard,187.3127631850136,33
+CUST000032,Chronic Patient,0-12,"Hypertension, Asthma",True,7,Guardian Ang Mo Kio,317.24247535667746,52
+CUST000033,Chronic Patient,0-12,High Cholesterol,True,6,Guardian Ang Mo Kio,160.0752828268735,56
+CUST000034,Chronic Patient,0-12,"Asthma, Hypertension",True,4,Guardian Ang Mo Kio,293.2258866200935,14
+CUST000035,Chronic Patient,0-12,"Type 2 Diabetes, Asthma",True,7,Guardian Ang Mo Kio,234.03990479899318,55
+CUST000036,Chronic Patient,0-12,Type 2 Diabetes,True,5,Guardian Ang Mo Kio,260.08021960979966,1
+CUST000037,Chronic Patient,0-12,"High Cholesterol, Arthritis",True,4,Guardian Bedok,161.98964959211162,21
+CUST000038,Chronic Patient,0-12,Arthritis,True,9,Guardian Ang Mo Kio,83.38544463705213,48
+CUST000039,Chronic Patient,0-12,Type 2 Diabetes,True,9,Guardian Ang Mo Kio,307.52983172953685,58
+CUST000040,Chronic Patient,13-25,"Asthma, Hypertension",True,5,Guardian Jurong,176.8076004978384,9
+CUST000041,Chronic Patient,13-25,"High Cholesterol, Type 2 Diabetes",True,5,Guardian Tampines,131.28292237992122,5
+CUST000042,Chronic Patient,13-25,Arthritis,True,7,Guardian Ang Mo Kio,259.32974581267763,2
+CUST000043,Chronic Patient,13-25,"High Cholesterol, Hypertension",True,5,Guardian Jurong,215.15837133280607,3
+CUST000044,Chronic Patient,13-25,"High Cholesterol, Arthritis",True,7,Guardian Bedok,328.0683691302418,19
+CUST000045,Chronic Patient,13-25,"Asthma, Hypertension",True,5,Guardian Bedok,341.11828593189364,46
+CUST000046,Chronic Patient,13-25,"Asthma, Hypertension",True,4,Guardian Ang Mo Kio,140.5707098396403,36
+CUST000047,Chronic Patient,13-25,"High Cholesterol, Type 2 Diabetes",True,7,Guardian Orchard,332.78102635575,48
+CUST000048,Chronic Patient,13-25,"High Cholesterol, Asthma",True,10,Guardian Tampines,320.27924764689004,13
+CUST000049,Chronic Patient,13-25,"Type 2 Diabetes, High Cholesterol",True,7,Guardian Orchard,129.07930765702145,13
+CUST000050,Chronic Patient,13-25,"Arthritis, Asthma",True,10,Guardian Ang Mo Kio,142.17109520254996,10
+CUST000051,Chronic Patient,13-25,"Asthma, Type 2 Diabetes",True,4,Guardian Tampines,81.83785772243101,35
+CUST000052,Chronic Patient,13-25,"Arthritis, Asthma",True,8,Guardian Tampines,147.10781455310325,36
+CUST000053,Chronic Patient,13-25,"High Cholesterol, Hypertension",True,6,Guardian Bedok,182.37940725298944,53
+CUST000054,Chronic Patient,13-25,"Hypertension, Asthma",True,6,Guardian Jurong,214.26781228232682,26
+CUST000055,Chronic Patient,13-25,"Arthritis, Asthma",True,10,Guardian Tampines,386.6268169487666,19
+CUST000056,Chronic Patient,13-25,"High Cholesterol, Asthma",True,6,Guardian Ang Mo Kio,241.56992931285313,25
+CUST000057,Chronic Patient,13-25,Type 2 Diabetes,True,9,Guardian Bedok,295.1298972893682,56
+CUST000058,Chronic Patient,13-25,"Type 2 Diabetes, Hypertension",True,5,Guardian Tampines,220.80947375200185,14
+CUST000059,Chronic Patient,13-25,Asthma,True,8,Guardian Bedok,256.35211885210356,57
+CUST000060,Chronic Patient,13-25,"Arthritis, Asthma",True,5,Guardian Ang Mo Kio,333.456877655669,23
+CUST000061,Chronic Patient,13-25,"High Cholesterol, Hypertension",True,5,Guardian Orchard,318.397833384668,6
+CUST000062,Chronic Patient,13-25,"Arthritis, Type 2 Diabetes",True,10,Guardian Tampines,354.41203546273675,10
+CUST000063,Chronic Patient,13-25,Asthma,True,10,Guardian Ang Mo Kio,174.65097635819103,33
+CUST000064,Chronic Patient,13-25,High Cholesterol,True,6,Guardian Ang Mo Kio,178.51466207471702,10
+CUST000065,Chronic Patient,13-25,"Asthma, Type 2 Diabetes",True,5,Guardian Ang Mo Kio,249.99339939167547,23
+CUST000066,Chronic Patient,13-25,Type 2 Diabetes,True,4,Guardian Tampines,230.14068543518468,53
+CUST000067,Chronic Patient,13-25,Arthritis,True,9,Guardian Ang Mo Kio,233.4709689470935,32
+CUST000068,Chronic Patient,13-25,Arthritis,True,11,Guardian Jurong,381.00246563210965,57
+CUST000069,Chronic Patient,13-25,"Hypertension, Asthma",True,4,Guardian Jurong,75.18967740833067,57
+CUST000070,Chronic Patient,13-25,Arthritis,True,10,Guardian Jurong,173.71243720555256,4
+CUST000071,Chronic Patient,13-25,Asthma,True,10,Guardian Jurong,369.3226651651428,38
+CUST000072,Chronic Patient,13-25,"Hypertension, High Cholesterol",True,8,Guardian Ang Mo Kio,369.21228277381834,21
+CUST000073,Chronic Patient,13-25,Asthma,True,6,Guardian Tampines,258.6779840226283,4
+CUST000074,Chronic Patient,13-25,"Asthma, Arthritis",True,7,Guardian Tampines,302.62806168110023,32
+CUST000075,Chronic Patient,13-25,"Arthritis, High Cholesterol",True,7,Guardian Jurong,65.1234363337953,9
+CUST000076,Chronic Patient,13-25,"Hypertension, Asthma",True,4,Guardian Ang Mo Kio,120.85401153887521,44
+CUST000077,Chronic Patient,13-25,Hypertension,True,4,Guardian Bedok,396.1672149021392,7
+CUST000078,Chronic Patient,13-25,"Hypertension, Asthma",True,8,Guardian Tampines,336.08205390191307,21
+CUST000079,Chronic Patient,13-25,"High Cholesterol, Hypertension",True,6,Guardian Orchard,194.50402227398158,56
+CUST000080,Chronic Patient,13-25,"High Cholesterol, Arthritis",True,5,Guardian Tampines,299.07194087106416,2
+CUST000081,Chronic Patient,13-25,Arthritis,True,5,Guardian Ang Mo Kio,142.4378017644249,5
+CUST000082,Chronic Patient,13-25,"Asthma, Type 2 Diabetes",True,9,Guardian Tampines,60.63635835205068,36
+CUST000083,Chronic Patient,13-25,"Asthma, Hypertension",True,7,Guardian Tampines,343.74183282257104,54
+CUST000084,Chronic Patient,13-25,Arthritis,True,6,Guardian Jurong,159.1240937199919,22
+CUST000085,Chronic Patient,13-25,"Asthma, Hypertension",True,11,Guardian Jurong,83.96485310305512,35
+CUST000086,Chronic Patient,13-25,"Arthritis, High Cholesterol",True,5,Guardian Bedok,365.88088463959235,15
+CUST000087,Chronic Patient,13-25,"Type 2 Diabetes, High Cholesterol",True,9,Guardian Bedok,186.0453178901893,13
+CUST000088,Chronic Patient,13-25,Arthritis,True,6,Guardian Jurong,374.5037889163355,12
+CUST000089,Chronic Patient,13-25,"Asthma, Hypertension",True,10,Guardian Ang Mo Kio,152.51495433825653,6
+CUST000090,Chronic Patient,13-25,"Type 2 Diabetes, Arthritis",True,8,Guardian Tampines,87.11702337170075,55
+CUST000091,Chronic Patient,13-25,Asthma,True,5,Guardian Jurong,176.04499236914785,35
+CUST000092,Chronic Patient,13-25,"Type 2 Diabetes, High Cholesterol",True,11,Guardian Tampines,103.84692722395033,29
+CUST000093,Chronic Patient,13-25,High Cholesterol,True,10,Guardian Jurong,197.77364124024592,40
+CUST000094,Chronic Patient,13-25,"High Cholesterol, Arthritis",True,9,Guardian Orchard,394.1347319434192,57
+CUST000095,Chronic Patient,13-25,"Asthma, Type 2 Diabetes",True,8,Guardian Bedok,167.82348760588928,30
+CUST000096,Chronic Patient,13-25,Asthma,True,10,Guardian Tampines,227.96635172208553,15
+CUST000097,Chronic Patient,13-25,"Arthritis, Hypertension",True,10,Guardian Tampines,285.6764796430409,36
+CUST000098,Chronic Patient,13-25,"Hypertension, High Cholesterol",True,11,Guardian Bedok,158.35304736554252,10
+CUST000099,Chronic Patient,13-25,"High Cholesterol, Hypertension",True,10,Guardian Bedok,55.75798318582802,39
+CUST000100,Chronic Patient,13-25,"High Cholesterol, Hypertension",True,10,Guardian Bedok,51.93663808119925,49
+CUST000101,Chronic Patient,13-25,Asthma,True,6,Guardian Jurong,275.4209217790145,1
+CUST000102,Chronic Patient,13-25,"Hypertension, Asthma",True,8,Guardian Tampines,365.89533417605224,44
+CUST000103,Chronic Patient,13-25,"Type 2 Diabetes, Hypertension",True,7,Guardian Bedok,294.0556045307701,5
+CUST000104,Chronic Patient,13-25,Hypertension,True,7,Guardian Ang Mo Kio,181.82120260922548,5
+CUST000105,Chronic Patient,13-25,"Type 2 Diabetes, Arthritis",True,10,Guardian Jurong,314.37276109378644,27
+CUST000106,Chronic Patient,13-25,"Type 2 Diabetes, Arthritis",True,9,Guardian Ang Mo Kio,57.849183808331475,51
+CUST000107,Chronic Patient,13-25,"Arthritis, High Cholesterol",True,4,Guardian Ang Mo Kio,310.11773418547483,8
+CUST000108,Chronic Patient,13-25,Arthritis,True,11,Guardian Tampines,392.5941587110555,21
+CUST000109,Chronic Patient,13-25,Type 2 Diabetes,True,7,Guardian Orchard,117.10877651150952,41
+CUST000110,Chronic Patient,13-25,Hypertension,True,10,Guardian Orchard,331.4258974302126,48
+CUST000111,Chronic Patient,13-25,"Arthritis, High Cholesterol",True,4,Guardian Bedok,289.26344803831955,28
+CUST000112,Chronic Patient,13-25,Type 2 Diabetes,True,8,Guardian Bedok,93.39214449898898,4
+CUST000113,Chronic Patient,13-25,"Asthma, Arthritis",True,7,Guardian Orchard,384.8621440928995,28
+CUST000114,Chronic Patient,13-25,"High Cholesterol, Arthritis",True,9,Guardian Ang Mo Kio,66.24598319937556,33
+CUST000115,Chronic Patient,13-25,"Asthma, High Cholesterol",True,11,Guardian Jurong,222.4500961406183,47
+CUST000116,Chronic Patient,13-25,High Cholesterol,True,6,Guardian Bedok,396.5300638285119,44
+CUST000117,Chronic Patient,13-25,"Arthritis, Asthma",True,7,Guardian Bedok,393.15168734805417,26
+CUST000118,Chronic Patient,13-25,"Asthma, Arthritis",True,5,Guardian Ang Mo Kio,273.81047136158446,15
+CUST000119,Chronic Patient,13-25,Type 2 Diabetes,True,8,Guardian Jurong,164.12483008326103,27
+CUST000120,Chronic Patient,13-25,"Asthma, Hypertension",True,10,Guardian Jurong,210.49072279621564,29
+CUST000121,Chronic Patient,13-25,High Cholesterol,True,6,Guardian Jurong,191.76195156943024,18
+CUST000122,Chronic Patient,13-25,High Cholesterol,True,9,Guardian Bedok,383.71161384918327,13
+CUST000123,Chronic Patient,13-25,Hypertension,True,5,Guardian Jurong,63.952669668380544,57
+CUST000124,Chronic Patient,13-25,"Asthma, Type 2 Diabetes",True,4,Guardian Ang Mo Kio,252.0298098982145,57
+CUST000125,Chronic Patient,13-25,Type 2 Diabetes,True,10,Guardian Ang Mo Kio,286.11862102825376,9
+CUST000126,Chronic Patient,13-25,High Cholesterol,True,11,Guardian Ang Mo Kio,311.68004529690256,45
+CUST000127,Chronic Patient,13-25,"Asthma, Arthritis",True,6,Guardian Orchard,208.84020307939224,9
+CUST000128,Chronic Patient,13-25,Asthma,True,6,Guardian Bedok,307.178127382037,9
+CUST000129,Chronic Patient,13-25,High Cholesterol,True,5,Guardian Tampines,106.1422536427764,19
+CUST000130,Chronic Patient,13-25,"Arthritis, Asthma",True,8,Guardian Ang Mo Kio,274.70308404435673,48
+CUST000131,Chronic Patient,13-25,"Hypertension, High Cholesterol",True,8,Guardian Jurong,170.5475857896969,3
+CUST000132,Chronic Patient,13-25,Arthritis,True,7,Guardian Tampines,302.1292645719399,30
+CUST000133,Chronic Patient,13-25,Hypertension,True,6,Guardian Bedok,321.5078786625474,9
+CUST000134,Chronic Patient,13-25,"Arthritis, Type 2 Diabetes",True,4,Guardian Orchard,247.89408558283424,18
+CUST000135,Chronic Patient,13-25,"Hypertension, Asthma",True,11,Guardian Tampines,361.7567600709868,19
+CUST000136,Chronic Patient,13-25,Type 2 Diabetes,True,10,Guardian Jurong,130.3088139196634,47
+CUST000137,Chronic Patient,13-25,Arthritis,True,7,Guardian Bedok,304.1989369337576,7
+CUST000138,Chronic Patient,13-25,"Type 2 Diabetes, High Cholesterol",True,9,Guardian Jurong,284.7165307960149,4
+CUST000139,Chronic Patient,13-25,"Arthritis, Hypertension",True,8,Guardian Tampines,123.7360142934977,29
+CUST000140,Chronic Patient,13-25,"Asthma, Arthritis",True,9,Guardian Ang Mo Kio,97.39565410418244,35
+CUST000141,Chronic Patient,13-25,"Hypertension, High Cholesterol",True,6,Guardian Tampines,358.12395541528804,56
+CUST000142,Chronic Patient,13-25,High Cholesterol,True,8,Guardian Orchard,127.92216129354428,6
+CUST000143,Chronic Patient,13-25,Arthritis,True,10,Guardian Bedok,78.14149568390947,31
+CUST000144,Chronic Patient,13-25,"Arthritis, Asthma",True,5,Guardian Ang Mo Kio,265.0304502611809,2
+CUST000145,Chronic Patient,13-25,Arthritis,True,6,Guardian Ang Mo Kio,245.57200743403592,36
+CUST000146,Chronic Patient,13-25,Hypertension,True,7,Guardian Jurong,227.07791705123114,43
+CUST000147,Chronic Patient,13-25,Type 2 Diabetes,True,6,Guardian Bedok,172.2621281329473,40
+CUST000148,Chronic Patient,13-25,Arthritis,True,11,Guardian Tampines,99.217852844473,32
+CUST000149,Chronic Patient,13-25,"Asthma, High Cholesterol",True,10,Guardian Orchard,108.41592101021152,31
+CUST000150,Chronic Patient,13-25,Hypertension,True,9,Guardian Bedok,100.46426672762075,28
+CUST000151,Chronic Patient,13-25,Type 2 Diabetes,True,8,Guardian Ang Mo Kio,298.5949870660736,44
+CUST000152,Chronic Patient,13-25,Type 2 Diabetes,True,11,Guardian Ang Mo Kio,240.80227195431272,41
+CUST000153,Chronic Patient,13-25,"Asthma, Hypertension",True,4,Guardian Jurong,88.86142122640447,36
+CUST000154,Chronic Patient,13-25,Asthma,True,11,Guardian Jurong,59.8119888667694,2
+CUST000155,Chronic Patient,13-25,High Cholesterol,True,4,Guardian Ang Mo Kio,103.58415562693112,3
+CUST000156,Chronic Patient,13-25,"Asthma, Arthritis",True,9,Guardian Orchard,83.2729788561009,28
+CUST000157,Chronic Patient,13-25,Hypertension,True,10,Guardian Ang Mo Kio,167.83477067947717,20
+CUST000158,Chronic Patient,13-25,"Type 2 Diabetes, High Cholesterol",True,11,Guardian Bedok,250.14997273878646,47
+CUST000159,Chronic Patient,26-40,Arthritis,True,6,Guardian Bedok,78.62116977213135,15
+CUST000160,Chronic Patient,26-40,Type 2 Diabetes,True,7,Guardian Orchard,380.2043676598818,52
+CUST000161,Chronic Patient,26-40,Arthritis,True,11,Guardian Tampines,136.04552606010554,59
+CUST000162,Chronic Patient,26-40,Asthma,True,7,Guardian Orchard,131.56818278659836,45
+CUST000163,Chronic Patient,26-40,High Cholesterol,True,6,Guardian Jurong,267.74954327823093,55
+CUST000164,Chronic Patient,26-40,"Type 2 Diabetes, High Cholesterol",True,11,Guardian Bedok,107.74447596865389,35
+CUST000165,Chronic Patient,26-40,"Type 2 Diabetes, Arthritis",True,8,Guardian Tampines,364.8578866493435,59
+CUST000166,Chronic Patient,26-40,"Arthritis, High Cholesterol",True,9,Guardian Jurong,68.02719852546514,21
+CUST000167,Chronic Patient,26-40,"High Cholesterol, Hypertension",True,11,Guardian Jurong,195.99301401781898,58
+CUST000168,Chronic Patient,26-40,Asthma,True,10,Guardian Tampines,221.504261091601,50
+CUST000169,Chronic Patient,26-40,"Hypertension, Arthritis",True,6,Guardian Ang Mo Kio,80.82864112083553,5
+CUST000170,Chronic Patient,26-40,"Hypertension, Type 2 Diabetes",True,10,Guardian Tampines,184.38566674584777,46
+CUST000171,Chronic Patient,26-40,"High Cholesterol, Arthritis",True,4,Guardian Orchard,291.2902911904845,14
+CUST000172,Chronic Patient,26-40,"Type 2 Diabetes, Hypertension",True,8,Guardian Tampines,315.9571442157272,47
+CUST000173,Chronic Patient,26-40,"Asthma, Arthritis",True,4,Guardian Ang Mo Kio,368.27485821516706,41
+CUST000174,Chronic Patient,26-40,"Asthma, Hypertension",True,7,Guardian Bedok,124.30627676907167,58
+CUST000175,Chronic Patient,26-40,Asthma,True,8,Guardian Jurong,287.3326799725519,16
+CUST000176,Chronic Patient,26-40,"Hypertension, Asthma",True,10,Guardian Bedok,120.11563664296656,27
+CUST000177,Chronic Patient,26-40,"Arthritis, Hypertension",True,10,Guardian Ang Mo Kio,225.42121143544094,28
+CUST000178,Chronic Patient,26-40,"Asthma, High Cholesterol",True,7,Guardian Ang Mo Kio,367.4970225934393,47
+CUST000179,Chronic Patient,26-40,Type 2 Diabetes,True,10,Guardian Tampines,145.4083705398531,32
+CUST000180,Chronic Patient,26-40,Type 2 Diabetes,True,7,Guardian Orchard,168.82452213873734,26
+CUST000181,Chronic Patient,26-40,Hypertension,True,6,Guardian Ang Mo Kio,104.74096453666456,39
+CUST000182,Chronic Patient,26-40,"Type 2 Diabetes, Asthma",True,7,Guardian Ang Mo Kio,99.80300887667076,53
+CUST000183,Chronic Patient,26-40,Asthma,True,10,Guardian Orchard,105.5727253691997,12
+CUST000184,Chronic Patient,26-40,"Asthma, Type 2 Diabetes",True,9,Guardian Jurong,190.2667455215426,5
+CUST000185,Chronic Patient,26-40,"Hypertension, Asthma",True,7,Guardian Bedok,345.4975902316576,49
+CUST000186,Chronic Patient,26-40,"Hypertension, Asthma",True,6,Guardian Orchard,126.25284468038963,56
+CUST000187,Chronic Patient,26-40,"Hypertension, Type 2 Diabetes",True,4,Guardian Ang Mo Kio,308.4834620427433,53
+CUST000188,Chronic Patient,26-40,"Asthma, Type 2 Diabetes",True,9,Guardian Jurong,170.72869427945272,10
+CUST000189,Chronic Patient,26-40,Arthritis,True,9,Guardian Bedok,120.82494061865533,5
+CUST000190,Chronic Patient,26-40,"Asthma, Arthritis",True,7,Guardian Orchard,186.44828317088522,25
+CUST000191,Chronic Patient,26-40,"Type 2 Diabetes, Asthma",True,5,Guardian Ang Mo Kio,125.61807962407082,1
+CUST000192,Chronic Patient,26-40,"High Cholesterol, Arthritis",True,11,Guardian Tampines,355.83680210045867,12
+CUST000193,Chronic Patient,26-40,"Arthritis, Type 2 Diabetes",True,6,Guardian Tampines,224.50442927830724,45
+CUST000194,Chronic Patient,26-40,"Hypertension, Arthritis",True,5,Guardian Jurong,281.93384599370677,50
+CUST000195,Chronic Patient,26-40,High Cholesterol,True,9,Guardian Jurong,368.5585844182404,16
+CUST000196,Chronic Patient,26-40,"High Cholesterol, Type 2 Diabetes",True,7,Guardian Jurong,298.1308526021857,15
+CUST000197,Chronic Patient,26-40,"Asthma, Hypertension",True,6,Guardian Tampines,202.15592460201955,18
+CUST000198,Chronic Patient,26-40,"Hypertension, Type 2 Diabetes",True,4,Guardian Jurong,357.4643947601482,9
+CUST000199,Chronic Patient,26-40,Type 2 Diabetes,True,11,Guardian Bedok,100.68118616154337,37
+CUST000200,Chronic Patient,26-40,"Hypertension, Type 2 Diabetes",True,11,Guardian Orchard,256.44298049410975,19
+CUST000201,Chronic Patient,26-40,High Cholesterol,True,10,Guardian Ang Mo Kio,59.97697698204719,50
+CUST000202,Chronic Patient,26-40,Type 2 Diabetes,True,11,Guardian Orchard,100.45091789696998,56
+CUST000203,Chronic Patient,26-40,"Arthritis, Hypertension",True,6,Guardian Bedok,81.44514344023061,50
+CUST000204,Chronic Patient,26-40,"Hypertension, Arthritis",True,5,Guardian Jurong,388.27066497078505,35
+CUST000205,Chronic Patient,26-40,"Arthritis, Type 2 Diabetes",True,10,Guardian Jurong,276.6812752489605,32
+CUST000206,Chronic Patient,26-40,"High Cholesterol, Asthma",True,7,Guardian Tampines,163.22150496861394,54
+CUST000207,Chronic Patient,26-40,"Hypertension, Asthma",True,10,Guardian Orchard,322.61928477804827,58
+CUST000208,Chronic Patient,26-40,High Cholesterol,True,9,Guardian Ang Mo Kio,181.14203935979202,55
+CUST000209,Chronic Patient,26-40,Hypertension,True,11,Guardian Bedok,50.59124879375163,2
+CUST000210,Chronic Patient,26-40,High Cholesterol,True,9,Guardian Ang Mo Kio,69.32040962257163,21
+CUST000211,Chronic Patient,26-40,"High Cholesterol, Hypertension",True,4,Guardian Bedok,80.24554705042189,25
+CUST000212,Chronic Patient,26-40,Asthma,True,5,Guardian Orchard,397.1062935749663,6
+CUST000213,Chronic Patient,26-40,"Arthritis, High Cholesterol",True,4,Guardian Orchard,110.5904074755817,56
+CUST000214,Chronic Patient,26-40,Hypertension,True,9,Guardian Ang Mo Kio,347.001326485621,52
+CUST000215,Chronic Patient,26-40,High Cholesterol,True,6,Guardian Bedok,245.55672875092597,21
+CUST000216,Chronic Patient,26-40,Arthritis,True,6,Guardian Ang Mo Kio,371.971984772004,31
+CUST000217,Chronic Patient,26-40,"Hypertension, High Cholesterol",True,7,Guardian Orchard,396.67876881198276,37
+CUST000218,Chronic Patient,26-40,High Cholesterol,True,5,Guardian Orchard,252.00184542395615,14
+CUST000219,Chronic Patient,26-40,"Type 2 Diabetes, Asthma",True,10,Guardian Ang Mo Kio,132.59276261373546,56
+CUST000220,Chronic Patient,26-40,"Hypertension, Type 2 Diabetes",True,9,Guardian Jurong,247.96056460843943,19
+CUST000221,Chronic Patient,26-40,"Asthma, Type 2 Diabetes",True,4,Guardian Bedok,222.6205968835184,30
+CUST000222,Chronic Patient,26-40,"High Cholesterol, Hypertension",True,7,Guardian Tampines,390.6697748477566,18
+CUST000223,Chronic Patient,26-40,"Type 2 Diabetes, Asthma",True,10,Guardian Ang Mo Kio,335.9770464217531,7
+CUST000224,Chronic Patient,26-40,High Cholesterol,True,8,Guardian Bedok,78.35822454530283,22
+CUST000225,Chronic Patient,26-40,"Asthma, Arthritis",True,8,Guardian Tampines,92.9847395811762,13
+CUST000226,Chronic Patient,26-40,"Asthma, Hypertension",True,6,Guardian Ang Mo Kio,70.35751188412084,45
+CUST000227,Chronic Patient,26-40,"Hypertension, Type 2 Diabetes",True,9,Guardian Bedok,64.55321743679525,55
+CUST000228,Chronic Patient,26-40,Hypertension,True,9,Guardian Ang Mo Kio,199.56939881916793,2
+CUST000229,Chronic Patient,26-40,Hypertension,True,5,Guardian Ang Mo Kio,285.73096397426116,8
+CUST000230,Chronic Patient,26-40,"Type 2 Diabetes, High Cholesterol",True,5,Guardian Orchard,383.8406374088556,17
+CUST000231,Chronic Patient,26-40,"Asthma, Arthritis",True,8,Guardian Ang Mo Kio,107.47205176975764,37
+CUST000232,Chronic Patient,26-40,"Type 2 Diabetes, Arthritis",True,8,Guardian Jurong,69.27458970130718,8
+CUST000233,Chronic Patient,26-40,Hypertension,True,5,Guardian Tampines,103.27280356238522,50
+CUST000234,Chronic Patient,26-40,High Cholesterol,True,11,Guardian Tampines,333.7819679641125,10
+CUST000235,Chronic Patient,26-40,Type 2 Diabetes,True,5,Guardian Bedok,124.34926960449735,56
+CUST000236,Chronic Patient,26-40,"Arthritis, Hypertension",True,5,Guardian Ang Mo Kio,158.32915715380852,8
+CUST000237,Chronic Patient,26-40,"Asthma, High Cholesterol",True,5,Guardian Orchard,391.50550685443187,20
+CUST000238,Chronic Patient,26-40,Arthritis,True,8,Guardian Orchard,349.0965595388844,41
+CUST000239,Chronic Patient,26-40,Asthma,True,7,Guardian Ang Mo Kio,228.77605408387834,24
+CUST000240,Chronic Patient,26-40,"Type 2 Diabetes, Hypertension",True,8,Guardian Bedok,98.18252190837296,59
+CUST000241,Chronic Patient,26-40,"Type 2 Diabetes, High Cholesterol",True,7,Guardian Orchard,143.8609546879764,48
+CUST000242,Chronic Patient,26-40,Asthma,True,6,Guardian Tampines,127.41170358828188,25
+CUST000243,Chronic Patient,26-40,"Hypertension, High Cholesterol",True,10,Guardian Bedok,282.6192587804669,17
+CUST000244,Chronic Patient,26-40,"Hypertension, Arthritis",True,10,Guardian Bedok,327.8098672305609,28
+CUST000245,Chronic Patient,26-40,"Hypertension, Type 2 Diabetes",True,11,Guardian Jurong,55.31366778926466,54
+CUST000246,Chronic Patient,26-40,"Arthritis, Hypertension",True,4,Guardian Bedok,116.52738588229822,19
+CUST000247,Chronic Patient,26-40,"Arthritis, High Cholesterol",True,4,Guardian Bedok,277.3296341358514,29
+CUST000248,Chronic Patient,26-40,Hypertension,True,10,Guardian Tampines,362.7881673478321,8
+CUST000249,Chronic Patient,26-40,"High Cholesterol, Type 2 Diabetes",True,7,Guardian Jurong,231.0665870223564,51
+CUST000250,Chronic Patient,26-40,"Hypertension, Type 2 Diabetes",True,11,Guardian Tampines,94.66027227413929,57
+CUST000251,Chronic Patient,26-40,"Hypertension, High Cholesterol",True,4,Guardian Orchard,249.36650451609185,4
+CUST000252,Chronic Patient,26-40,"Hypertension, Arthritis",True,10,Guardian Bedok,295.9649569747048,42
+CUST000253,Chronic Patient,26-40,High Cholesterol,True,11,Guardian Orchard,64.44783744692089,25
+CUST000254,Chronic Patient,26-40,High Cholesterol,True,9,Guardian Jurong,378.5243747845347,55
+CUST000255,Chronic Patient,26-40,"Arthritis, Type 2 Diabetes",True,6,Guardian Ang Mo Kio,220.2771231166057,10
+CUST000256,Chronic Patient,26-40,Type 2 Diabetes,True,10,Guardian Tampines,298.348186287466,56
+CUST000257,Chronic Patient,26-40,"High Cholesterol, Type 2 Diabetes",True,6,Guardian Ang Mo Kio,117.7684172977878,3
+CUST000258,Chronic Patient,26-40,"Type 2 Diabetes, Asthma",True,4,Guardian Orchard,240.21237119520748,55
+CUST000259,Chronic Patient,26-40,High Cholesterol,True,5,Guardian Ang Mo Kio,148.91297873287448,47
+CUST000260,Chronic Patient,26-40,Asthma,True,6,Guardian Jurong,366.5262674009503,37
+CUST000261,Chronic Patient,26-40,Asthma,True,6,Guardian Ang Mo Kio,120.08490571038615,54
+CUST000262,Chronic Patient,26-40,"Arthritis, Type 2 Diabetes",True,7,Guardian Tampines,386.7036345351449,58
+CUST000263,Chronic Patient,26-40,"Type 2 Diabetes, Asthma",True,4,Guardian Tampines,95.02596431311049,7
+CUST000264,Chronic Patient,26-40,"Type 2 Diabetes, Arthritis",True,11,Guardian Jurong,87.57804652624242,17
+CUST000265,Chronic Patient,26-40,"Type 2 Diabetes, Arthritis",True,4,Guardian Tampines,141.040737531337,20
+CUST000266,Chronic Patient,26-40,Type 2 Diabetes,True,11,Guardian Ang Mo Kio,386.4292317725627,56
+CUST000267,Chronic Patient,26-40,Hypertension,True,4,Guardian Bedok,169.1323762037166,26
+CUST000268,Chronic Patient,26-40,Type 2 Diabetes,True,9,Guardian Bedok,359.0045904474242,45
+CUST000269,Chronic Patient,26-40,High Cholesterol,True,6,Guardian Ang Mo Kio,370.8497084029206,13
+CUST000270,Chronic Patient,26-40,"High Cholesterol, Arthritis",True,10,Guardian Ang Mo Kio,170.01672268331015,38
+CUST000271,Chronic Patient,26-40,Type 2 Diabetes,True,10,Guardian Tampines,313.0277345772335,50
+CUST000272,Chronic Patient,26-40,"Type 2 Diabetes, Arthritis",True,4,Guardian Ang Mo Kio,143.40258541132596,22
+CUST000273,Chronic Patient,26-40,"High Cholesterol, Asthma",True,10,Guardian Orchard,213.31260012348145,58
+CUST000274,Chronic Patient,26-40,"Asthma, High Cholesterol",True,8,Guardian Tampines,323.7742302104043,54
+CUST000275,Chronic Patient,26-40,"Arthritis, Asthma",True,4,Guardian Ang Mo Kio,313.9475884484477,43
+CUST000276,Chronic Patient,26-40,Asthma,True,5,Guardian Tampines,323.4824934473517,10
+CUST000277,Chronic Patient,41-60,"High Cholesterol, Asthma",True,11,Guardian Tampines,54.43625582349296,44
+CUST000278,Chronic Patient,41-60,High Cholesterol,True,8,Guardian Tampines,253.59808843862905,38
+CUST000279,Chronic Patient,41-60,"Hypertension, Type 2 Diabetes",True,10,Guardian Orchard,297.7973323397197,7
+CUST000280,Chronic Patient,41-60,High Cholesterol,True,7,Guardian Ang Mo Kio,139.71202862783989,10
+CUST000281,Chronic Patient,41-60,"Hypertension, Type 2 Diabetes",True,8,Guardian Jurong,262.3884995004409,22
+CUST000282,Chronic Patient,41-60,"Type 2 Diabetes, Arthritis",True,9,Guardian Jurong,384.3069548353403,41
+CUST000283,Chronic Patient,41-60,Hypertension,True,4,Guardian Tampines,175.6010243569348,49
+CUST000284,Chronic Patient,41-60,"Hypertension, Type 2 Diabetes",True,4,Guardian Ang Mo Kio,189.67898791492496,42
+CUST000285,Chronic Patient,41-60,"Type 2 Diabetes, High Cholesterol",True,7,Guardian Jurong,62.13641312985839,26
+CUST000286,Chronic Patient,41-60,"Type 2 Diabetes, Hypertension",True,9,Guardian Ang Mo Kio,306.0277332393115,50
+CUST000287,Chronic Patient,41-60,Arthritis,True,10,Guardian Tampines,348.2765217546676,10
+CUST000288,Chronic Patient,41-60,"Asthma, Type 2 Diabetes",True,9,Guardian Jurong,192.95609186151307,41
+CUST000289,Chronic Patient,41-60,Hypertension,True,11,Guardian Bedok,68.47822479465036,43
+CUST000290,Chronic Patient,41-60,Arthritis,True,10,Guardian Bedok,117.98415276435603,58
+CUST000291,Chronic Patient,41-60,Hypertension,True,4,Guardian Ang Mo Kio,129.16335152753066,3
+CUST000292,Chronic Patient,41-60,Asthma,True,4,Guardian Bedok,352.14181199345967,3
+CUST000293,Chronic Patient,41-60,"Asthma, Type 2 Diabetes",True,9,Guardian Orchard,251.14242881485495,23
+CUST000294,Chronic Patient,41-60,Type 2 Diabetes,True,5,Guardian Ang Mo Kio,393.6748785682078,58
+CUST000295,Chronic Patient,41-60,Hypertension,True,7,Guardian Bedok,350.5989665062313,41
+CUST000296,Chronic Patient,41-60,"Type 2 Diabetes, Hypertension",True,9,Guardian Ang Mo Kio,102.56676683820417,31
+CUST000297,Chronic Patient,41-60,"Type 2 Diabetes, Asthma",True,11,Guardian Tampines,268.7602696827628,58
+CUST000298,Chronic Patient,41-60,"Asthma, Arthritis",True,4,Guardian Bedok,232.9446458425345,48
+CUST000299,Chronic Patient,41-60,High Cholesterol,True,11,Guardian Tampines,56.48472885585549,39
+CUST000300,Chronic Patient,41-60,Asthma,True,7,Guardian Tampines,173.67693226620187,15
+CUST000301,Chronic Patient,41-60,"Hypertension, Asthma",True,8,Guardian Tampines,317.5960552115975,1
+CUST000302,Chronic Patient,41-60,"Type 2 Diabetes, Asthma",True,4,Guardian Bedok,66.10227641654906,55
+CUST000303,Chronic Patient,41-60,"Asthma, Hypertension",True,4,Guardian Tampines,82.52684991281717,57
+CUST000304,Chronic Patient,41-60,Hypertension,True,8,Guardian Orchard,159.51512371724505,46
+CUST000305,Chronic Patient,41-60,"Asthma, Hypertension",True,11,Guardian Orchard,209.5797932998899,5
+CUST000306,Chronic Patient,41-60,"Hypertension, High Cholesterol",True,10,Guardian Bedok,243.40189057996318,5
+CUST000307,Chronic Patient,41-60,"Type 2 Diabetes, Hypertension",True,9,Guardian Jurong,101.87684657805536,4
+CUST000308,Chronic Patient,41-60,Hypertension,True,11,Guardian Tampines,51.3524695387224,27
+CUST000309,Chronic Patient,41-60,"Type 2 Diabetes, Arthritis",True,9,Guardian Ang Mo Kio,231.60412115360043,19
+CUST000310,Chronic Patient,41-60,Arthritis,True,10,Guardian Ang Mo Kio,277.96236807296157,36
+CUST000311,Chronic Patient,41-60,Type 2 Diabetes,True,10,Guardian Orchard,233.6595378102314,24
+CUST000312,Chronic Patient,41-60,"Type 2 Diabetes, High Cholesterol",True,11,Guardian Ang Mo Kio,273.58161039158585,11
+CUST000313,Chronic Patient,41-60,"Asthma, Hypertension",True,7,Guardian Jurong,337.9375825837965,14
+CUST000314,Chronic Patient,41-60,"Hypertension, High Cholesterol",True,10,Guardian Jurong,292.8722739512165,9
+CUST000315,Chronic Patient,41-60,Type 2 Diabetes,True,7,Guardian Ang Mo Kio,177.0567515941479,43
+CUST000316,Chronic Patient,41-60,"High Cholesterol, Type 2 Diabetes",True,4,Guardian Ang Mo Kio,264.21856502363437,43
+CUST000317,Chronic Patient,41-60,Hypertension,True,5,Guardian Ang Mo Kio,97.88971009067771,49
+CUST000318,Chronic Patient,41-60,High Cholesterol,True,7,Guardian Tampines,243.80892235648614,13
+CUST000319,Chronic Patient,41-60,"Asthma, Hypertension",True,7,Guardian Jurong,346.98542578991214,5
+CUST000320,Chronic Patient,41-60,Asthma,True,9,Guardian Ang Mo Kio,393.85668732815907,33
+CUST000321,Chronic Patient,41-60,"Asthma, Hypertension",True,4,Guardian Jurong,197.6832370166394,3
+CUST000322,Chronic Patient,41-60,"Asthma, High Cholesterol",True,5,Guardian Orchard,109.41379955121472,58
+CUST000323,Chronic Patient,41-60,High Cholesterol,True,4,Guardian Ang Mo Kio,389.45756139484683,8
+CUST000324,Chronic Patient,41-60,"High Cholesterol, Asthma",True,4,Guardian Orchard,188.97919213212904,31
+CUST000325,Chronic Patient,41-60,High Cholesterol,True,8,Guardian Ang Mo Kio,215.68160973229098,23
+CUST000326,Chronic Patient,41-60,Type 2 Diabetes,True,7,Guardian Ang Mo Kio,250.31609320678825,13
+CUST000327,Chronic Patient,41-60,Hypertension,True,5,Guardian Ang Mo Kio,298.4813507361935,42
+CUST000328,Chronic Patient,41-60,Asthma,True,4,Guardian Ang Mo Kio,342.6486252694782,15
+CUST000329,Chronic Patient,41-60,"Hypertension, High Cholesterol",True,10,Guardian Ang Mo Kio,288.70344313878144,51
+CUST000330,Chronic Patient,41-60,"Arthritis, High Cholesterol",True,7,Guardian Orchard,145.70285874702512,52
+CUST000331,Chronic Patient,41-60,Type 2 Diabetes,True,5,Guardian Ang Mo Kio,354.24230854176494,33
+CUST000332,Chronic Patient,41-60,Hypertension,True,11,Guardian Bedok,373.414017378227,17
+CUST000333,Chronic Patient,41-60,Arthritis,True,7,Guardian Jurong,70.25855927788906,27
+CUST000334,Chronic Patient,41-60,High Cholesterol,True,4,Guardian Ang Mo Kio,209.4620943310886,38
+CUST000335,Chronic Patient,41-60,"Asthma, Hypertension",True,6,Guardian Ang Mo Kio,60.67313894380279,37
+CUST000336,Chronic Patient,41-60,"Asthma, Arthritis",True,6,Guardian Tampines,267.5404087301905,11
+CUST000337,Chronic Patient,41-60,"Hypertension, Arthritis",True,8,Guardian Bedok,332.9271983991448,1
+CUST000338,Chronic Patient,41-60,"High Cholesterol, Asthma",True,9,Guardian Tampines,221.57120324296852,30
+CUST000339,Chronic Patient,41-60,"Hypertension, High Cholesterol",True,5,Guardian Jurong,81.64366133712161,31
+CUST000340,Chronic Patient,41-60,Asthma,True,4,Guardian Orchard,188.25329726062478,3
+CUST000341,Chronic Patient,41-60,High Cholesterol,True,6,Guardian Ang Mo Kio,283.21117134233157,6
+CUST000342,Chronic Patient,41-60,"Hypertension, Asthma",True,10,Guardian Tampines,277.32626531945834,58
+CUST000343,Chronic Patient,41-60,Type 2 Diabetes,True,10,Guardian Bedok,318.6668107084253,16
+CUST000344,Chronic Patient,41-60,High Cholesterol,True,10,Guardian Jurong,77.40134383399047,12
+CUST000345,Chronic Patient,41-60,High Cholesterol,True,11,Guardian Ang Mo Kio,306.46918280336735,10
+CUST000346,Chronic Patient,41-60,High Cholesterol,True,5,Guardian Bedok,73.06514262282226,12
+CUST000347,Chronic Patient,41-60,"Hypertension, Arthritis",True,11,Guardian Tampines,314.98662106077825,51
+CUST000348,Chronic Patient,41-60,"Type 2 Diabetes, Asthma",True,11,Guardian Ang Mo Kio,119.80282481790573,11
+CUST000349,Chronic Patient,41-60,Type 2 Diabetes,True,4,Guardian Tampines,390.13044777087356,44
+CUST000350,Chronic Patient,41-60,"Asthma, Hypertension",True,9,Guardian Jurong,186.2502586979409,20
+CUST000351,Chronic Patient,41-60,Hypertension,True,5,Guardian Bedok,177.53012322698123,44
+CUST000352,Chronic Patient,41-60,Arthritis,True,9,Guardian Ang Mo Kio,161.86491229149175,45
+CUST000353,Chronic Patient,41-60,High Cholesterol,True,7,Guardian Jurong,175.88941397437424,14
+CUST000354,Chronic Patient,41-60,"Arthritis, High Cholesterol",True,6,Guardian Tampines,193.63599571907886,33
+CUST000355,Chronic Patient,41-60,High Cholesterol,True,5,Guardian Tampines,105.08762202223664,33
+CUST000356,Chronic Patient,41-60,Arthritis,True,7,Guardian Bedok,252.09395619076332,29
+CUST000357,Chronic Patient,41-60,High Cholesterol,True,11,Guardian Bedok,189.15188468926613,45
+CUST000358,Chronic Patient,41-60,"Arthritis, Type 2 Diabetes",True,10,Guardian Jurong,199.2958655313163,43
+CUST000359,Chronic Patient,41-60,Type 2 Diabetes,True,4,Guardian Ang Mo Kio,104.3830338716595,2
+CUST000360,Chronic Patient,41-60,High Cholesterol,True,4,Guardian Ang Mo Kio,200.54204916243853,57
+CUST000361,Chronic Patient,41-60,"Hypertension, Type 2 Diabetes",True,4,Guardian Jurong,389.1494524033893,29
+CUST000362,Chronic Patient,41-60,High Cholesterol,True,5,Guardian Ang Mo Kio,262.96739037415193,1
+CUST000363,Chronic Patient,41-60,"Asthma, Arthritis",True,7,Guardian Orchard,245.4570385168162,43
+CUST000364,Chronic Patient,41-60,Hypertension,True,7,Guardian Bedok,287.1802332541116,39
+CUST000365,Chronic Patient,41-60,"Type 2 Diabetes, High Cholesterol",True,4,Guardian Jurong,199.42878709323995,54
+CUST000366,Chronic Patient,41-60,"Asthma, Arthritis",True,11,Guardian Orchard,220.32998766802808,12
+CUST000367,Chronic Patient,41-60,"High Cholesterol, Hypertension",True,10,Guardian Tampines,136.08032022058984,6
+CUST000368,Chronic Patient,41-60,Hypertension,True,7,Guardian Bedok,55.4541297197603,33
+CUST000369,Chronic Patient,41-60,"Asthma, Hypertension",True,9,Guardian Tampines,355.1110803722046,1
+CUST000370,Chronic Patient,41-60,"Asthma, Type 2 Diabetes",True,8,Guardian Tampines,127.91513080304462,3
+CUST000371,Chronic Patient,41-60,Hypertension,True,11,Guardian Orchard,285.66034014700836,50
+CUST000372,Chronic Patient,41-60,"Asthma, Hypertension",True,6,Guardian Tampines,116.48263387498277,56
+CUST000373,Chronic Patient,41-60,Type 2 Diabetes,True,5,Guardian Tampines,366.0181832594975,3
+CUST000374,Chronic Patient,41-60,High Cholesterol,True,4,Guardian Ang Mo Kio,222.9233975304732,19
+CUST000375,Chronic Patient,41-60,High Cholesterol,True,8,Guardian Bedok,88.0635150428763,22
+CUST000376,Chronic Patient,41-60,Asthma,True,6,Guardian Orchard,54.590733167506805,56
+CUST000377,Chronic Patient,41-60,Hypertension,True,9,Guardian Tampines,321.82482225262487,3
+CUST000378,Chronic Patient,41-60,Asthma,True,7,Guardian Jurong,344.4527278474923,59
+CUST000379,Chronic Patient,41-60,"Arthritis, Type 2 Diabetes",True,11,Guardian Ang Mo Kio,309.9905230885756,23
+CUST000380,Chronic Patient,41-60,Asthma,True,6,Guardian Bedok,223.90181111596576,55
+CUST000381,Chronic Patient,41-60,Arthritis,True,4,Guardian Bedok,255.8871170746985,18
+CUST000382,Chronic Patient,41-60,Arthritis,True,8,Guardian Jurong,205.00191124732325,45
+CUST000383,Chronic Patient,41-60,Arthritis,True,10,Guardian Jurong,386.7469282338125,31
+CUST000384,Chronic Patient,41-60,Type 2 Diabetes,True,11,Guardian Orchard,143.76274096413184,49
+CUST000385,Chronic Patient,41-60,High Cholesterol,True,11,Guardian Ang Mo Kio,241.94689681206316,23
+CUST000386,Chronic Patient,41-60,"Asthma, High Cholesterol",True,8,Guardian Bedok,58.74714015170721,15
+CUST000387,Chronic Patient,41-60,High Cholesterol,True,8,Guardian Jurong,311.65861964135723,23
+CUST000388,Chronic Patient,41-60,"Type 2 Diabetes, Arthritis",True,9,Guardian Ang Mo Kio,84.36084462416623,41
+CUST000389,Chronic Patient,41-60,High Cholesterol,True,5,Guardian Tampines,217.34990876095924,49
+CUST000390,Chronic Patient,41-60,Hypertension,True,5,Guardian Ang Mo Kio,145.41762904190296,55
+CUST000391,Chronic Patient,41-60,Arthritis,True,10,Guardian Jurong,395.02673738284744,27
+CUST000392,Chronic Patient,41-60,"Hypertension, Type 2 Diabetes",True,9,Guardian Ang Mo Kio,219.48397743826237,50
+CUST000393,Chronic Patient,41-60,"Arthritis, High Cholesterol",True,4,Guardian Orchard,157.3810781913367,20
+CUST000394,Chronic Patient,41-60,High Cholesterol,True,5,Guardian Ang Mo Kio,77.3051487460035,40
+CUST000395,Chronic Patient,41-60,"Asthma, Type 2 Diabetes",True,9,Guardian Bedok,348.54707312006525,8
+CUST000396,Chronic Patient,41-60,"Type 2 Diabetes, Asthma",True,5,Guardian Bedok,191.43610073499661,42
+CUST000397,Chronic Patient,41-60,"Hypertension, Arthritis",True,5,Guardian Jurong,54.38774359225552,34
+CUST000398,Chronic Patient,41-60,"Hypertension, Type 2 Diabetes",True,4,Guardian Ang Mo Kio,253.2741003112608,29
+CUST000399,Chronic Patient,41-60,"Hypertension, Asthma",True,8,Guardian Ang Mo Kio,313.8797489015245,35
+CUST000400,Chronic Patient,41-60,"High Cholesterol, Arthritis",True,4,Guardian Bedok,276.2135956850799,40
+CUST000401,Chronic Patient,41-60,Hypertension,True,4,Guardian Bedok,307.5974536394761,43
+CUST000402,Chronic Patient,41-60,Hypertension,True,4,Guardian Tampines,54.50170036127386,35
+CUST000403,Chronic Patient,41-60,Hypertension,True,5,Guardian Ang Mo Kio,351.2356561352837,39
+CUST000404,Chronic Patient,41-60,Arthritis,True,8,Guardian Orchard,67.51081598207247,42
+CUST000405,Chronic Patient,41-60,Hypertension,True,6,Guardian Jurong,53.227597601282966,55
+CUST000406,Chronic Patient,41-60,"Type 2 Diabetes, Hypertension",True,10,Guardian Ang Mo Kio,225.17789639736864,14
+CUST000407,Chronic Patient,41-60,"Hypertension, Asthma",True,9,Guardian Tampines,331.67452948467667,46
+CUST000408,Chronic Patient,41-60,High Cholesterol,True,9,Guardian Jurong,285.5325416922137,8
+CUST000409,Chronic Patient,41-60,"Hypertension, Type 2 Diabetes",True,4,Guardian Bedok,51.2844137344785,4
+CUST000410,Chronic Patient,41-60,Hypertension,True,9,Guardian Jurong,386.5125791189689,38
+CUST000411,Chronic Patient,41-60,Type 2 Diabetes,True,11,Guardian Bedok,320.8300150830078,27
+CUST000412,Chronic Patient,41-60,Type 2 Diabetes,True,7,Guardian Ang Mo Kio,80.25924651524551,52
+CUST000413,Chronic Patient,41-60,Asthma,True,9,Guardian Ang Mo Kio,256.0008046942557,52
+CUST000414,Chronic Patient,60+,"Arthritis, Hypertension",True,6,Guardian Ang Mo Kio,169.4875015137457,42
+CUST000415,Chronic Patient,60+,Asthma,True,7,Guardian Ang Mo Kio,50.45781473610493,21
+CUST000416,Chronic Patient,60+,High Cholesterol,True,5,Guardian Tampines,296.50977442216214,19
+CUST000417,Chronic Patient,60+,High Cholesterol,True,7,Guardian Tampines,182.71166748531314,40
+CUST000418,Chronic Patient,60+,"Type 2 Diabetes, Arthritis",True,5,Guardian Tampines,192.68430879967187,57
+CUST000419,Chronic Patient,60+,"Asthma, Type 2 Diabetes",True,8,Guardian Tampines,125.47162007848432,30
+CUST000420,Chronic Patient,60+,"Type 2 Diabetes, Hypertension",True,10,Guardian Jurong,257.03501935516647,48
+CUST000421,Chronic Patient,60+,Asthma,True,11,Guardian Bedok,197.10565479630895,12
+CUST000422,Chronic Patient,60+,Asthma,True,11,Guardian Orchard,255.98045687599162,30
+CUST000423,Chronic Patient,60+,Type 2 Diabetes,True,11,Guardian Tampines,89.17362690722501,13
+CUST000424,Chronic Patient,60+,Hypertension,True,7,Guardian Bedok,329.3795369725598,55
+CUST000425,Chronic Patient,60+,"High Cholesterol, Type 2 Diabetes",True,6,Guardian Tampines,327.0232703167451,30
+CUST000426,Chronic Patient,60+,Arthritis,True,11,Guardian Bedok,259.68457186394596,23
+CUST000427,Chronic Patient,60+,"High Cholesterol, Asthma",True,6,Guardian Orchard,255.0445949829599,11
+CUST000428,Chronic Patient,60+,Arthritis,True,8,Guardian Ang Mo Kio,126.81078702638234,20
+CUST000429,Chronic Patient,60+,"High Cholesterol, Asthma",True,5,Guardian Bedok,249.50472916525703,34
+CUST000430,Chronic Patient,60+,Arthritis,True,8,Guardian Tampines,63.34087109983342,2
+CUST000431,Chronic Patient,60+,Asthma,True,10,Guardian Tampines,377.531528126851,52
+CUST000432,Chronic Patient,60+,High Cholesterol,True,5,Guardian Bedok,70.02203048773922,38
+CUST000433,Chronic Patient,60+,"Type 2 Diabetes, Asthma",True,9,Guardian Ang Mo Kio,186.2830536363013,57
+CUST000434,Chronic Patient,60+,"Hypertension, Arthritis",True,11,Guardian Tampines,275.0961999949137,22
+CUST000435,Chronic Patient,60+,Asthma,True,9,Guardian Tampines,315.1174656651538,22
+CUST000436,Chronic Patient,60+,Hypertension,True,7,Guardian Jurong,154.68891040442284,25
+CUST000437,Chronic Patient,60+,Hypertension,True,11,Guardian Ang Mo Kio,241.02216108216203,14
+CUST000438,Chronic Patient,60+,"High Cholesterol, Arthritis",True,9,Guardian Ang Mo Kio,194.49049972858958,18
+CUST000439,Chronic Patient,60+,"Asthma, High Cholesterol",True,9,Guardian Ang Mo Kio,148.45459163039556,43
+CUST000440,Chronic Patient,60+,"Hypertension, Type 2 Diabetes",True,5,Guardian Tampines,143.59252480464414,13
+CUST000441,Chronic Patient,60+,Asthma,True,4,Guardian Orchard,120.03898462106807,26
+CUST000442,Chronic Patient,60+,"Hypertension, High Cholesterol",True,5,Guardian Orchard,361.43397915734096,55
+CUST000443,Chronic Patient,60+,"Asthma, Type 2 Diabetes",True,10,Guardian Jurong,384.4051309648629,31
+CUST000444,Chronic Patient,60+,"High Cholesterol, Asthma",True,10,Guardian Orchard,74.20955441507718,30
+CUST000445,Chronic Patient,60+,"Type 2 Diabetes, High Cholesterol",True,8,Guardian Jurong,147.89062813918667,42
+CUST000446,Chronic Patient,60+,"High Cholesterol, Asthma",True,9,Guardian Jurong,187.8490508234411,39
+CUST000447,Chronic Patient,60+,"Arthritis, High Cholesterol",True,11,Guardian Ang Mo Kio,105.75483172417378,21
+CUST000448,Chronic Patient,60+,Arthritis,True,10,Guardian Orchard,275.5203557824617,58
+CUST000449,Chronic Patient,60+,"Asthma, Hypertension",True,11,Guardian Orchard,109.4197061145717,9
+CUST000450,Chronic Patient,60+,Asthma,True,7,Guardian Ang Mo Kio,278.6216933437631,37
+CUST000451,Chronic Patient,60+,"Hypertension, Type 2 Diabetes",True,4,Guardian Bedok,312.75929801396575,29
+CUST000452,Chronic Patient,60+,"Asthma, Arthritis",True,4,Guardian Jurong,370.44685612711606,55
+CUST000453,Chronic Patient,60+,Hypertension,True,10,Guardian Jurong,196.8276638348811,47
+CUST000454,Chronic Patient,60+,"Type 2 Diabetes, Hypertension",True,5,Guardian Orchard,125.41650492568158,9
+CUST000455,Chronic Patient,60+,"Arthritis, High Cholesterol",True,9,Guardian Ang Mo Kio,106.5646534989967,17
+CUST000456,Chronic Patient,60+,High Cholesterol,True,5,Guardian Bedok,114.4020494906845,15
+CUST000457,Chronic Patient,60+,"Arthritis, Hypertension",True,6,Guardian Tampines,100.609574476142,59
+CUST000458,Chronic Patient,60+,High Cholesterol,True,11,Guardian Tampines,346.150592482292,13
+CUST000459,Chronic Patient,60+,"Asthma, Type 2 Diabetes",True,7,Guardian Ang Mo Kio,204.7787441481538,19
+CUST000460,Chronic Patient,60+,"Asthma, Arthritis",True,4,Guardian Ang Mo Kio,267.0848292411022,7
+CUST000461,Chronic Patient,60+,"High Cholesterol, Arthritis",True,11,Guardian Jurong,92.52248657205936,26
+CUST000462,Chronic Patient,60+,Hypertension,True,11,Guardian Ang Mo Kio,284.3991220590894,22
+CUST000463,Chronic Patient,60+,"Arthritis, Asthma",True,10,Guardian Jurong,311.84194685745655,44
+CUST000464,Chronic Patient,60+,Arthritis,True,7,Guardian Tampines,368.9945909813172,41
+CUST000465,Chronic Patient,60+,"Hypertension, Asthma",True,7,Guardian Jurong,115.92168804568244,21
+CUST000466,Chronic Patient,60+,Type 2 Diabetes,True,6,Guardian Jurong,336.6690173728734,49
+CUST000467,Chronic Patient,60+,Hypertension,True,11,Guardian Orchard,251.1378061849317,13
+CUST000468,Chronic Patient,60+,Type 2 Diabetes,True,6,Guardian Jurong,268.89729359444806,26
+CUST000469,Chronic Patient,60+,Asthma,True,5,Guardian Tampines,321.229817233689,13
+CUST000470,Chronic Patient,60+,High Cholesterol,True,9,Guardian Ang Mo Kio,160.67683084719727,36
+CUST000471,Chronic Patient,60+,Asthma,True,9,Guardian Jurong,249.98427240735725,48
+CUST000472,Chronic Patient,60+,"Arthritis, High Cholesterol",True,6,Guardian Ang Mo Kio,51.57275454033442,34
+CUST000473,Chronic Patient,60+,"Type 2 Diabetes, Arthritis",True,8,Guardian Tampines,223.3122123239317,45
+CUST000474,Chronic Patient,60+,Type 2 Diabetes,True,4,Guardian Tampines,51.62396355142154,6
+CUST000475,Chronic Patient,60+,"Hypertension, High Cholesterol",True,11,Guardian Bedok,313.1725835783519,46
+CUST000476,Chronic Patient,60+,Arthritis,True,4,Guardian Bedok,338.50813583486615,51
+CUST000477,Chronic Patient,60+,"High Cholesterol, Arthritis",True,7,Guardian Bedok,65.45728611278285,11
+CUST000478,Chronic Patient,60+,Hypertension,True,7,Guardian Jurong,390.6482408680887,18
+CUST000479,Chronic Patient,60+,"Asthma, Arthritis",True,6,Guardian Tampines,233.734442667447,29
+CUST000480,Chronic Patient,60+,"Arthritis, Asthma",True,9,Guardian Ang Mo Kio,310.3074647752711,58
+CUST000481,Chronic Patient,60+,"High Cholesterol, Arthritis",True,6,Guardian Orchard,189.0348020745149,22
+CUST000482,Chronic Patient,60+,"Asthma, Hypertension",True,11,Guardian Tampines,126.6503578407696,23
+CUST000483,Chronic Patient,60+,Type 2 Diabetes,True,7,Guardian Orchard,331.4917089769156,50
+CUST000484,Chronic Patient,60+,"Arthritis, Type 2 Diabetes",True,8,Guardian Bedok,281.1251811638216,5
+CUST000485,Chronic Patient,60+,Asthma,True,4,Guardian Tampines,366.4204891592823,49
+CUST000486,Chronic Patient,60+,Asthma,True,7,Guardian Tampines,315.50431024869425,37
+CUST000487,Chronic Patient,60+,Hypertension,True,10,Guardian Jurong,351.39439377962725,59
+CUST000488,Chronic Patient,60+,Arthritis,True,8,Guardian Jurong,315.72223203741265,32
+CUST000489,Chronic Patient,60+,Hypertension,True,9,Guardian Jurong,134.77731755049712,40
+CUST000490,Chronic Patient,60+,Type 2 Diabetes,True,5,Guardian Ang Mo Kio,82.13077540060053,51
+CUST000491,Chronic Patient,60+,"Hypertension, Arthritis",True,9,Guardian Ang Mo Kio,280.17262042493167,43
+CUST000492,Chronic Patient,60+,"Asthma, High Cholesterol",True,8,Guardian Bedok,137.2773279617226,26
+CUST000493,Chronic Patient,60+,Type 2 Diabetes,True,6,Guardian Ang Mo Kio,151.6312599986907,36
+CUST000494,Chronic Patient,60+,"Arthritis, Asthma",True,9,Guardian Ang Mo Kio,204.6957538831738,9
+CUST000495,Chronic Patient,60+,Asthma,True,6,Guardian Ang Mo Kio,56.85747946884036,32
+CUST000496,Chronic Patient,60+,"Arthritis, High Cholesterol",True,10,Guardian Ang Mo Kio,368.4080068957127,24
+CUST000497,Chronic Patient,60+,Asthma,True,5,Guardian Bedok,95.53084056161865,3
+CUST000498,Chronic Patient,60+,"Type 2 Diabetes, High Cholesterol",True,6,Guardian Bedok,314.30289405062723,14
+CUST000499,Chronic Patient,60+,"Arthritis, Asthma",True,11,Guardian Bedok,67.03823642268745,28
+CUST000500,Chronic Patient,60+,"Hypertension, Asthma",True,7,Guardian Tampines,131.31352120227643,17
+CUST000501,Chronic Patient,60+,"Type 2 Diabetes, High Cholesterol",True,9,Guardian Bedok,382.1209891937687,16
+CUST000502,Chronic Patient,60+,"Arthritis, Asthma",True,4,Guardian Ang Mo Kio,253.18514653169422,4
+CUST000503,Chronic Patient,60+,Arthritis,True,11,Guardian Tampines,173.1918155923587,18
+CUST000504,Chronic Patient,60+,Arthritis,True,11,Guardian Tampines,121.2564090524058,48
+CUST000505,Chronic Patient,60+,Type 2 Diabetes,True,8,Guardian Bedok,66.34919975644264,38
+CUST000506,Chronic Patient,60+,Hypertension,True,4,Guardian Bedok,157.41424555606378,39
+CUST000507,Chronic Patient,60+,"Arthritis, Hypertension",True,11,Guardian Ang Mo Kio,83.9094389944587,55
+CUST000508,Chronic Patient,60+,"Asthma, Hypertension",True,4,Guardian Ang Mo Kio,390.45274616291266,29
+CUST000509,Chronic Patient,60+,"Type 2 Diabetes, High Cholesterol",True,4,Guardian Ang Mo Kio,260.5817888276528,37
+CUST000510,Chronic Patient,60+,High Cholesterol,True,8,Guardian Orchard,237.09020509655193,16
+CUST000511,Chronic Patient,60+,"Arthritis, Hypertension",True,7,Guardian Ang Mo Kio,210.06379395519565,18
+CUST000512,Chronic Patient,60+,"Asthma, Hypertension",True,11,Guardian Tampines,161.09522470845752,14
+CUST000513,Chronic Patient,60+,High Cholesterol,True,11,Guardian Bedok,291.7513885661418,53
+CUST000514,Chronic Patient,60+,Type 2 Diabetes,True,8,Guardian Ang Mo Kio,330.3842273991773,28
+CUST000515,Chronic Patient,60+,Arthritis,True,7,Guardian Tampines,101.7642423744179,45
+CUST000516,Chronic Patient,60+,Arthritis,True,8,Guardian Ang Mo Kio,246.18301507306333,21
+CUST000517,Chronic Patient,60+,Hypertension,True,7,Guardian Jurong,110.76221526752067,13
+CUST000518,Chronic Patient,60+,High Cholesterol,True,7,Guardian Ang Mo Kio,203.27657428467103,35
+CUST000519,Chronic Patient,60+,Asthma,True,9,Guardian Tampines,154.69954721865116,21
+CUST000520,Chronic Patient,60+,Arthritis,True,11,Guardian Ang Mo Kio,353.05094482784455,11
+CUST000521,Chronic Patient,60+,Arthritis,True,4,Guardian Tampines,182.8828717624031,17
+CUST000522,Chronic Patient,60+,Asthma,True,6,Guardian Tampines,393.2867201975865,33
+CUST000523,Chronic Patient,60+,Type 2 Diabetes,True,9,Guardian Ang Mo Kio,220.13456459623131,59
+CUST000524,Chronic Patient,60+,Hypertension,True,10,Guardian Orchard,284.64964761993974,35
+CUST000525,Chronic Patient,60+,"Hypertension, Arthritis",True,9,Guardian Ang Mo Kio,176.54723284267084,59
+CUST000526,Chronic Patient,60+,Asthma,True,9,Guardian Tampines,320.5157459964324,24
+CUST000527,Chronic Patient,60+,Arthritis,True,9,Guardian Ang Mo Kio,123.41898106831793,6
+CUST000528,Chronic Patient,60+,Type 2 Diabetes,True,4,Guardian Tampines,310.185541575509,21
+CUST000529,Chronic Patient,60+,"Arthritis, Asthma",True,8,Guardian Orchard,340.9179406881061,34
+CUST000530,Chronic Patient,60+,"Arthritis, Type 2 Diabetes",True,11,Guardian Tampines,349.6693305161766,23
+CUST000531,Chronic Patient,60+,Arthritis,True,9,Guardian Bedok,222.97398855749304,30
+CUST000532,Chronic Patient,60+,"Type 2 Diabetes, Arthritis",True,8,Guardian Tampines,252.36423837410646,7
+CUST000533,Chronic Patient,60+,"Arthritis, Hypertension",True,5,Guardian Ang Mo Kio,397.2809229985463,17
+CUST000534,Chronic Patient,60+,Arthritis,True,5,Guardian Tampines,277.8800354929542,14
+CUST000535,Chronic Patient,60+,"Arthritis, Type 2 Diabetes",True,8,Guardian Ang Mo Kio,221.58842011930525,10
+CUST000536,Chronic Patient,60+,"Asthma, Type 2 Diabetes",True,5,Guardian Ang Mo Kio,128.98505202053104,50
+CUST000537,Chronic Patient,60+,"Type 2 Diabetes, Asthma",True,6,Guardian Ang Mo Kio,80.85260428937343,52
+CUST000538,Chronic Patient,60+,High Cholesterol,True,10,Guardian Orchard,299.85274025473143,8
+CUST000539,Chronic Patient,60+,"Asthma, High Cholesterol",True,10,Guardian Tampines,173.1942205778384,45
+CUST000540,First-time,0-12,None,False,1,Guardian Bedok,50.98336631732267,2
+CUST000541,First-time,0-12,None,False,1,Guardian Bedok,74.33565704548485,56
+CUST000542,First-time,0-12,None,False,1,Guardian Ang Mo Kio,30.9892860761301,41
+CUST000543,First-time,0-12,None,False,2,Guardian Jurong,33.18875563255324,9
+CUST000544,First-time,0-12,None,False,1,Guardian Jurong,62.62026120338495,54
+CUST000545,First-time,0-12,None,False,1,Guardian Tampines,104.84896617144425,36
+CUST000546,First-time,0-12,None,False,2,Guardian Jurong,83.13598317160074,1
+CUST000547,First-time,0-12,None,False,2,Guardian Bedok,21.95172880998557,3
+CUST000548,First-time,0-12,None,False,1,Guardian Orchard,127.86241444157253,36
+CUST000549,First-time,0-12,None,False,1,Guardian Tampines,121.54072576216711,43
+CUST000550,First-time,0-12,None,False,2,Guardian Ang Mo Kio,104.47258099144796,4
+CUST000551,First-time,0-12,None,False,1,Guardian Ang Mo Kio,41.69167413533071,51
+CUST000552,First-time,0-12,None,False,1,Guardian Jurong,33.27518278332268,41
+CUST000553,First-time,0-12,None,False,2,Guardian Orchard,103.20463908947072,8
+CUST000554,First-time,0-12,None,False,1,Guardian Ang Mo Kio,66.23409637587696,24
+CUST000555,First-time,0-12,None,False,1,Guardian Ang Mo Kio,147.37449689480246,38
+CUST000556,First-time,0-12,None,False,1,Guardian Ang Mo Kio,30.467953168893317,6
+CUST000557,First-time,0-12,None,False,1,Guardian Ang Mo Kio,56.787505576603294,54
+CUST000558,First-time,0-12,None,False,1,Guardian Ang Mo Kio,74.20172194951095,41
+CUST000559,First-time,0-12,None,False,1,Guardian Orchard,147.00716471113918,11
+CUST000560,First-time,0-12,None,False,1,Guardian Orchard,44.24880805761376,50
+CUST000561,First-time,0-12,None,False,1,Guardian Ang Mo Kio,148.61602786910697,18
+CUST000562,First-time,0-12,None,False,1,Guardian Ang Mo Kio,43.772335259557636,58
+CUST000563,First-time,0-12,None,False,2,Guardian Jurong,63.33055438559408,25
+CUST000564,First-time,0-12,None,False,2,Guardian Ang Mo Kio,22.061473271426127,23
+CUST000565,First-time,0-12,None,False,1,Guardian Tampines,29.265159510481514,32
+CUST000566,First-time,0-12,None,False,1,Guardian Jurong,91.52746794377101,44
+CUST000567,First-time,0-12,None,False,2,Guardian Ang Mo Kio,51.5730652631124,9
+CUST000568,First-time,0-12,None,False,1,Guardian Ang Mo Kio,51.88610447903724,36
+CUST000569,First-time,0-12,None,False,2,Guardian Jurong,120.07565021101796,10
+CUST000570,First-time,0-12,None,False,1,Guardian Ang Mo Kio,48.37306949162493,6
+CUST000571,First-time,0-12,None,False,1,Guardian Ang Mo Kio,111.91402636602251,40
+CUST000572,First-time,0-12,None,False,2,Guardian Jurong,136.78881765799258,33
+CUST000573,First-time,0-12,None,False,2,Guardian Ang Mo Kio,24.033824247181986,48
+CUST000574,First-time,0-12,None,False,1,Guardian Ang Mo Kio,117.19508675396197,19
+CUST000575,First-time,0-12,None,False,2,Guardian Orchard,143.8842746873915,7
+CUST000576,First-time,0-12,None,False,1,Guardian Ang Mo Kio,117.70165357435576,29
+CUST000577,First-time,0-12,None,False,1,Guardian Bedok,45.561792450287086,45
+CUST000578,First-time,0-12,None,False,2,Guardian Ang Mo Kio,45.32153801798839,34
+CUST000579,First-time,0-12,None,False,1,Guardian Ang Mo Kio,141.64324279399773,53
+CUST000580,First-time,0-12,None,False,2,Guardian Ang Mo Kio,147.75165805574682,14
+CUST000581,First-time,0-12,None,False,1,Guardian Orchard,64.13618365606459,53
+CUST000582,First-time,0-12,None,False,2,Guardian Bedok,50.58410585790057,57
+CUST000583,First-time,0-12,None,False,1,Guardian Orchard,45.17595617281998,41
+CUST000584,First-time,0-12,None,False,1,Guardian Tampines,142.50517447963796,42
+CUST000585,First-time,0-12,None,False,1,Guardian Tampines,20.657350477440623,18
+CUST000586,First-time,0-12,None,False,2,Guardian Bedok,132.31634535366044,17
+CUST000587,First-time,0-12,None,False,1,Guardian Tampines,86.63733526779727,34
+CUST000588,First-time,0-12,None,False,2,Guardian Jurong,86.90891344130696,27
+CUST000589,First-time,0-12,None,False,2,Guardian Bedok,76.93170954490884,2
+CUST000590,First-time,0-12,None,False,2,Guardian Ang Mo Kio,134.28443397499302,22
+CUST000591,First-time,0-12,None,False,1,Guardian Jurong,38.626619822178995,38
+CUST000592,First-time,0-12,None,False,1,Guardian Bedok,143.2150673107841,25
+CUST000593,First-time,0-12,None,False,2,Guardian Bedok,146.9131965332919,36
+CUST000594,First-time,0-12,None,False,1,Guardian Ang Mo Kio,82.80288161170893,51
+CUST000595,First-time,0-12,None,False,2,Guardian Bedok,101.63944654783403,10
+CUST000596,First-time,0-12,None,False,1,Guardian Bedok,74.76281307360696,2
+CUST000597,First-time,0-12,None,False,1,Guardian Jurong,144.35906704180476,30
+CUST000598,First-time,0-12,None,False,2,Guardian Bedok,37.52273513228954,30
+CUST000599,First-time,0-12,None,False,1,Guardian Ang Mo Kio,57.15647188817152,13
+CUST000600,First-time,0-12,None,False,1,Guardian Bedok,92.08966496227647,57
+CUST000601,First-time,0-12,None,False,2,Guardian Tampines,68.75642825004337,44
+CUST000602,First-time,0-12,None,False,2,Guardian Ang Mo Kio,65.62929712025107,42
+CUST000603,First-time,0-12,None,False,2,Guardian Ang Mo Kio,100.93483469136042,54
+CUST000604,First-time,0-12,None,False,1,Guardian Bedok,98.96806298991844,13
+CUST000605,First-time,0-12,None,False,1,Guardian Orchard,87.89436071131789,27
+CUST000606,First-time,0-12,None,False,1,Guardian Ang Mo Kio,25.460497135899516,43
+CUST000607,First-time,0-12,None,False,1,Guardian Ang Mo Kio,79.73967349701343,16
+CUST000608,First-time,0-12,None,False,2,Guardian Orchard,81.00760421020142,43
+CUST000609,First-time,0-12,None,False,1,Guardian Bedok,80.26452543950737,29
+CUST000610,First-time,0-12,None,False,2,Guardian Tampines,143.16449748540668,29
+CUST000611,First-time,0-12,None,False,2,Guardian Bedok,37.52428603668997,54
+CUST000612,First-time,0-12,None,False,1,Guardian Ang Mo Kio,101.16596383883551,47
+CUST000613,First-time,0-12,None,False,2,Guardian Bedok,148.58236840891078,51
+CUST000614,First-time,0-12,None,False,2,Guardian Bedok,59.900006343986504,39
+CUST000615,First-time,0-12,None,False,1,Guardian Tampines,97.38929818476137,12
+CUST000616,First-time,0-12,None,False,2,Guardian Ang Mo Kio,140.72230595464703,37
+CUST000617,First-time,0-12,None,False,2,Guardian Jurong,122.6836515479557,52
+CUST000618,First-time,0-12,None,False,1,Guardian Bedok,111.89386187769698,19
+CUST000619,First-time,0-12,None,False,2,Guardian Jurong,32.244793495982506,13
+CUST000620,First-time,0-12,None,False,2,Guardian Orchard,44.276483663529945,28
+CUST000621,First-time,0-12,None,False,1,Guardian Ang Mo Kio,100.17494554572686,23
+CUST000622,First-time,0-12,None,False,2,Guardian Jurong,31.728046324875248,30
+CUST000623,First-time,0-12,None,False,1,Guardian Tampines,83.61089016788517,34
+CUST000624,First-time,0-12,None,False,2,Guardian Tampines,22.156224470417765,8
+CUST000625,First-time,0-12,None,False,2,Guardian Bedok,67.4490927214253,43
+CUST000626,First-time,0-12,None,False,2,Guardian Ang Mo Kio,93.20740768069153,19
+CUST000627,First-time,0-12,None,False,1,Guardian Ang Mo Kio,29.378328126432375,12
+CUST000628,First-time,0-12,None,False,2,Guardian Tampines,93.9154774436264,59
+CUST000629,First-time,0-12,None,False,2,Guardian Ang Mo Kio,122.2228507289888,31
+CUST000630,First-time,0-12,None,False,2,Guardian Jurong,148.1655847533622,23
+CUST000631,First-time,0-12,None,False,1,Guardian Tampines,96.89581217511261,56
+CUST000632,First-time,0-12,None,False,1,Guardian Ang Mo Kio,121.59828823587053,39
+CUST000633,First-time,0-12,None,False,2,Guardian Tampines,96.41082887060409,36
+CUST000634,First-time,0-12,None,False,1,Guardian Orchard,100.83652680287008,17
+CUST000635,First-time,0-12,None,False,1,Guardian Ang Mo Kio,94.43350334809229,32
+CUST000636,First-time,0-12,None,False,1,Guardian Bedok,92.54787958226996,32
+CUST000637,First-time,0-12,None,False,1,Guardian Ang Mo Kio,144.49298071885184,21
+CUST000638,First-time,0-12,None,False,2,Guardian Jurong,32.95284042561378,54
+CUST000639,First-time,0-12,None,False,1,Guardian Jurong,118.11593602851454,42
+CUST000640,First-time,0-12,None,False,2,Guardian Tampines,36.99255936386449,49
+CUST000641,First-time,0-12,None,False,1,Guardian Ang Mo Kio,125.02521525161862,26
+CUST000642,First-time,13-25,None,False,2,Guardian Ang Mo Kio,130.29918067415423,20
+CUST000643,First-time,13-25,None,False,2,Guardian Ang Mo Kio,115.87714235948546,5
+CUST000644,First-time,13-25,None,False,2,Guardian Tampines,77.62197637326022,3
+CUST000645,First-time,13-25,None,False,2,Guardian Bedok,129.92377277325576,39
+CUST000646,First-time,13-25,None,False,2,Guardian Ang Mo Kio,101.99589252952097,2
+CUST000647,First-time,13-25,None,False,2,Guardian Tampines,25.230678450712205,57
+CUST000648,First-time,13-25,None,False,2,Guardian Bedok,67.24619261648928,7
+CUST000649,First-time,13-25,None,False,1,Guardian Jurong,107.90109866679968,54
+CUST000650,First-time,13-25,None,False,2,Guardian Jurong,38.19588653078402,20
+CUST000651,First-time,13-25,None,False,2,Guardian Jurong,141.29512607993803,18
+CUST000652,First-time,13-25,None,False,2,Guardian Ang Mo Kio,84.1619821465067,40
+CUST000653,First-time,13-25,None,False,2,Guardian Jurong,87.90181595039459,49
+CUST000654,First-time,13-25,None,False,2,Guardian Ang Mo Kio,148.7530842184878,43
+CUST000655,First-time,13-25,None,False,1,Guardian Orchard,136.8646862658664,16
+CUST000656,First-time,13-25,None,False,2,Guardian Orchard,138.76884021839348,5
+CUST000657,First-time,13-25,None,False,1,Guardian Jurong,105.49389358719705,48
+CUST000658,First-time,13-25,None,False,1,Guardian Orchard,107.47256418070565,53
+CUST000659,First-time,13-25,None,False,1,Guardian Bedok,105.16986957417822,29
+CUST000660,First-time,13-25,None,False,1,Guardian Bedok,113.71214259570472,52
+CUST000661,First-time,13-25,None,False,2,Guardian Ang Mo Kio,118.5616833715918,34
+CUST000662,First-time,13-25,None,False,2,Guardian Orchard,52.37804774036899,56
+CUST000663,First-time,13-25,None,False,1,Guardian Tampines,114.04773019528555,12
+CUST000664,First-time,13-25,None,False,2,Guardian Ang Mo Kio,82.58922014288675,44
+CUST000665,First-time,13-25,None,False,2,Guardian Bedok,72.84321185072162,28
+CUST000666,First-time,13-25,None,False,2,Guardian Tampines,49.393905765458676,2
+CUST000667,First-time,13-25,None,False,1,Guardian Ang Mo Kio,110.58801648611731,17
+CUST000668,First-time,13-25,None,False,1,Guardian Bedok,120.63131235427205,21
+CUST000669,First-time,13-25,None,False,2,Guardian Ang Mo Kio,78.71441659279698,4
+CUST000670,First-time,13-25,None,False,2,Guardian Bedok,25.682245545086378,7
+CUST000671,First-time,13-25,None,False,2,Guardian Ang Mo Kio,23.476317397008714,32
+CUST000672,First-time,13-25,None,False,2,Guardian Orchard,148.89361414652726,56
+CUST000673,First-time,13-25,None,False,1,Guardian Bedok,99.37517979109009,9
+CUST000674,First-time,13-25,None,False,2,Guardian Jurong,63.613639112531516,27
+CUST000675,First-time,13-25,None,False,2,Guardian Orchard,61.8827975696749,18
+CUST000676,First-time,13-25,None,False,1,Guardian Ang Mo Kio,119.09598953652966,3
+CUST000677,First-time,13-25,None,False,2,Guardian Ang Mo Kio,72.59949940124869,42
+CUST000678,First-time,13-25,None,False,2,Guardian Ang Mo Kio,106.46909959087827,20
+CUST000679,First-time,13-25,None,False,2,Guardian Bedok,146.5262903920002,21
+CUST000680,First-time,13-25,None,False,1,Guardian Orchard,64.09489739170994,47
+CUST000681,First-time,13-25,None,False,2,Guardian Jurong,52.64596273738003,35
+CUST000682,First-time,13-25,None,False,1,Guardian Bedok,124.00069563957719,46
+CUST000683,First-time,13-25,None,False,1,Guardian Jurong,125.1847222974011,46
+CUST000684,First-time,13-25,None,False,1,Guardian Bedok,128.10710454797746,50
+CUST000685,First-time,13-25,None,False,2,Guardian Ang Mo Kio,111.06605658030135,46
+CUST000686,First-time,13-25,None,False,2,Guardian Bedok,66.25720590433131,52
+CUST000687,First-time,13-25,None,False,1,Guardian Jurong,115.90687527357129,33
+CUST000688,First-time,13-25,None,False,2,Guardian Ang Mo Kio,121.44985133694996,19
+CUST000689,First-time,13-25,None,False,2,Guardian Tampines,21.915384760968646,2
+CUST000690,First-time,13-25,None,False,2,Guardian Ang Mo Kio,89.01999693748253,56
+CUST000691,First-time,13-25,None,False,1,Guardian Bedok,120.19948427595844,14
+CUST000692,First-time,13-25,None,False,2,Guardian Orchard,134.18661098613654,37
+CUST000693,First-time,13-25,None,False,2,Guardian Tampines,111.76054569228839,50
+CUST000694,First-time,13-25,None,False,1,Guardian Jurong,99.1257318972672,54
+CUST000695,First-time,13-25,None,False,2,Guardian Ang Mo Kio,55.87154007905556,22
+CUST000696,First-time,13-25,None,False,2,Guardian Bedok,130.18824661811013,48
+CUST000697,First-time,13-25,None,False,1,Guardian Ang Mo Kio,72.76187817195087,52
+CUST000698,First-time,13-25,None,False,1,Guardian Bedok,104.63909630595789,23
+CUST000699,First-time,13-25,None,False,1,Guardian Bedok,56.70750305891164,48
+CUST000700,First-time,13-25,None,False,2,Guardian Ang Mo Kio,83.79415945469383,12
+CUST000701,First-time,13-25,None,False,2,Guardian Ang Mo Kio,98.87493673767327,8
+CUST000702,First-time,13-25,None,False,1,Guardian Ang Mo Kio,140.91690936916936,59
+CUST000703,First-time,13-25,None,False,2,Guardian Orchard,138.83050734283853,50
+CUST000704,First-time,13-25,None,False,1,Guardian Bedok,125.2191370352118,33
+CUST000705,First-time,13-25,None,False,2,Guardian Jurong,138.08864451058366,15
+CUST000706,First-time,13-25,None,False,2,Guardian Ang Mo Kio,68.92154607109227,16
+CUST000707,First-time,13-25,None,False,1,Guardian Ang Mo Kio,148.76676357293707,42
+CUST000708,First-time,13-25,None,False,2,Guardian Ang Mo Kio,68.54423032453226,53
+CUST000709,First-time,13-25,None,False,1,Guardian Ang Mo Kio,120.1832336988724,37
+CUST000710,First-time,13-25,None,False,2,Guardian Bedok,56.492681545329134,32
+CUST000711,First-time,13-25,None,False,1,Guardian Orchard,23.45676161522941,34
+CUST000712,First-time,13-25,None,False,1,Guardian Ang Mo Kio,33.01091546127473,57
+CUST000713,First-time,13-25,None,False,2,Guardian Tampines,143.82134341782935,28
+CUST000714,First-time,13-25,None,False,1,Guardian Jurong,98.16053805699535,24
+CUST000715,First-time,13-25,None,False,1,Guardian Orchard,29.18010781888742,32
+CUST000716,First-time,13-25,None,False,2,Guardian Tampines,124.43117844860171,11
+CUST000717,First-time,13-25,None,False,1,Guardian Orchard,119.87159896736773,26
+CUST000718,First-time,13-25,None,False,2,Guardian Tampines,115.27265739328516,38
+CUST000719,First-time,13-25,None,False,1,Guardian Ang Mo Kio,145.96052443038704,3
+CUST000720,First-time,13-25,None,False,2,Guardian Bedok,132.57874273262078,7
+CUST000721,First-time,13-25,None,False,2,Guardian Tampines,99.50343333744952,28
+CUST000722,First-time,13-25,None,False,1,Guardian Ang Mo Kio,41.82834290748899,40
+CUST000723,First-time,13-25,None,False,1,Guardian Ang Mo Kio,44.299555710045155,58
+CUST000724,First-time,13-25,None,False,1,Guardian Tampines,80.10352414565995,48
+CUST000725,First-time,13-25,None,False,1,Guardian Ang Mo Kio,77.75304431160032,45
+CUST000726,First-time,13-25,None,False,2,Guardian Tampines,30.72568565606413,59
+CUST000727,First-time,13-25,None,False,2,Guardian Ang Mo Kio,82.01100439312636,31
+CUST000728,First-time,13-25,None,False,2,Guardian Tampines,145.35791198463517,55
+CUST000729,First-time,13-25,None,False,2,Guardian Ang Mo Kio,72.67959038458784,52
+CUST000730,First-time,13-25,None,False,1,Guardian Ang Mo Kio,109.93742726309061,57
+CUST000731,First-time,13-25,None,False,1,Guardian Orchard,134.70947119654733,23
+CUST000732,First-time,13-25,None,False,2,Guardian Ang Mo Kio,103.33377981629943,12
+CUST000733,First-time,13-25,None,False,1,Guardian Jurong,48.176875028405405,44
+CUST000734,First-time,13-25,None,False,1,Guardian Bedok,121.14032095507626,44
+CUST000735,First-time,13-25,None,False,1,Guardian Bedok,126.47492296280747,33
+CUST000736,First-time,13-25,None,False,2,Guardian Ang Mo Kio,67.5135605031148,40
+CUST000737,First-time,13-25,None,False,1,Guardian Bedok,96.44958631125427,57
+CUST000738,First-time,13-25,None,False,1,Guardian Ang Mo Kio,59.19017903201127,1
+CUST000739,First-time,13-25,None,False,1,Guardian Bedok,122.5758413762484,6
+CUST000740,First-time,13-25,None,False,2,Guardian Jurong,122.7741365496796,12
+CUST000741,First-time,13-25,None,False,1,Guardian Bedok,142.5648195756216,52
+CUST000742,First-time,13-25,None,False,2,Guardian Orchard,26.35176375220629,6
+CUST000743,First-time,13-25,None,False,2,Guardian Ang Mo Kio,144.315661741132,21
+CUST000744,First-time,13-25,None,False,1,Guardian Tampines,98.760545381185,14
+CUST000745,First-time,13-25,None,False,1,Guardian Jurong,78.36910799626477,3
+CUST000746,First-time,13-25,None,False,2,Guardian Tampines,30.226408935621656,26
+CUST000747,First-time,13-25,None,False,1,Guardian Jurong,50.59943613779542,1
+CUST000748,First-time,26-40,None,False,1,Guardian Orchard,76.59550246238764,22
+CUST000749,First-time,26-40,None,False,1,Guardian Orchard,40.45496187838503,35
+CUST000750,First-time,26-40,None,False,1,Guardian Bedok,140.6775133833259,8
+CUST000751,First-time,26-40,None,False,1,Guardian Jurong,62.98642279376313,6
+CUST000752,First-time,26-40,None,False,2,Guardian Ang Mo Kio,129.16972353471607,49
+CUST000753,First-time,26-40,None,False,2,Guardian Tampines,27.554057040949925,40
+CUST000754,First-time,26-40,None,False,2,Guardian Ang Mo Kio,108.1219350486808,2
+CUST000755,First-time,26-40,None,False,1,Guardian Tampines,22.448759928374553,52
+CUST000756,First-time,26-40,None,False,2,Guardian Ang Mo Kio,76.51472511497138,1
+CUST000757,First-time,26-40,None,False,1,Guardian Bedok,60.759181437126465,50
+CUST000758,First-time,26-40,None,False,2,Guardian Bedok,50.883961987264286,44
+CUST000759,First-time,26-40,None,False,2,Guardian Bedok,148.37454055693993,18
+CUST000760,First-time,26-40,None,False,1,Guardian Jurong,21.49313716786475,4
+CUST000761,First-time,26-40,None,False,1,Guardian Ang Mo Kio,60.54329491665188,18
+CUST000762,First-time,26-40,None,False,1,Guardian Bedok,89.06042726426858,36
+CUST000763,First-time,26-40,None,False,1,Guardian Bedok,63.28591155694217,39
+CUST000764,First-time,26-40,None,False,2,Guardian Bedok,120.73165397039627,43
+CUST000765,First-time,26-40,None,False,1,Guardian Ang Mo Kio,130.10615867075234,56
+CUST000766,First-time,26-40,None,False,2,Guardian Ang Mo Kio,137.26670037598024,29
+CUST000767,First-time,26-40,None,False,1,Guardian Ang Mo Kio,57.442070894598665,16
+CUST000768,First-time,26-40,None,False,2,Guardian Bedok,82.50370917889006,58
+CUST000769,First-time,26-40,None,False,1,Guardian Orchard,38.62934044503804,1
+CUST000770,First-time,26-40,None,False,1,Guardian Jurong,35.211906265738236,7
+CUST000771,First-time,26-40,None,False,2,Guardian Ang Mo Kio,85.05678324214973,24
+CUST000772,First-time,26-40,None,False,1,Guardian Jurong,102.31474023332554,47
+CUST000773,First-time,26-40,None,False,2,Guardian Ang Mo Kio,31.455060758600737,28
+CUST000774,First-time,26-40,None,False,2,Guardian Tampines,20.42003909168385,10
+CUST000775,First-time,26-40,None,False,2,Guardian Ang Mo Kio,83.23698073767075,30
+CUST000776,First-time,26-40,None,False,2,Guardian Bedok,98.39473975541704,9
+CUST000777,First-time,26-40,None,False,2,Guardian Ang Mo Kio,51.439515690005,45
+CUST000778,First-time,26-40,None,False,2,Guardian Ang Mo Kio,58.52329878571815,55
+CUST000779,First-time,26-40,None,False,1,Guardian Ang Mo Kio,73.4756965878564,47
+CUST000780,First-time,26-40,None,False,1,Guardian Bedok,71.9940689006792,53
+CUST000781,First-time,26-40,None,False,1,Guardian Ang Mo Kio,66.62180276171009,39
+CUST000782,First-time,26-40,None,False,2,Guardian Bedok,99.74881338480594,52
+CUST000783,First-time,26-40,None,False,2,Guardian Ang Mo Kio,122.12478577549587,29
+CUST000784,First-time,26-40,None,False,2,Guardian Orchard,87.83012169420829,5
+CUST000785,First-time,26-40,None,False,2,Guardian Ang Mo Kio,29.343078535259522,22
+CUST000786,First-time,26-40,None,False,2,Guardian Orchard,140.00234367205815,6
+CUST000787,First-time,26-40,None,False,2,Guardian Ang Mo Kio,58.96285028708217,39
+CUST000788,First-time,26-40,None,False,2,Guardian Jurong,59.06357481796636,11
+CUST000789,First-time,26-40,None,False,1,Guardian Jurong,71.30781632049988,50
+CUST000790,First-time,26-40,None,False,2,Guardian Ang Mo Kio,41.402587902835265,55
+CUST000791,First-time,26-40,None,False,2,Guardian Orchard,92.25811447547142,52
+CUST000792,First-time,26-40,None,False,1,Guardian Ang Mo Kio,23.256292951916947,49
+CUST000793,First-time,26-40,None,False,2,Guardian Bedok,110.21386175935896,42
+CUST000794,First-time,26-40,None,False,2,Guardian Orchard,100.77691231136909,56
+CUST000795,First-time,26-40,None,False,2,Guardian Ang Mo Kio,35.27431405323057,46
+CUST000796,First-time,26-40,None,False,2,Guardian Tampines,106.43677566228777,56
+CUST000797,First-time,26-40,None,False,1,Guardian Jurong,95.8917970114622,59
+CUST000798,First-time,26-40,None,False,1,Guardian Orchard,149.63944797731043,49
+CUST000799,First-time,26-40,None,False,1,Guardian Orchard,91.7974220069154,4
+CUST000800,First-time,26-40,None,False,2,Guardian Ang Mo Kio,78.88253321497598,35
+CUST000801,First-time,26-40,None,False,1,Guardian Ang Mo Kio,25.161482585888322,49
+CUST000802,First-time,26-40,None,False,1,Guardian Ang Mo Kio,128.85896658141243,42
+CUST000803,First-time,26-40,None,False,2,Guardian Jurong,100.75805297015066,27
+CUST000804,First-time,26-40,None,False,1,Guardian Tampines,145.889481014178,2
+CUST000805,First-time,26-40,None,False,1,Guardian Jurong,43.49689670446159,11
+CUST000806,First-time,26-40,None,False,1,Guardian Ang Mo Kio,124.89848560376318,57
+CUST000807,First-time,26-40,None,False,2,Guardian Ang Mo Kio,61.87874849291325,39
+CUST000808,First-time,26-40,None,False,1,Guardian Bedok,82.55976241096977,44
+CUST000809,First-time,26-40,None,False,1,Guardian Bedok,94.39553938708256,17
+CUST000810,First-time,26-40,None,False,1,Guardian Orchard,143.26733688055037,52
+CUST000811,First-time,26-40,None,False,2,Guardian Orchard,23.435512418246063,1
+CUST000812,First-time,26-40,None,False,2,Guardian Tampines,70.1319293104214,47
+CUST000813,First-time,26-40,None,False,1,Guardian Orchard,20.936214100572883,10
+CUST000814,First-time,26-40,None,False,1,Guardian Bedok,103.85259293310689,8
+CUST000815,First-time,26-40,None,False,1,Guardian Ang Mo Kio,120.65207758100271,33
+CUST000816,First-time,26-40,None,False,1,Guardian Bedok,49.57520042910691,44
+CUST000817,First-time,26-40,None,False,2,Guardian Ang Mo Kio,91.51563838696065,33
+CUST000818,First-time,26-40,None,False,2,Guardian Ang Mo Kio,112.60389169456533,40
+CUST000819,First-time,26-40,None,False,2,Guardian Tampines,89.82610284131232,43
+CUST000820,First-time,26-40,None,False,2,Guardian Jurong,71.71088857314395,49
+CUST000821,First-time,26-40,None,False,1,Guardian Bedok,139.79898854051694,46
+CUST000822,First-time,26-40,None,False,1,Guardian Bedok,43.75859334587001,38
+CUST000823,First-time,26-40,None,False,1,Guardian Tampines,66.17034853659976,11
+CUST000824,First-time,26-40,None,False,1,Guardian Bedok,23.71689542579254,56
+CUST000825,First-time,26-40,None,False,1,Guardian Tampines,48.03042074065854,6
+CUST000826,First-time,26-40,None,False,1,Guardian Orchard,104.50300775809539,46
+CUST000827,First-time,26-40,None,False,2,Guardian Bedok,128.14666729365672,46
+CUST000828,First-time,26-40,None,False,1,Guardian Ang Mo Kio,107.46597160790884,49
+CUST000829,First-time,26-40,None,False,2,Guardian Ang Mo Kio,124.84335361027377,5
+CUST000830,First-time,26-40,None,False,1,Guardian Bedok,95.11372674949631,14
+CUST000831,First-time,26-40,None,False,2,Guardian Tampines,91.67712623044119,44
+CUST000832,First-time,26-40,None,False,2,Guardian Orchard,98.48179823089929,4
+CUST000833,First-time,26-40,None,False,2,Guardian Orchard,125.37455434723896,55
+CUST000834,First-time,26-40,None,False,2,Guardian Orchard,82.91855381935456,10
+CUST000835,First-time,26-40,None,False,1,Guardian Ang Mo Kio,141.1820990294546,58
+CUST000836,First-time,26-40,None,False,2,Guardian Bedok,21.13196514629159,31
+CUST000837,First-time,26-40,None,False,1,Guardian Tampines,66.06628955883656,57
+CUST000838,First-time,26-40,None,False,2,Guardian Orchard,60.60529802436004,39
+CUST000839,First-time,26-40,None,False,2,Guardian Tampines,136.829356376965,6
+CUST000840,First-time,26-40,None,False,1,Guardian Bedok,47.79232459146378,55
+CUST000841,First-time,26-40,None,False,2,Guardian Ang Mo Kio,148.4412514140156,55
+CUST000842,First-time,26-40,None,False,1,Guardian Jurong,63.283934951686945,15
+CUST000843,First-time,26-40,None,False,1,Guardian Ang Mo Kio,81.14454374445481,59
+CUST000844,First-time,26-40,None,False,2,Guardian Ang Mo Kio,140.52988539023403,52
+CUST000845,First-time,26-40,None,False,1,Guardian Jurong,44.36769813463563,36
+CUST000846,First-time,26-40,None,False,1,Guardian Ang Mo Kio,91.67931445219921,18
+CUST000847,First-time,26-40,None,False,2,Guardian Ang Mo Kio,58.45783265629247,58
+CUST000848,First-time,26-40,None,False,1,Guardian Ang Mo Kio,118.59219311192507,47
+CUST000849,First-time,26-40,None,False,1,Guardian Ang Mo Kio,129.3088913805634,45
+CUST000850,First-time,26-40,None,False,1,Guardian Bedok,23.407778258569323,17
+CUST000851,First-time,26-40,None,False,1,Guardian Bedok,36.55930053153516,6
+CUST000852,First-time,26-40,None,False,1,Guardian Ang Mo Kio,139.89148703496147,10
+CUST000853,First-time,26-40,None,False,1,Guardian Orchard,85.06815352000561,49
+CUST000854,First-time,26-40,None,False,2,Guardian Tampines,63.43101986056223,53
+CUST000855,First-time,26-40,None,False,2,Guardian Bedok,89.07534113093989,35
+CUST000856,First-time,26-40,None,False,1,Guardian Tampines,73.87383030102683,23
+CUST000857,First-time,26-40,None,False,2,Guardian Bedok,44.5518292358324,4
+CUST000858,First-time,26-40,None,False,2,Guardian Orchard,149.6038616438343,36
+CUST000859,First-time,26-40,None,False,1,Guardian Bedok,38.45911210346122,11
+CUST000860,First-time,26-40,None,False,1,Guardian Ang Mo Kio,143.74092812555276,23
+CUST000861,First-time,26-40,None,False,1,Guardian Ang Mo Kio,112.78127847496249,36
+CUST000862,First-time,26-40,None,False,2,Guardian Bedok,26.078056304253234,48
+CUST000863,First-time,26-40,None,False,1,Guardian Tampines,24.526322400090308,7
+CUST000864,First-time,26-40,None,False,1,Guardian Orchard,25.879777053872687,41
+CUST000865,First-time,26-40,None,False,2,Guardian Bedok,55.07410585216785,54
+CUST000866,First-time,26-40,None,False,2,Guardian Ang Mo Kio,128.35836485060332,30
+CUST000867,First-time,26-40,None,False,1,Guardian Ang Mo Kio,54.56414179293056,44
+CUST000868,First-time,26-40,None,False,2,Guardian Bedok,105.49544619353513,54
+CUST000869,First-time,26-40,None,False,1,Guardian Tampines,95.17916359231285,53
+CUST000870,First-time,26-40,None,False,1,Guardian Jurong,133.21981227210148,55
+CUST000871,First-time,26-40,None,False,2,Guardian Bedok,64.4410442522252,7
+CUST000872,First-time,26-40,None,False,1,Guardian Orchard,129.06312306370245,5
+CUST000873,First-time,41-60,None,False,1,Guardian Ang Mo Kio,55.145154528866435,32
+CUST000874,First-time,41-60,None,False,2,Guardian Ang Mo Kio,102.66592644095309,50
+CUST000875,First-time,41-60,None,False,1,Guardian Ang Mo Kio,75.62386181018454,48
+CUST000876,First-time,41-60,None,False,1,Guardian Orchard,39.63039225519383,56
+CUST000877,First-time,41-60,None,False,2,Guardian Bedok,117.26894735198094,28
+CUST000878,First-time,41-60,None,False,2,Guardian Ang Mo Kio,87.9594662230206,43
+CUST000879,First-time,41-60,None,False,1,Guardian Ang Mo Kio,91.84232246798712,21
+CUST000880,First-time,41-60,None,False,2,Guardian Ang Mo Kio,79.85504310825183,11
+CUST000881,First-time,41-60,None,False,1,Guardian Tampines,100.67537575998,25
+CUST000882,First-time,41-60,None,False,2,Guardian Bedok,138.5466870986713,17
+CUST000883,First-time,41-60,None,False,1,Guardian Ang Mo Kio,101.49474771249115,57
+CUST000884,First-time,41-60,None,False,1,Guardian Orchard,124.77451173957283,17
+CUST000885,First-time,41-60,None,False,1,Guardian Bedok,67.12588586693116,51
+CUST000886,First-time,41-60,None,False,2,Guardian Orchard,92.33061351124726,19
+CUST000887,First-time,41-60,None,False,1,Guardian Tampines,122.20522859370473,43
+CUST000888,First-time,41-60,None,False,1,Guardian Ang Mo Kio,123.27942606682495,51
+CUST000889,First-time,41-60,None,False,1,Guardian Jurong,67.38742656669308,29
+CUST000890,First-time,41-60,None,False,1,Guardian Jurong,86.18960433211838,44
+CUST000891,First-time,41-60,None,False,2,Guardian Tampines,89.92797319245226,1
+CUST000892,First-time,41-60,None,False,1,Guardian Jurong,140.0689060997229,15
+CUST000893,First-time,41-60,None,False,2,Guardian Ang Mo Kio,75.96938198705362,26
+CUST000894,First-time,41-60,None,False,1,Guardian Orchard,54.991196059551825,13
+CUST000895,First-time,41-60,None,False,1,Guardian Bedok,119.97955034975831,2
+CUST000896,First-time,41-60,None,False,1,Guardian Ang Mo Kio,149.83467794702472,30
+CUST000897,First-time,41-60,None,False,2,Guardian Ang Mo Kio,30.003094158215386,8
+CUST000898,First-time,41-60,None,False,1,Guardian Bedok,140.07409137062288,44
+CUST000899,First-time,41-60,None,False,2,Guardian Orchard,98.70873792901246,32
+CUST000900,First-time,41-60,None,False,1,Guardian Ang Mo Kio,45.727192855270204,12
+CUST000901,First-time,41-60,None,False,1,Guardian Ang Mo Kio,30.925916947985097,12
+CUST000902,First-time,41-60,None,False,1,Guardian Ang Mo Kio,86.75616118923332,40
+CUST000903,First-time,41-60,None,False,1,Guardian Bedok,68.08115220313562,50
+CUST000904,First-time,41-60,None,False,2,Guardian Tampines,100.16645121414123,50
+CUST000905,First-time,41-60,None,False,2,Guardian Bedok,30.406735748527943,39
+CUST000906,First-time,41-60,None,False,1,Guardian Bedok,67.40810651065533,50
+CUST000907,First-time,41-60,None,False,1,Guardian Bedok,37.09933175279066,44
+CUST000908,First-time,41-60,None,False,2,Guardian Ang Mo Kio,77.8602958213115,11
+CUST000909,First-time,41-60,None,False,2,Guardian Bedok,142.11816757395775,41
+CUST000910,First-time,41-60,None,False,1,Guardian Ang Mo Kio,108.81070149589895,51
+CUST000911,First-time,41-60,None,False,2,Guardian Ang Mo Kio,48.91931531701157,40
+CUST000912,First-time,41-60,None,False,1,Guardian Bedok,127.9606076284363,47
+CUST000913,First-time,41-60,None,False,2,Guardian Jurong,134.281339413227,4
+CUST000914,First-time,41-60,None,False,1,Guardian Jurong,76.64869394026138,7
+CUST000915,First-time,41-60,None,False,2,Guardian Ang Mo Kio,28.73395900369342,44
+CUST000916,First-time,41-60,None,False,1,Guardian Tampines,66.99806549333358,34
+CUST000917,First-time,41-60,None,False,2,Guardian Tampines,41.00322171459517,44
+CUST000918,First-time,41-60,None,False,2,Guardian Bedok,118.1693452868771,39
+CUST000919,First-time,41-60,None,False,2,Guardian Bedok,36.57155816923121,35
+CUST000920,First-time,41-60,None,False,1,Guardian Jurong,101.39224172653844,1
+CUST000921,First-time,41-60,None,False,2,Guardian Bedok,89.45512205065431,52
+CUST000922,First-time,41-60,None,False,1,Guardian Jurong,116.75948265553657,40
+CUST000923,First-time,41-60,None,False,2,Guardian Bedok,138.4240629478562,37
+CUST000924,First-time,41-60,None,False,1,Guardian Bedok,76.1369561963296,48
+CUST000925,First-time,41-60,None,False,2,Guardian Ang Mo Kio,42.60357866749605,29
+CUST000926,First-time,41-60,None,False,2,Guardian Tampines,133.9687989835552,26
+CUST000927,First-time,41-60,None,False,2,Guardian Tampines,21.977628408331103,51
+CUST000928,First-time,41-60,None,False,1,Guardian Jurong,39.31741504840956,5
+CUST000929,First-time,41-60,None,False,1,Guardian Ang Mo Kio,130.45779740491759,24
+CUST000930,First-time,41-60,None,False,1,Guardian Ang Mo Kio,138.87585102159113,8
+CUST000931,First-time,41-60,None,False,1,Guardian Jurong,103.68411150680546,55
+CUST000932,First-time,41-60,None,False,2,Guardian Ang Mo Kio,124.9025552913916,6
+CUST000933,First-time,41-60,None,False,2,Guardian Jurong,101.89469832115559,54
+CUST000934,First-time,41-60,None,False,2,Guardian Tampines,71.51505067178918,1
+CUST000935,First-time,41-60,None,False,2,Guardian Jurong,78.56346718657475,15
+CUST000936,First-time,41-60,None,False,1,Guardian Orchard,82.40955474261966,25
+CUST000937,First-time,41-60,None,False,2,Guardian Ang Mo Kio,79.41480416980943,26
+CUST000938,First-time,41-60,None,False,2,Guardian Ang Mo Kio,120.31735195051562,11
+CUST000939,First-time,41-60,None,False,2,Guardian Bedok,62.62597969547543,37
+CUST000940,First-time,41-60,None,False,2,Guardian Ang Mo Kio,56.059279761281665,54
+CUST000941,First-time,41-60,None,False,1,Guardian Ang Mo Kio,107.53169610934343,10
+CUST000942,First-time,41-60,None,False,1,Guardian Ang Mo Kio,25.63444042655125,48
+CUST000943,First-time,41-60,None,False,1,Guardian Ang Mo Kio,27.87944021244982,54
+CUST000944,First-time,41-60,None,False,2,Guardian Bedok,102.35218775826984,9
+CUST000945,First-time,41-60,None,False,2,Guardian Jurong,42.16794045950074,13
+CUST000946,First-time,41-60,None,False,2,Guardian Ang Mo Kio,102.63075985669181,9
+CUST000947,First-time,41-60,None,False,2,Guardian Jurong,23.794141473983686,32
+CUST000948,First-time,41-60,None,False,2,Guardian Ang Mo Kio,50.563823840325256,42
+CUST000949,First-time,41-60,None,False,1,Guardian Ang Mo Kio,38.45494338965939,52
+CUST000950,First-time,41-60,None,False,2,Guardian Bedok,33.441884472152694,58
+CUST000951,First-time,41-60,None,False,1,Guardian Ang Mo Kio,89.03851215918445,6
+CUST000952,First-time,41-60,None,False,1,Guardian Ang Mo Kio,86.64744810868157,40
+CUST000953,First-time,41-60,None,False,2,Guardian Jurong,91.28725645969111,46
+CUST000954,First-time,41-60,None,False,2,Guardian Bedok,81.08707359573864,47
+CUST000955,First-time,41-60,None,False,2,Guardian Bedok,59.28375384151654,33
+CUST000956,First-time,41-60,None,False,2,Guardian Bedok,61.597950920553544,11
+CUST000957,First-time,41-60,None,False,1,Guardian Bedok,117.27626963696827,41
+CUST000958,First-time,41-60,None,False,1,Guardian Jurong,85.20309086890155,59
+CUST000959,First-time,41-60,None,False,2,Guardian Ang Mo Kio,95.65577018125231,37
+CUST000960,First-time,41-60,None,False,2,Guardian Bedok,36.2262980297166,40
+CUST000961,First-time,41-60,None,False,2,Guardian Ang Mo Kio,20.386104917555162,27
+CUST000962,First-time,41-60,None,False,2,Guardian Ang Mo Kio,43.86767212898577,43
+CUST000963,First-time,41-60,None,False,2,Guardian Bedok,99.55067548443694,1
+CUST000964,First-time,41-60,None,False,2,Guardian Orchard,45.58101341532376,57
+CUST000965,First-time,41-60,None,False,2,Guardian Bedok,44.97920960240542,47
+CUST000966,First-time,41-60,None,False,1,Guardian Jurong,73.81889372879607,32
+CUST000967,First-time,41-60,None,False,2,Guardian Jurong,111.91903851770186,42
+CUST000968,First-time,41-60,None,False,1,Guardian Ang Mo Kio,91.80302920168218,59
+CUST000969,First-time,41-60,None,False,1,Guardian Bedok,68.0286124147023,23
+CUST000970,First-time,41-60,None,False,2,Guardian Bedok,27.505931612419175,37
+CUST000971,First-time,41-60,None,False,2,Guardian Bedok,82.62007994748666,51
+CUST000972,First-time,41-60,None,False,2,Guardian Ang Mo Kio,37.31137741071569,36
+CUST000973,First-time,41-60,None,False,2,Guardian Tampines,67.86777737709346,18
+CUST000974,First-time,41-60,None,False,2,Guardian Orchard,82.12040377926373,6
+CUST000975,First-time,41-60,None,False,1,Guardian Ang Mo Kio,91.8478069245531,13
+CUST000976,First-time,41-60,None,False,2,Guardian Bedok,33.69934575557248,27
+CUST000977,First-time,41-60,None,False,1,Guardian Ang Mo Kio,21.611921342084663,5
+CUST000978,First-time,41-60,None,False,1,Guardian Orchard,51.02625969051197,42
+CUST000979,First-time,41-60,None,False,1,Guardian Jurong,91.69724259748337,37
+CUST000980,First-time,41-60,None,False,2,Guardian Tampines,64.57662209677807,12
+CUST000981,First-time,41-60,None,False,2,Guardian Bedok,41.83036220476219,59
+CUST000982,First-time,41-60,None,False,2,Guardian Jurong,120.07095081233575,59
+CUST000983,First-time,41-60,None,False,1,Guardian Ang Mo Kio,92.72724192090173,17
+CUST000984,First-time,41-60,None,False,2,Guardian Tampines,70.17315213715472,13
+CUST000985,First-time,41-60,None,False,2,Guardian Ang Mo Kio,106.72570538323575,32
+CUST000986,First-time,41-60,None,False,1,Guardian Jurong,36.353045854163256,32
+CUST000987,First-time,60+,None,False,2,Guardian Bedok,132.85298677946685,51
+CUST000988,First-time,60+,None,False,1,Guardian Orchard,58.416792136429095,36
+CUST000989,First-time,60+,None,False,1,Guardian Tampines,93.98875102883544,53
+CUST000990,First-time,60+,None,False,2,Guardian Ang Mo Kio,65.1792682126231,56
+CUST000991,First-time,60+,None,False,2,Guardian Bedok,102.39497272132786,52
+CUST000992,First-time,60+,None,False,2,Guardian Bedok,85.78648918500544,9
+CUST000993,First-time,60+,None,False,1,Guardian Jurong,88.22208720265401,29
+CUST000994,First-time,60+,None,False,2,Guardian Bedok,23.29329448576646,12
+CUST000995,First-time,60+,None,False,2,Guardian Jurong,82.0294936723819,11
+CUST000996,First-time,60+,None,False,2,Guardian Orchard,120.42254341134702,31
+CUST000997,First-time,60+,None,False,2,Guardian Ang Mo Kio,146.34479258479433,7
+CUST000998,First-time,60+,None,False,1,Guardian Ang Mo Kio,77.52677335193255,11
+CUST000999,First-time,60+,None,False,2,Guardian Jurong,122.32761055337794,18
+CUST001000,First-time,60+,None,False,1,Guardian Ang Mo Kio,82.85886662320547,44
+CUST001001,First-time,60+,None,False,1,Guardian Bedok,55.392007531626575,29
+CUST001002,First-time,60+,None,False,1,Guardian Ang Mo Kio,23.19603441074091,27
+CUST001003,First-time,60+,None,False,1,Guardian Ang Mo Kio,63.721510463878595,51
+CUST001004,First-time,60+,None,False,1,Guardian Ang Mo Kio,58.71947408441829,43
+CUST001005,First-time,60+,None,False,1,Guardian Tampines,144.0221478734761,3
+CUST001006,First-time,60+,None,False,1,Guardian Tampines,30.12727570670375,59
+CUST001007,First-time,60+,None,False,2,Guardian Bedok,83.26234280256729,17
+CUST001008,First-time,60+,None,False,2,Guardian Bedok,136.2412281254409,6
+CUST001009,First-time,60+,None,False,2,Guardian Bedok,94.50431807995405,10
+CUST001010,First-time,60+,None,False,2,Guardian Ang Mo Kio,74.72863013280778,51
+CUST001011,First-time,60+,None,False,1,Guardian Ang Mo Kio,71.97183979215242,48
+CUST001012,First-time,60+,None,False,1,Guardian Ang Mo Kio,57.255701488055585,46
+CUST001013,First-time,60+,None,False,2,Guardian Ang Mo Kio,100.45006722868412,49
+CUST001014,First-time,60+,None,False,2,Guardian Tampines,32.33219348747911,6
+CUST001015,First-time,60+,None,False,1,Guardian Tampines,51.34653955179264,27
+CUST001016,First-time,60+,None,False,1,Guardian Tampines,80.47910969933929,11
+CUST001017,First-time,60+,None,False,1,Guardian Bedok,107.56711342520943,12
+CUST001018,First-time,60+,None,False,1,Guardian Bedok,51.52298489442579,32
+CUST001019,First-time,60+,None,False,2,Guardian Tampines,94.69553025146,29
+CUST001020,First-time,60+,None,False,2,Guardian Jurong,76.18353403952412,36
+CUST001021,First-time,60+,None,False,1,Guardian Ang Mo Kio,32.23757500661364,25
+CUST001022,First-time,60+,None,False,2,Guardian Tampines,98.78345451397625,57
+CUST001023,First-time,60+,None,False,1,Guardian Bedok,50.808229983694105,41
+CUST001024,First-time,60+,None,False,2,Guardian Ang Mo Kio,120.24322089551632,27
+CUST001025,First-time,60+,None,False,1,Guardian Tampines,39.754421788056206,47
+CUST001026,First-time,60+,None,False,1,Guardian Tampines,117.79116048577231,49
+CUST001027,First-time,60+,None,False,1,Guardian Orchard,61.4757470859425,58
+CUST001028,First-time,60+,None,False,2,Guardian Ang Mo Kio,147.83420708012795,27
+CUST001029,First-time,60+,None,False,1,Guardian Jurong,47.6310230570594,44
+CUST001030,First-time,60+,None,False,1,Guardian Tampines,75.29845336510814,43
+CUST001031,First-time,60+,None,False,1,Guardian Tampines,101.85536906723888,37
+CUST001032,First-time,60+,None,False,2,Guardian Ang Mo Kio,102.49907388608563,42
+CUST001033,First-time,60+,None,False,1,Guardian Bedok,40.39263531674949,5
+CUST001034,First-time,60+,None,False,1,Guardian Jurong,115.40591323791847,28
+CUST001035,First-time,60+,None,False,1,Guardian Tampines,117.77650374466889,35
+CUST001036,First-time,60+,None,False,1,Guardian Ang Mo Kio,121.7661376348788,4
+CUST001037,First-time,60+,None,False,1,Guardian Bedok,32.63662809990375,32
+CUST001038,First-time,60+,None,False,2,Guardian Orchard,67.0304147191063,39
+CUST001039,First-time,60+,None,False,2,Guardian Bedok,89.85181857841339,22
+CUST001040,First-time,60+,None,False,1,Guardian Bedok,33.481547657802075,10
+CUST001041,First-time,60+,None,False,1,Guardian Bedok,106.20477541065057,38
+CUST001042,First-time,60+,None,False,1,Guardian Ang Mo Kio,111.6695473127614,26
+CUST001043,First-time,60+,None,False,2,Guardian Tampines,114.24349395536007,21
+CUST001044,First-time,60+,None,False,2,Guardian Ang Mo Kio,38.52806267986173,34
+CUST001045,First-time,60+,None,False,1,Guardian Ang Mo Kio,131.79829122771173,44
+CUST001046,First-time,60+,None,False,1,Guardian Jurong,37.44008514720444,5
+CUST001047,First-time,60+,None,False,2,Guardian Ang Mo Kio,146.82464777994863,55
+CUST001048,First-time,60+,None,False,2,Guardian Orchard,129.303627391469,57
+CUST001049,First-time,60+,None,False,2,Guardian Tampines,74.41719954179601,29
+CUST001050,First-time,60+,None,False,2,Guardian Tampines,77.39712003469121,52
+CUST001051,First-time,60+,None,False,2,Guardian Ang Mo Kio,32.026537989350615,55
+CUST001052,First-time,60+,None,False,2,Guardian Ang Mo Kio,64.84968627259086,37
+CUST001053,First-time,60+,None,False,2,Guardian Jurong,68.10464391331757,27
+CUST001054,First-time,60+,None,False,1,Guardian Bedok,144.449786386538,53
+CUST001055,First-time,60+,None,False,1,Guardian Orchard,39.93712830218498,45
+CUST001056,First-time,60+,None,False,2,Guardian Tampines,148.0602932992331,18
+CUST001057,First-time,60+,None,False,1,Guardian Bedok,104.06285854700752,51
+CUST001058,First-time,60+,None,False,1,Guardian Ang Mo Kio,77.16095342778075,5
+CUST001059,First-time,60+,None,False,1,Guardian Ang Mo Kio,48.61296776192953,13
+CUST001060,First-time,60+,None,False,2,Guardian Ang Mo Kio,114.59589075806385,45
+CUST001061,First-time,60+,None,False,1,Guardian Ang Mo Kio,77.61720471023753,22
+CUST001062,First-time,60+,None,False,2,Guardian Jurong,91.86450209479759,28
+CUST001063,First-time,60+,None,False,2,Guardian Orchard,36.15869959407932,54
+CUST001064,First-time,60+,None,False,1,Guardian Tampines,114.3921461136879,57
+CUST001065,First-time,60+,None,False,1,Guardian Ang Mo Kio,23.228308009209876,29
+CUST001066,First-time,60+,None,False,1,Guardian Orchard,27.083874398342516,55
+CUST001067,First-time,60+,None,False,2,Guardian Orchard,51.81238695216679,32
+CUST001068,First-time,60+,None,False,2,Guardian Jurong,55.71143640776445,24
+CUST001069,First-time,60+,None,False,1,Guardian Ang Mo Kio,60.38954275287238,41
+CUST001070,First-time,60+,None,False,2,Guardian Bedok,145.7469815417947,11
+CUST001071,First-time,60+,None,False,1,Guardian Bedok,88.00008472048826,44
+CUST001072,First-time,60+,None,False,2,Guardian Jurong,52.923388452931086,7
+CUST001073,First-time,60+,None,False,1,Guardian Jurong,96.84532898638302,24
+CUST001074,First-time,60+,None,False,2,Guardian Tampines,119.39000515429376,26
+CUST001075,First-time,60+,None,False,2,Guardian Tampines,76.7161859097273,34
+CUST001076,First-time,60+,None,False,2,Guardian Tampines,116.31535481073745,27
+CUST001077,First-time,60+,None,False,2,Guardian Orchard,92.17832607429487,57
+CUST001078,First-time,60+,None,False,1,Guardian Ang Mo Kio,26.67675457076564,35
+CUST001079,First-time,60+,None,False,2,Guardian Tampines,68.63347937169408,21
+CUST001080,First-time,60+,None,False,1,Guardian Ang Mo Kio,33.545223688158416,27
+CUST001081,First-time,60+,None,False,1,Guardian Orchard,96.69990134746656,15
+CUST001082,First-time,60+,None,False,1,Guardian Tampines,72.6156771361355,13
+CUST001083,First-time,60+,None,False,2,Guardian Ang Mo Kio,55.45010489257277,42
+CUST001084,First-time,60+,None,False,1,Guardian Bedok,143.5887380799732,8
+CUST001085,First-time,60+,None,False,1,Guardian Bedok,56.10136904987126,9
+CUST001086,First-time,60+,None,False,1,Guardian Orchard,29.60122408626457,49
+CUST001087,First-time,60+,None,False,2,Guardian Ang Mo Kio,73.87430066741874,26
+CUST001088,First-time,60+,None,False,2,Guardian Ang Mo Kio,117.72008621527871,20
+CUST001089,First-time,60+,None,False,1,Guardian Orchard,48.20544426122886,18
+CUST001090,First-time,60+,None,False,2,Guardian Tampines,137.60145192440288,7
+CUST001091,First-time,60+,None,False,2,Guardian Jurong,75.63152170314396,2
+CUST001092,First-time,60+,None,False,1,Guardian Bedok,143.1093990042031,42
+CUST001093,First-time,60+,None,False,2,Guardian Bedok,107.7035950740648,13
+CUST001094,First-time,60+,None,False,2,Guardian Bedok,48.94523974446879,36
+CUST001095,First-time,60+,None,False,2,Guardian Ang Mo Kio,114.81332238481414,46
+CUST001096,First-time,60+,None,False,1,Guardian Jurong,88.16336361292258,22
+CUST001097,First-time,60+,None,False,1,Guardian Ang Mo Kio,98.22127128352325,41
+CUST001098,First-time,60+,None,False,1,Guardian Jurong,79.14431764031681,38
+CUST001099,First-time,60+,None,False,1,Guardian Tampines,98.53578696679452,34
+CUST001100,First-time,60+,None,False,1,Guardian Jurong,132.5746885769442,6
+CUST001101,First-time,60+,None,False,1,Guardian Tampines,47.22905492649616,4
+CUST001102,First-time,60+,None,False,2,Guardian Orchard,35.14205547589874,23
+CUST001103,First-time,60+,None,False,1,Guardian Bedok,61.68262112438003,31
+CUST001104,First-time,60+,None,False,2,Guardian Ang Mo Kio,143.60341202108293,12
+CUST001105,First-time,60+,None,False,1,Guardian Jurong,85.70234983403127,40
+CUST001106,First-time,60+,None,False,1,Guardian Tampines,120.21831479327707,38
+CUST001107,First-time,60+,None,False,2,Guardian Tampines,61.83838650086843,50
+CUST001108,Regular,0-12,None,False,5,Guardian Orchard,116.63859757112283,6
+CUST001109,Regular,0-12,None,False,4,Guardian Ang Mo Kio,84.36111896646075,34
+CUST001110,Regular,0-12,None,False,3,Guardian Bedok,147.52093311904815,47
+CUST001111,Regular,0-12,None,False,5,Guardian Jurong,32.71067247589418,7
+CUST001112,Regular,0-12,None,False,5,Guardian Ang Mo Kio,122.63984982992743,59
+CUST001113,Regular,0-12,None,False,6,Guardian Jurong,133.18437559741994,8
+CUST001114,Regular,0-12,None,False,7,Guardian Bedok,25.704999533758325,42
+CUST001115,Regular,0-12,None,False,6,Guardian Tampines,44.3543374485036,15
+CUST001116,Regular,0-12,None,False,7,Guardian Orchard,149.80611361926648,32
+CUST001117,Regular,0-12,None,False,5,Guardian Orchard,53.47491113690541,53
+CUST001118,Regular,0-12,None,False,4,Guardian Tampines,29.221577084055497,52
+CUST001119,Regular,0-12,None,False,3,Guardian Bedok,51.252797739404826,18
+CUST001120,Regular,0-12,None,False,3,Guardian Ang Mo Kio,130.88760258378056,49
+CUST001121,Regular,0-12,None,False,5,Guardian Tampines,107.57558755121096,50
+CUST001122,Regular,0-12,None,False,4,Guardian Ang Mo Kio,91.88376655457637,21
+CUST001123,Regular,0-12,None,False,6,Guardian Ang Mo Kio,35.112849904313734,13
+CUST001124,Regular,0-12,None,False,4,Guardian Orchard,75.32504580017412,55
+CUST001125,Regular,0-12,None,False,5,Guardian Tampines,144.56916460973355,2
+CUST001126,Regular,0-12,None,False,4,Guardian Jurong,72.1456520314797,26
+CUST001127,Regular,0-12,None,False,5,Guardian Tampines,34.944021586125146,16
+CUST001128,Regular,0-12,None,False,6,Guardian Orchard,73.13254535203716,16
+CUST001129,Regular,0-12,None,False,5,Guardian Ang Mo Kio,95.3789230156335,32
+CUST001130,Regular,0-12,None,False,3,Guardian Orchard,137.74392113880094,57
+CUST001131,Regular,0-12,None,False,4,Guardian Tampines,88.21513453212107,42
+CUST001132,Regular,0-12,None,False,4,Guardian Ang Mo Kio,118.8455803533614,24
+CUST001133,Regular,0-12,None,False,3,Guardian Tampines,125.80892596398634,49
+CUST001134,Regular,0-12,None,False,6,Guardian Orchard,61.338015875980155,18
+CUST001135,Regular,0-12,None,False,3,Guardian Ang Mo Kio,130.14959089786785,6
+CUST001136,Regular,0-12,None,False,5,Guardian Jurong,149.97235341361358,21
+CUST001137,Regular,0-12,None,False,5,Guardian Tampines,127.88385394000727,50
+CUST001138,Regular,0-12,None,False,6,Guardian Ang Mo Kio,73.38072255536333,33
+CUST001139,Regular,0-12,None,False,4,Guardian Orchard,57.811073215869705,46
+CUST001140,Regular,0-12,None,False,4,Guardian Tampines,28.547941683808165,47
+CUST001141,Regular,0-12,None,False,4,Guardian Ang Mo Kio,21.774263272455286,11
+CUST001142,Regular,0-12,None,False,7,Guardian Tampines,74.35903841259825,39
+CUST001143,Regular,0-12,None,False,3,Guardian Jurong,113.06872285324894,35
+CUST001144,Regular,0-12,None,False,4,Guardian Tampines,94.521653733264,19
+CUST001145,Regular,0-12,None,False,7,Guardian Ang Mo Kio,101.46444893674496,52
+CUST001146,Regular,0-12,None,False,6,Guardian Jurong,105.42576534575419,42
+CUST001147,Regular,0-12,None,False,5,Guardian Tampines,107.14786411470946,21
+CUST001148,Regular,0-12,None,False,7,Guardian Jurong,119.49610455950442,36
+CUST001149,Regular,0-12,None,False,7,Guardian Ang Mo Kio,142.03038521418634,41
+CUST001150,Regular,0-12,None,False,3,Guardian Jurong,143.60570643740334,4
+CUST001151,Regular,0-12,None,False,5,Guardian Ang Mo Kio,125.64781420722734,31
+CUST001152,Regular,0-12,None,False,5,Guardian Ang Mo Kio,51.47904323764503,35
+CUST001153,Regular,13-25,None,False,5,Guardian Bedok,104.61118666635082,43
+CUST001154,Regular,13-25,None,False,4,Guardian Ang Mo Kio,84.2485904987193,41
+CUST001155,Regular,13-25,None,False,7,Guardian Tampines,124.80998042032543,44
+CUST001156,Regular,13-25,None,False,7,Guardian Ang Mo Kio,61.03827606148766,30
+CUST001157,Regular,13-25,None,False,7,Guardian Jurong,30.701470863080168,9
+CUST001158,Regular,13-25,None,False,6,Guardian Jurong,117.25703479064953,53
+CUST001159,Regular,13-25,None,False,4,Guardian Tampines,141.3059043751252,14
+CUST001160,Regular,13-25,None,False,7,Guardian Tampines,41.25282841136597,27
+CUST001161,Regular,13-25,None,False,6,Guardian Bedok,115.47045867167033,30
+CUST001162,Regular,13-25,None,False,3,Guardian Orchard,100.56060217062522,29
+CUST001163,Regular,13-25,None,False,3,Guardian Jurong,99.2201603947654,42
+CUST001164,Regular,13-25,None,False,7,Guardian Bedok,126.60317003225421,10
+CUST001165,Regular,13-25,None,False,3,Guardian Tampines,79.92991356157117,50
+CUST001166,Regular,13-25,None,False,7,Guardian Tampines,23.532481232421738,56
+CUST001167,Regular,13-25,None,False,7,Guardian Tampines,52.387662741662794,16
+CUST001168,Regular,13-25,None,False,3,Guardian Jurong,127.62993391320666,49
+CUST001169,Regular,13-25,None,False,7,Guardian Ang Mo Kio,29.9886917463092,12
+CUST001170,Regular,13-25,None,False,6,Guardian Ang Mo Kio,62.71726276762834,26
+CUST001171,Regular,13-25,None,False,6,Guardian Ang Mo Kio,56.24216361395947,13
+CUST001172,Regular,13-25,None,False,7,Guardian Bedok,57.580435336670554,40
+CUST001173,Regular,13-25,None,False,4,Guardian Bedok,147.8971770719712,16
+CUST001174,Regular,13-25,None,False,5,Guardian Ang Mo Kio,144.35990864423917,47
+CUST001175,Regular,13-25,None,False,3,Guardian Orchard,100.37253222482191,17
+CUST001176,Regular,13-25,None,False,3,Guardian Ang Mo Kio,115.86947068403506,16
+CUST001177,Regular,13-25,None,False,4,Guardian Ang Mo Kio,122.80961016368767,26
+CUST001178,Regular,13-25,None,False,5,Guardian Jurong,39.72006116824909,37
+CUST001179,Regular,13-25,None,False,5,Guardian Orchard,107.2582800124512,47
+CUST001180,Regular,13-25,None,False,5,Guardian Orchard,38.49612661914963,45
+CUST001181,Regular,13-25,None,False,3,Guardian Tampines,63.50858388088999,55
+CUST001182,Regular,13-25,None,False,5,Guardian Tampines,46.39132000101251,18
+CUST001183,Regular,13-25,None,False,3,Guardian Tampines,135.3006946062737,43
+CUST001184,Regular,13-25,None,False,7,Guardian Ang Mo Kio,85.03369510083463,40
+CUST001185,Regular,13-25,None,False,5,Guardian Orchard,100.72561764637375,45
+CUST001186,Regular,13-25,None,False,6,Guardian Tampines,105.30129297863304,55
+CUST001187,Regular,13-25,None,False,6,Guardian Jurong,134.5718821721231,29
+CUST001188,Regular,13-25,None,False,3,Guardian Jurong,145.84580007790942,10
+CUST001189,Regular,13-25,None,False,6,Guardian Ang Mo Kio,41.088733288630195,18
+CUST001190,Regular,13-25,None,False,4,Guardian Ang Mo Kio,48.610819754835525,16
+CUST001191,Regular,13-25,None,False,6,Guardian Ang Mo Kio,31.328775679745995,23
+CUST001192,Regular,13-25,None,False,4,Guardian Bedok,122.52676265670713,47
+CUST001193,Regular,13-25,None,False,4,Guardian Ang Mo Kio,105.1958462832239,8
+CUST001194,Regular,13-25,None,False,7,Guardian Ang Mo Kio,54.22545081152941,44
+CUST001195,Regular,13-25,None,False,3,Guardian Orchard,53.80889804605934,43
+CUST001196,Regular,13-25,None,False,5,Guardian Jurong,58.412176474027106,26
+CUST001197,Regular,13-25,None,False,7,Guardian Tampines,119.593552497592,20
+CUST001198,Regular,13-25,None,False,7,Guardian Tampines,25.677015063722934,52
+CUST001199,Regular,13-25,None,False,7,Guardian Bedok,83.61453498973657,47
+CUST001200,Regular,13-25,None,False,4,Guardian Tampines,72.29411350277988,57
+CUST001201,Regular,13-25,None,False,7,Guardian Tampines,39.11247805066087,33
+CUST001202,Regular,13-25,None,False,4,Guardian Bedok,146.86548963724897,6
+CUST001203,Regular,13-25,None,False,7,Guardian Ang Mo Kio,93.71084096258691,21
+CUST001204,Regular,13-25,None,False,3,Guardian Ang Mo Kio,55.86109024598082,45
+CUST001205,Regular,13-25,None,False,5,Guardian Orchard,114.1778374197975,10
+CUST001206,Regular,13-25,None,False,3,Guardian Bedok,72.70833674252336,30
+CUST001207,Regular,13-25,None,False,6,Guardian Ang Mo Kio,27.99842051967701,27
+CUST001208,Regular,13-25,None,False,6,Guardian Jurong,72.6586928776891,50
+CUST001209,Regular,13-25,None,False,7,Guardian Jurong,94.28106090287953,3
+CUST001210,Regular,13-25,None,False,6,Guardian Ang Mo Kio,85.81063010927774,30
+CUST001211,Regular,13-25,None,False,5,Guardian Tampines,22.23481448611746,35
+CUST001212,Regular,13-25,None,False,5,Guardian Ang Mo Kio,85.1670750845372,17
+CUST001213,Regular,13-25,None,False,3,Guardian Ang Mo Kio,130.5187724625098,47
+CUST001214,Regular,13-25,None,False,7,Guardian Tampines,39.836798168061065,53
+CUST001215,Regular,13-25,None,False,3,Guardian Bedok,51.441166956383526,42
+CUST001216,Regular,13-25,None,False,4,Guardian Ang Mo Kio,70.3802789582673,48
+CUST001217,Regular,13-25,None,False,7,Guardian Bedok,72.12270448202246,29
+CUST001218,Regular,13-25,None,False,7,Guardian Jurong,138.73439132770193,12
+CUST001219,Regular,13-25,None,False,5,Guardian Jurong,125.35958877973766,1
+CUST001220,Regular,13-25,None,False,3,Guardian Bedok,53.12903433957852,45
+CUST001221,Regular,13-25,None,False,6,Guardian Ang Mo Kio,97.86648640293001,48
+CUST001222,Regular,13-25,None,False,7,Guardian Ang Mo Kio,141.11874199499414,51
+CUST001223,Regular,13-25,None,False,6,Guardian Orchard,54.81495989438136,6
+CUST001224,Regular,13-25,None,False,4,Guardian Tampines,79.98056775996848,51
+CUST001225,Regular,13-25,None,False,3,Guardian Jurong,98.68098298628729,35
+CUST001226,Regular,13-25,None,False,3,Guardian Tampines,118.8234541556534,23
+CUST001227,Regular,13-25,None,False,3,Guardian Orchard,87.3751387989435,35
+CUST001228,Regular,13-25,None,False,3,Guardian Bedok,60.74131490130939,20
+CUST001229,Regular,13-25,None,False,7,Guardian Ang Mo Kio,112.53936194528147,33
+CUST001230,Regular,13-25,None,False,3,Guardian Ang Mo Kio,78.58977132842637,53
+CUST001231,Regular,13-25,None,False,7,Guardian Orchard,143.47860403092616,59
+CUST001232,Regular,13-25,None,False,5,Guardian Ang Mo Kio,71.97596191980696,22
+CUST001233,Regular,13-25,None,False,3,Guardian Bedok,66.04143850853426,35
+CUST001234,Regular,13-25,None,False,6,Guardian Ang Mo Kio,147.0685026650512,37
+CUST001235,Regular,13-25,None,False,6,Guardian Orchard,22.068055908002165,51
+CUST001236,Regular,13-25,None,False,3,Guardian Ang Mo Kio,117.46242629859266,8
+CUST001237,Regular,13-25,None,False,6,Guardian Bedok,73.20228676080363,35
+CUST001238,Regular,13-25,None,False,7,Guardian Jurong,132.2908698593772,28
+CUST001239,Regular,13-25,None,False,5,Guardian Tampines,81.42778041363351,43
+CUST001240,Regular,13-25,None,False,4,Guardian Bedok,148.3652791859646,12
+CUST001241,Regular,26-40,None,False,6,Guardian Orchard,96.25664253319832,46
+CUST001242,Regular,26-40,None,False,4,Guardian Tampines,88.73081708980507,37
+CUST001243,Regular,26-40,None,False,7,Guardian Bedok,110.34241530618173,50
+CUST001244,Regular,26-40,None,False,6,Guardian Tampines,68.58680131770632,16
+CUST001245,Regular,26-40,None,False,5,Guardian Bedok,55.79751722474429,29
+CUST001246,Regular,26-40,None,False,3,Guardian Jurong,85.26356870211113,49
+CUST001247,Regular,26-40,None,False,7,Guardian Bedok,131.57814121867423,6
+CUST001248,Regular,26-40,None,False,3,Guardian Orchard,78.59831685009473,56
+CUST001249,Regular,26-40,None,False,3,Guardian Tampines,126.45275563388752,34
+CUST001250,Regular,26-40,None,False,4,Guardian Jurong,79.95285286968443,2
+CUST001251,Regular,26-40,None,False,7,Guardian Tampines,94.97101243531752,20
+CUST001252,Regular,26-40,None,False,4,Guardian Ang Mo Kio,52.18462345481918,12
+CUST001253,Regular,26-40,None,False,6,Guardian Tampines,85.90466320346975,14
+CUST001254,Regular,26-40,None,False,7,Guardian Jurong,88.7742576059747,11
+CUST001255,Regular,26-40,None,False,7,Guardian Ang Mo Kio,107.64814698243272,41
+CUST001256,Regular,26-40,None,False,5,Guardian Ang Mo Kio,120.4233207059296,25
+CUST001257,Regular,26-40,None,False,3,Guardian Bedok,68.21387861355649,53
+CUST001258,Regular,26-40,None,False,7,Guardian Ang Mo Kio,68.72538152749628,26
+CUST001259,Regular,26-40,None,False,3,Guardian Ang Mo Kio,118.90666900110249,4
+CUST001260,Regular,26-40,None,False,3,Guardian Orchard,143.02738480230488,57
+CUST001261,Regular,26-40,None,False,7,Guardian Bedok,30.25420389212504,16
+CUST001262,Regular,26-40,None,False,3,Guardian Bedok,141.99151190525072,26
+CUST001263,Regular,26-40,None,False,4,Guardian Ang Mo Kio,34.8190922915819,10
+CUST001264,Regular,26-40,None,False,7,Guardian Orchard,23.673802404159577,11
+CUST001265,Regular,26-40,None,False,5,Guardian Bedok,93.74797534989588,22
+CUST001266,Regular,26-40,None,False,5,Guardian Jurong,58.65104344076322,27
+CUST001267,Regular,26-40,None,False,7,Guardian Ang Mo Kio,139.95463171290726,59
+CUST001268,Regular,26-40,None,False,3,Guardian Bedok,57.02297766417715,15
+CUST001269,Regular,26-40,None,False,5,Guardian Ang Mo Kio,23.17592282495852,12
+CUST001270,Regular,26-40,None,False,6,Guardian Ang Mo Kio,144.69506246560286,40
+CUST001271,Regular,26-40,None,False,6,Guardian Tampines,138.47638296680125,57
+CUST001272,Regular,26-40,None,False,4,Guardian Jurong,90.63197504333273,50
+CUST001273,Regular,26-40,None,False,4,Guardian Orchard,39.48253521382131,37
+CUST001274,Regular,26-40,None,False,5,Guardian Ang Mo Kio,142.00783244336324,22
+CUST001275,Regular,26-40,None,False,4,Guardian Ang Mo Kio,64.12019565512452,56
+CUST001276,Regular,26-40,None,False,6,Guardian Orchard,115.76889150870684,24
+CUST001277,Regular,26-40,None,False,4,Guardian Orchard,52.3876542201982,25
+CUST001278,Regular,26-40,None,False,6,Guardian Bedok,129.44139826241445,46
+CUST001279,Regular,26-40,None,False,3,Guardian Bedok,26.922405614306037,14
+CUST001280,Regular,26-40,None,False,5,Guardian Tampines,91.57956343401399,22
+CUST001281,Regular,26-40,None,False,7,Guardian Ang Mo Kio,54.35855655082632,37
+CUST001282,Regular,26-40,None,False,3,Guardian Jurong,64.27910818582193,8
+CUST001283,Regular,26-40,None,False,4,Guardian Bedok,50.58807987000963,4
+CUST001284,Regular,26-40,None,False,4,Guardian Tampines,22.997920031521137,20
+CUST001285,Regular,26-40,None,False,3,Guardian Bedok,36.96390119261167,1
+CUST001286,Regular,26-40,None,False,4,Guardian Bedok,134.3743731242488,51
+CUST001287,Regular,26-40,None,False,6,Guardian Orchard,101.10890230316558,52
+CUST001288,Regular,26-40,None,False,3,Guardian Ang Mo Kio,38.63712539410173,42
+CUST001289,Regular,26-40,None,False,5,Guardian Bedok,144.1590771989514,3
+CUST001290,Regular,26-40,None,False,4,Guardian Orchard,135.07038395294308,35
+CUST001291,Regular,26-40,None,False,5,Guardian Orchard,64.27143717614112,20
+CUST001292,Regular,26-40,None,False,3,Guardian Bedok,114.8198896201582,7
+CUST001293,Regular,26-40,None,False,3,Guardian Bedok,89.34247661972006,18
+CUST001294,Regular,26-40,None,False,7,Guardian Ang Mo Kio,130.4967785201057,26
+CUST001295,Regular,26-40,None,False,3,Guardian Ang Mo Kio,46.665157459540005,9
+CUST001296,Regular,26-40,None,False,3,Guardian Ang Mo Kio,36.12569771958924,20
+CUST001297,Regular,26-40,None,False,4,Guardian Orchard,119.31596113390594,8
+CUST001298,Regular,26-40,None,False,6,Guardian Bedok,61.164955425019215,12
+CUST001299,Regular,26-40,None,False,4,Guardian Ang Mo Kio,24.800326437942953,1
+CUST001300,Regular,26-40,None,False,5,Guardian Jurong,62.57424186564074,43
+CUST001301,Regular,26-40,None,False,5,Guardian Orchard,98.20399249130304,47
+CUST001302,Regular,26-40,None,False,4,Guardian Ang Mo Kio,132.24647344564184,12
+CUST001303,Regular,26-40,None,False,7,Guardian Tampines,65.87241339266326,46
+CUST001304,Regular,26-40,None,False,6,Guardian Jurong,125.78990976995891,39
+CUST001305,Regular,26-40,None,False,4,Guardian Ang Mo Kio,89.6758872618566,4
+CUST001306,Regular,26-40,None,False,7,Guardian Orchard,115.95717444633395,52
+CUST001307,Regular,26-40,None,False,4,Guardian Bedok,83.60653389199848,34
+CUST001308,Regular,26-40,None,False,6,Guardian Orchard,85.94544604433136,20
+CUST001309,Regular,26-40,None,False,4,Guardian Jurong,63.409214345601804,48
+CUST001310,Regular,26-40,None,False,4,Guardian Tampines,33.28269767226338,55
+CUST001311,Regular,26-40,None,False,5,Guardian Orchard,46.799651175206456,27
+CUST001312,Regular,26-40,None,False,5,Guardian Bedok,84.67025014930766,25
+CUST001313,Regular,26-40,None,False,3,Guardian Tampines,29.789217214532343,4
+CUST001314,Regular,26-40,None,False,4,Guardian Bedok,55.73518237052694,47
+CUST001315,Regular,26-40,None,False,4,Guardian Jurong,65.11700941881709,44
+CUST001316,Regular,26-40,None,False,7,Guardian Tampines,110.27462717033737,47
+CUST001317,Regular,26-40,None,False,3,Guardian Orchard,38.45116293307994,40
+CUST001318,Regular,26-40,None,False,7,Guardian Jurong,30.49365987007132,22
+CUST001319,Regular,26-40,None,False,4,Guardian Ang Mo Kio,85.9208773603097,2
+CUST001320,Regular,26-40,None,False,5,Guardian Orchard,125.5251390517233,9
+CUST001321,Regular,26-40,None,False,5,Guardian Bedok,41.52135728846743,19
+CUST001322,Regular,26-40,None,False,7,Guardian Bedok,110.45450526291307,17
+CUST001323,Regular,26-40,None,False,3,Guardian Bedok,88.88650320044701,21
+CUST001324,Regular,26-40,None,False,4,Guardian Orchard,53.92422253547542,15
+CUST001325,Regular,26-40,None,False,3,Guardian Ang Mo Kio,51.82229627166373,37
+CUST001326,Regular,26-40,None,False,3,Guardian Tampines,21.07383863089732,18
+CUST001327,Regular,26-40,None,False,7,Guardian Orchard,133.35946432108005,20
+CUST001328,Regular,26-40,None,False,3,Guardian Orchard,68.59797416440126,59
+CUST001329,Regular,26-40,None,False,7,Guardian Tampines,58.06914864736446,13
+CUST001330,Regular,26-40,None,False,6,Guardian Tampines,65.36753477920088,24
+CUST001331,Regular,26-40,None,False,7,Guardian Orchard,64.28238077519242,8
+CUST001332,Regular,26-40,None,False,4,Guardian Ang Mo Kio,46.12148659742735,51
+CUST001333,Regular,26-40,None,False,5,Guardian Bedok,83.48081785589501,16
+CUST001334,Regular,26-40,None,False,4,Guardian Ang Mo Kio,77.31349518034534,12
+CUST001335,Regular,26-40,None,False,7,Guardian Orchard,88.42162466541686,12
+CUST001336,Regular,26-40,None,False,7,Guardian Tampines,124.41330382837917,17
+CUST001337,Regular,26-40,None,False,6,Guardian Ang Mo Kio,121.04973745191046,4
+CUST001338,Regular,26-40,None,False,4,Guardian Bedok,82.07107408421862,58
+CUST001339,Regular,26-40,None,False,3,Guardian Ang Mo Kio,66.4967823570675,28
+CUST001340,Regular,26-40,None,False,7,Guardian Tampines,41.70653020725783,24
+CUST001341,Regular,26-40,None,False,4,Guardian Orchard,59.646772823098516,9
+CUST001342,Regular,26-40,None,False,7,Guardian Tampines,148.29202137606725,13
+CUST001343,Regular,26-40,None,False,3,Guardian Ang Mo Kio,98.42948811116266,57
+CUST001344,Regular,26-40,None,False,6,Guardian Tampines,72.23758515440514,11
+CUST001345,Regular,26-40,None,False,3,Guardian Tampines,135.61366061351595,20
+CUST001346,Regular,26-40,None,False,3,Guardian Jurong,76.24251200560184,39
+CUST001347,Regular,26-40,None,False,4,Guardian Orchard,132.23739965523814,12
+CUST001348,Regular,26-40,None,False,7,Guardian Jurong,144.85286707202675,17
+CUST001349,Regular,26-40,None,False,6,Guardian Ang Mo Kio,95.19299726297459,36
+CUST001350,Regular,26-40,None,False,4,Guardian Bedok,53.56660213420503,11
+CUST001351,Regular,26-40,None,False,3,Guardian Orchard,54.24345532900764,42
+CUST001352,Regular,26-40,None,False,5,Guardian Bedok,107.98124322203712,19
+CUST001353,Regular,26-40,None,False,5,Guardian Tampines,147.79946981362764,44
+CUST001354,Regular,26-40,None,False,5,Guardian Tampines,141.39769370697405,53
+CUST001355,Regular,41-60,None,False,5,Guardian Orchard,56.15014614092668,36
+CUST001356,Regular,41-60,None,False,6,Guardian Ang Mo Kio,84.4136632967329,14
+CUST001357,Regular,41-60,None,False,3,Guardian Tampines,85.31881639774394,13
+CUST001358,Regular,41-60,None,False,6,Guardian Tampines,80.5046765688413,41
+CUST001359,Regular,41-60,None,False,4,Guardian Ang Mo Kio,87.48279490915186,28
+CUST001360,Regular,41-60,None,False,4,Guardian Tampines,31.032905117882425,38
+CUST001361,Regular,41-60,None,False,6,Guardian Bedok,30.56866241402916,47
+CUST001362,Regular,41-60,None,False,7,Guardian Orchard,60.98786510501832,55
+CUST001363,Regular,41-60,None,False,3,Guardian Bedok,70.40523269055558,46
+CUST001364,Regular,41-60,None,False,4,Guardian Jurong,69.97235468630981,17
+CUST001365,Regular,41-60,None,False,7,Guardian Orchard,48.89345251659199,52
+CUST001366,Regular,41-60,None,False,7,Guardian Orchard,128.92530788712196,29
+CUST001367,Regular,41-60,None,False,5,Guardian Jurong,136.73600243038243,14
+CUST001368,Regular,41-60,None,False,6,Guardian Jurong,74.05762131319044,58
+CUST001369,Regular,41-60,None,False,6,Guardian Jurong,133.15681890305376,12
+CUST001370,Regular,41-60,None,False,7,Guardian Jurong,110.17102421234499,41
+CUST001371,Regular,41-60,None,False,7,Guardian Bedok,66.94013215478857,40
+CUST001372,Regular,41-60,None,False,7,Guardian Orchard,149.6931196375886,17
+CUST001373,Regular,41-60,None,False,3,Guardian Tampines,123.74049176560888,33
+CUST001374,Regular,41-60,None,False,6,Guardian Ang Mo Kio,78.43054190158563,13
+CUST001375,Regular,41-60,None,False,3,Guardian Ang Mo Kio,98.3270270742919,23
+CUST001376,Regular,41-60,None,False,7,Guardian Tampines,24.686962690643888,25
+CUST001377,Regular,41-60,None,False,7,Guardian Bedok,21.909724363104875,7
+CUST001378,Regular,41-60,None,False,6,Guardian Bedok,126.08405147444489,51
+CUST001379,Regular,41-60,None,False,6,Guardian Tampines,41.564199517246294,49
+CUST001380,Regular,41-60,None,False,4,Guardian Jurong,95.60018800902378,52
+CUST001381,Regular,41-60,None,False,5,Guardian Ang Mo Kio,68.78849430609208,52
+CUST001382,Regular,41-60,None,False,5,Guardian Bedok,24.164050974315685,33
+CUST001383,Regular,41-60,None,False,5,Guardian Jurong,104.8723571980729,13
+CUST001384,Regular,41-60,None,False,5,Guardian Ang Mo Kio,129.27817144382158,31
+CUST001385,Regular,41-60,None,False,5,Guardian Jurong,147.78846136635303,51
+CUST001386,Regular,41-60,None,False,4,Guardian Bedok,98.56262180972371,31
+CUST001387,Regular,41-60,None,False,5,Guardian Tampines,125.36907942337497,59
+CUST001388,Regular,41-60,None,False,3,Guardian Ang Mo Kio,88.9722394583196,37
+CUST001389,Regular,41-60,None,False,5,Guardian Bedok,75.47811558342502,55
+CUST001390,Regular,41-60,None,False,4,Guardian Bedok,102.54727493988945,26
+CUST001391,Regular,41-60,None,False,5,Guardian Tampines,49.99728838434215,45
+CUST001392,Regular,41-60,None,False,6,Guardian Tampines,84.36811171555587,4
+CUST001393,Regular,41-60,None,False,4,Guardian Tampines,113.38536491286627,29
+CUST001394,Regular,41-60,None,False,3,Guardian Jurong,145.6936831059689,42
+CUST001395,Regular,41-60,None,False,6,Guardian Ang Mo Kio,32.2562691532475,49
+CUST001396,Regular,41-60,None,False,4,Guardian Ang Mo Kio,83.65352426144763,16
+CUST001397,Regular,41-60,None,False,7,Guardian Jurong,58.18678327337551,57
+CUST001398,Regular,41-60,None,False,3,Guardian Ang Mo Kio,51.88819488758115,52
+CUST001399,Regular,41-60,None,False,6,Guardian Ang Mo Kio,84.07769793929371,22
+CUST001400,Regular,41-60,None,False,7,Guardian Tampines,141.0286697552877,47
+CUST001401,Regular,41-60,None,False,3,Guardian Tampines,81.32117211501631,33
+CUST001402,Regular,41-60,None,False,4,Guardian Orchard,138.10731880340103,6
+CUST001403,Regular,41-60,None,False,5,Guardian Bedok,104.49505670181131,8
+CUST001404,Regular,41-60,None,False,6,Guardian Jurong,59.29955671992657,7
+CUST001405,Regular,41-60,None,False,7,Guardian Tampines,133.58426222082193,23
+CUST001406,Regular,41-60,None,False,4,Guardian Ang Mo Kio,59.2606115088982,38
+CUST001407,Regular,41-60,None,False,3,Guardian Bedok,25.419062527507855,45
+CUST001408,Regular,41-60,None,False,7,Guardian Tampines,94.61213221150022,10
+CUST001409,Regular,41-60,None,False,7,Guardian Orchard,80.0451481152356,31
+CUST001410,Regular,41-60,None,False,4,Guardian Ang Mo Kio,54.691888775409076,19
+CUST001411,Regular,41-60,None,False,3,Guardian Ang Mo Kio,27.14595134092876,31
+CUST001412,Regular,41-60,None,False,6,Guardian Tampines,129.35020718205973,53
+CUST001413,Regular,41-60,None,False,4,Guardian Tampines,86.2336602084864,1
+CUST001414,Regular,41-60,None,False,7,Guardian Orchard,90.10478481504788,16
+CUST001415,Regular,41-60,None,False,3,Guardian Orchard,113.40828952263713,22
+CUST001416,Regular,41-60,None,False,4,Guardian Jurong,94.9029760290556,56
+CUST001417,Regular,41-60,None,False,4,Guardian Tampines,128.16928122956878,58
+CUST001418,Regular,41-60,None,False,7,Guardian Orchard,21.80548125230175,46
+CUST001419,Regular,41-60,None,False,6,Guardian Ang Mo Kio,37.82319293417602,53
+CUST001420,Regular,41-60,None,False,3,Guardian Tampines,71.09008218604464,54
+CUST001421,Regular,41-60,None,False,3,Guardian Jurong,46.5505798960438,23
+CUST001422,Regular,41-60,None,False,5,Guardian Tampines,60.51515107659577,46
+CUST001423,Regular,41-60,None,False,7,Guardian Orchard,108.02666855270513,29
+CUST001424,Regular,41-60,None,False,3,Guardian Jurong,26.80940632758861,14
+CUST001425,Regular,41-60,None,False,4,Guardian Tampines,91.70536875636962,23
+CUST001426,Regular,41-60,None,False,6,Guardian Ang Mo Kio,125.31936369691775,1
+CUST001427,Regular,41-60,None,False,4,Guardian Tampines,33.83925291551187,16
+CUST001428,Regular,41-60,None,False,3,Guardian Orchard,130.5288206556312,46
+CUST001429,Regular,41-60,None,False,5,Guardian Ang Mo Kio,144.65082469390939,33
+CUST001430,Regular,41-60,None,False,6,Guardian Tampines,50.763814597913786,9
+CUST001431,Regular,41-60,None,False,4,Guardian Orchard,89.05240775712785,51
+CUST001432,Regular,41-60,None,False,5,Guardian Jurong,113.76752050370283,18
+CUST001433,Regular,41-60,None,False,3,Guardian Bedok,65.35390060081505,18
+CUST001434,Regular,41-60,None,False,7,Guardian Bedok,76.27563372197135,50
+CUST001435,Regular,41-60,None,False,4,Guardian Ang Mo Kio,136.8299457176602,30
+CUST001436,Regular,60+,None,False,4,Guardian Jurong,129.62283771082764,13
+CUST001437,Regular,60+,None,False,6,Guardian Jurong,114.82191344850571,5
+CUST001438,Regular,60+,None,False,3,Guardian Ang Mo Kio,68.71572070466902,3
+CUST001439,Regular,60+,None,False,4,Guardian Bedok,63.261394725136306,4
+CUST001440,Regular,60+,None,False,6,Guardian Ang Mo Kio,21.863191729411994,5
+CUST001441,Regular,60+,None,False,4,Guardian Bedok,26.502334816992565,22
+CUST001442,Regular,60+,None,False,6,Guardian Ang Mo Kio,47.60022363727329,47
+CUST001443,Regular,60+,None,False,7,Guardian Ang Mo Kio,133.80401827775438,25
+CUST001444,Regular,60+,None,False,7,Guardian Ang Mo Kio,106.55617715335195,16
+CUST001445,Regular,60+,None,False,5,Guardian Bedok,147.46857851952046,10
+CUST001446,Regular,60+,None,False,4,Guardian Jurong,101.96975575764255,32
+CUST001447,Regular,60+,None,False,5,Guardian Orchard,96.99219138995619,59
+CUST001448,Regular,60+,None,False,6,Guardian Bedok,25.498079985302823,32
+CUST001449,Regular,60+,None,False,7,Guardian Orchard,80.02018294658669,30
+CUST001450,Regular,60+,None,False,4,Guardian Bedok,120.68635605992583,58
+CUST001451,Regular,60+,None,False,3,Guardian Ang Mo Kio,76.6067587253508,35
+CUST001452,Regular,60+,None,False,4,Guardian Ang Mo Kio,104.74107114524959,14
+CUST001453,Regular,60+,None,False,5,Guardian Orchard,97.55066458977038,39
+CUST001454,Regular,60+,None,False,7,Guardian Tampines,43.96539283057823,34
+CUST001455,Regular,60+,None,False,4,Guardian Orchard,148.12212783240082,26
+CUST001456,Regular,60+,None,False,7,Guardian Jurong,35.87899649897665,32
+CUST001457,Regular,60+,None,False,4,Guardian Bedok,80.81127881242085,46
+CUST001458,Regular,60+,None,False,3,Guardian Tampines,44.77831844689135,48
+CUST001459,Regular,60+,None,False,7,Guardian Ang Mo Kio,121.87852270943355,59
+CUST001460,Regular,60+,None,False,5,Guardian Bedok,40.126880870544454,8
+CUST001461,Regular,60+,None,False,3,Guardian Tampines,21.50753000492749,34
+CUST001462,Regular,60+,None,False,4,Guardian Ang Mo Kio,97.14996418536487,7
+CUST001463,Regular,60+,None,False,6,Guardian Orchard,100.99439932980954,12
+CUST001464,Regular,60+,None,False,4,Guardian Tampines,119.60987125824099,10
+CUST001465,Regular,60+,None,False,5,Guardian Ang Mo Kio,92.89074071937614,21
+CUST001466,Regular,60+,None,False,3,Guardian Orchard,100.93953095429934,9
+CUST001467,Regular,60+,None,False,3,Guardian Bedok,149.94395761733134,42
+CUST001468,Regular,60+,None,False,3,Guardian Orchard,139.0640852483948,51
+CUST001469,Regular,60+,None,False,3,Guardian Ang Mo Kio,118.61472727686694,40
+CUST001470,Regular,60+,None,False,6,Guardian Orchard,44.971665697681,27
+CUST001471,Regular,60+,None,False,7,Guardian Ang Mo Kio,67.46371072869323,15
+CUST001472,Regular,60+,None,False,4,Guardian Orchard,67.85935789950723,24
+CUST001473,Regular,60+,None,False,5,Guardian Ang Mo Kio,120.9682369056312,2
+CUST001474,Regular,60+,None,False,4,Guardian Bedok,64.6321805188536,10
+CUST001475,Regular,60+,None,False,5,Guardian Ang Mo Kio,60.02314935885681,19
+CUST001476,Regular,60+,None,False,4,Guardian Tampines,87.28930996922816,54
+CUST001477,Regular,60+,None,False,7,Guardian Orchard,125.81976026914488,8
+CUST001478,Regular,60+,None,False,4,Guardian Orchard,142.92088554618945,25
+CUST001479,Regular,60+,None,False,6,Guardian Tampines,59.86321738677476,52
+CUST001480,Regular,60+,None,False,5,Guardian Bedok,114.9467681273083,30
+CUST001481,Regular,60+,None,False,4,Guardian Bedok,107.83905049727308,37
+CUST001482,Regular,60+,None,False,6,Guardian Ang Mo Kio,120.77834044161756,19
+CUST001483,Regular,60+,None,False,4,Guardian Bedok,57.773235864437446,40
+CUST001484,Regular,60+,None,False,7,Guardian Ang Mo Kio,42.057053971068676,50
+CUST001485,Regular,60+,None,False,3,Guardian Tampines,76.60523382754258,12
+CUST001486,Regular,60+,None,False,5,Guardian Bedok,35.24842044548635,59
+CUST001487,Regular,60+,None,False,7,Guardian Tampines,38.30523486424414,25
+CUST001488,Regular,60+,None,False,4,Guardian Bedok,122.53525221823553,3
+CUST001489,Regular,60+,None,False,6,Guardian Ang Mo Kio,112.04782911331603,47
+CUST001490,Regular,60+,None,False,7,Guardian Ang Mo Kio,60.93778995771423,21
+CUST001491,Regular,60+,None,False,7,Guardian Bedok,63.94810383147109,56
+CUST001492,Regular,60+,None,False,6,Guardian Tampines,108.11433683112914,41
+CUST001493,Regular,60+,None,False,5,Guardian Tampines,41.82823303380346,6
+CUST001494,Regular,60+,None,False,4,Guardian Tampines,126.04199169036742,31
+CUST001495,Regular,60+,None,False,7,Guardian Tampines,68.910240749302,53
+CUST001496,Regular,60+,None,False,4,Guardian Tampines,53.90182596739215,25
+CUST001497,Regular,60+,None,False,6,Guardian Jurong,31.684323511674503,44
+CUST001498,Regular,60+,None,False,5,Guardian Tampines,144.34403258332566,56
+CUST001499,Regular,60+,None,False,6,Guardian Bedok,145.47968527426514,33
+CUST001500,Regular,60+,None,False,7,Guardian Ang Mo Kio,117.59600046653617,14
+CUST001501,Regular,60+,None,False,6,Guardian Ang Mo Kio,142.82221981819643,44
+CUST001502,Regular,60+,None,False,5,Guardian Bedok,90.21041187261886,41
+CUST001503,Regular,60+,None,False,5,Guardian Ang Mo Kio,30.33985000315431,18
+CUST001504,Regular,60+,None,False,5,Guardian Jurong,132.62111875550812,13
+CUST001505,Regular,60+,None,False,4,Guardian Bedok,31.718108669663124,8
+CUST001506,Regular,60+,None,False,6,Guardian Orchard,41.03787684930947,33
+CUST001507,Regular,60+,None,False,6,Guardian Tampines,141.67859815107025,21
+CUST001508,Regular,60+,None,False,4,Guardian Jurong,110.20742502169179,34
+CUST001509,Regular,60+,None,False,6,Guardian Jurong,98.30595179757117,28
+CUST001510,Regular,60+,None,False,3,Guardian Jurong,54.155609405092456,1
+CUST001511,Regular,60+,None,False,5,Guardian Orchard,121.58410884365247,50
+CUST001512,Regular,60+,None,False,4,Guardian Jurong,37.46476339557474,51
+CUST001513,Regular,60+,None,False,4,Guardian Orchard,63.34385121003176,16
+CUST001514,Regular,60+,None,False,4,Guardian Bedok,79.53776250030862,27
+CUST001515,Regular,60+,None,False,6,Guardian Jurong,106.99467407003088,22
+CUST001516,Regular,60+,None,False,7,Guardian Bedok,115.64898387188892,59
+CUST001517,Regular,60+,None,False,3,Guardian Bedok,146.8200667182228,27
+CUST001518,Regular,60+,None,False,3,Guardian Bedok,23.94529698691301,43
+CUST001519,Regular,60+,None,False,3,Guardian Bedok,105.53986614144215,5
+CUST001520,Regular,60+,None,False,6,Guardian Orchard,59.49424417648702,15
+CUST001521,Walk-in,0-12,None,False,2,Guardian Tampines,24.691310060863188,38
+CUST001522,Walk-in,0-12,None,False,1,Guardian Orchard,110.60712246627126,51
+CUST001523,Walk-in,0-12,None,False,2,Guardian Bedok,33.28256802143353,17
+CUST001524,Walk-in,0-12,None,False,2,Guardian Jurong,104.14026394711756,11
+CUST001525,Walk-in,0-12,None,False,2,Guardian Ang Mo Kio,58.97729589086026,15
+CUST001526,Walk-in,0-12,None,False,1,Guardian Orchard,110.65927077442686,40
+CUST001527,Walk-in,0-12,None,False,1,Guardian Ang Mo Kio,147.2676894262305,27
+CUST001528,Walk-in,0-12,None,False,2,Guardian Orchard,116.54838664164006,44
+CUST001529,Walk-in,0-12,None,False,2,Guardian Orchard,36.37651556760233,29
+CUST001530,Walk-in,0-12,None,False,2,Guardian Bedok,135.7916936864778,37
+CUST001531,Walk-in,0-12,None,False,1,Guardian Bedok,149.19877669555842,48
+CUST001532,Walk-in,0-12,None,False,2,Guardian Bedok,21.375303230828727,28
+CUST001533,Walk-in,0-12,None,False,2,Guardian Orchard,145.56678491281284,50
+CUST001534,Walk-in,0-12,None,False,1,Guardian Tampines,53.149231485020735,31
+CUST001535,Walk-in,0-12,None,False,2,Guardian Jurong,124.00581073257787,51
+CUST001536,Walk-in,0-12,None,False,1,Guardian Orchard,41.48140096538448,14
+CUST001537,Walk-in,0-12,None,False,1,Guardian Orchard,63.31894844203289,40
+CUST001538,Walk-in,0-12,None,False,1,Guardian Bedok,91.0165183327681,29
+CUST001539,Walk-in,0-12,None,False,2,Guardian Tampines,102.74738727593854,32
+CUST001540,Walk-in,0-12,None,False,2,Guardian Ang Mo Kio,102.83805552607936,10
+CUST001541,Walk-in,0-12,None,False,2,Guardian Ang Mo Kio,123.70112381152447,21
+CUST001542,Walk-in,0-12,None,False,2,Guardian Ang Mo Kio,144.7741813447665,28
+CUST001543,Walk-in,0-12,None,False,1,Guardian Orchard,146.73523685300714,35
+CUST001544,Walk-in,0-12,None,False,1,Guardian Bedok,72.44842252773071,20
+CUST001545,Walk-in,0-12,None,False,2,Guardian Bedok,28.697168798211333,28
+CUST001546,Walk-in,0-12,None,False,1,Guardian Ang Mo Kio,71.44242016600563,20
+CUST001547,Walk-in,0-12,None,False,1,Guardian Tampines,80.46031122987455,36
+CUST001548,Walk-in,0-12,None,False,2,Guardian Bedok,48.68922418878876,2
+CUST001549,Walk-in,0-12,None,False,2,Guardian Orchard,101.12707785925147,46
+CUST001550,Walk-in,0-12,None,False,1,Guardian Ang Mo Kio,121.3820289230285,11
+CUST001551,Walk-in,0-12,None,False,2,Guardian Orchard,53.541703442619095,50
+CUST001552,Walk-in,0-12,None,False,1,Guardian Ang Mo Kio,112.63986794620419,30
+CUST001553,Walk-in,0-12,None,False,2,Guardian Orchard,65.86101793297199,53
+CUST001554,Walk-in,0-12,None,False,2,Guardian Jurong,51.34928354008228,28
+CUST001555,Walk-in,0-12,None,False,2,Guardian Bedok,64.18795112487834,32
+CUST001556,Walk-in,0-12,None,False,2,Guardian Jurong,60.73049679667948,48
+CUST001557,Walk-in,0-12,None,False,1,Guardian Bedok,30.10098810887692,1
+CUST001558,Walk-in,0-12,None,False,1,Guardian Jurong,60.28318889901921,39
+CUST001559,Walk-in,0-12,None,False,1,Guardian Tampines,102.80124485666578,11
+CUST001560,Walk-in,0-12,None,False,2,Guardian Orchard,141.44110394199623,34
+CUST001561,Walk-in,0-12,None,False,1,Guardian Ang Mo Kio,27.298880247503938,49
+CUST001562,Walk-in,0-12,None,False,1,Guardian Bedok,116.7022864236194,8
+CUST001563,Walk-in,0-12,None,False,1,Guardian Ang Mo Kio,77.4739609754863,29
+CUST001564,Walk-in,0-12,None,False,1,Guardian Bedok,41.51099330613852,46
+CUST001565,Walk-in,0-12,None,False,2,Guardian Jurong,143.41752651278793,33
+CUST001566,Walk-in,0-12,None,False,1,Guardian Ang Mo Kio,133.31197482570312,57
+CUST001567,Walk-in,0-12,None,False,2,Guardian Orchard,134.61705610569277,42
+CUST001568,Walk-in,0-12,None,False,2,Guardian Tampines,74.22328187014985,50
+CUST001569,Walk-in,0-12,None,False,2,Guardian Ang Mo Kio,76.76312832602736,52
+CUST001570,Walk-in,0-12,None,False,1,Guardian Ang Mo Kio,103.53997481961692,41
+CUST001571,Walk-in,0-12,None,False,1,Guardian Orchard,99.04722539742487,16
+CUST001572,Walk-in,0-12,None,False,1,Guardian Tampines,97.5920271475164,30
+CUST001573,Walk-in,0-12,None,False,2,Guardian Tampines,22.81070138763252,33
+CUST001574,Walk-in,0-12,None,False,2,Guardian Orchard,85.89526451940256,52
+CUST001575,Walk-in,0-12,None,False,2,Guardian Jurong,92.36109141936201,1
+CUST001576,Walk-in,0-12,None,False,2,Guardian Ang Mo Kio,40.875064025909666,41
+CUST001577,Walk-in,0-12,None,False,1,Guardian Ang Mo Kio,149.1920208031855,29
+CUST001578,Walk-in,0-12,None,False,2,Guardian Tampines,116.9229033722182,37
+CUST001579,Walk-in,0-12,None,False,2,Guardian Orchard,43.040435029291835,4
+CUST001580,Walk-in,0-12,None,False,1,Guardian Tampines,73.08044843847318,26
+CUST001581,Walk-in,0-12,None,False,2,Guardian Jurong,49.03773241975746,10
+CUST001582,Walk-in,0-12,None,False,2,Guardian Tampines,80.80917707671219,5
+CUST001583,Walk-in,0-12,None,False,1,Guardian Jurong,75.53174000343574,50
+CUST001584,Walk-in,0-12,None,False,1,Guardian Orchard,141.92199353887779,37
+CUST001585,Walk-in,0-12,None,False,2,Guardian Ang Mo Kio,67.82616806269766,25
+CUST001586,Walk-in,0-12,None,False,2,Guardian Orchard,146.88600451788528,11
+CUST001587,Walk-in,0-12,None,False,2,Guardian Jurong,78.95866130596586,18
+CUST001588,Walk-in,0-12,None,False,2,Guardian Bedok,41.931321511787246,14
+CUST001589,Walk-in,0-12,None,False,2,Guardian Ang Mo Kio,82.04814411260199,12
+CUST001590,Walk-in,0-12,None,False,1,Guardian Jurong,137.0244059228256,22
+CUST001591,Walk-in,0-12,None,False,1,Guardian Ang Mo Kio,75.60457232988077,35
+CUST001592,Walk-in,0-12,None,False,2,Guardian Jurong,41.11487213761289,32
+CUST001593,Walk-in,0-12,None,False,1,Guardian Jurong,38.39251312299713,6
+CUST001594,Walk-in,0-12,None,False,2,Guardian Tampines,46.507335428432214,5
+CUST001595,Walk-in,0-12,None,False,2,Guardian Orchard,77.33777930296529,16
+CUST001596,Walk-in,0-12,None,False,2,Guardian Orchard,84.0669919555084,52
+CUST001597,Walk-in,0-12,None,False,1,Guardian Bedok,134.32204305674742,31
+CUST001598,Walk-in,0-12,None,False,2,Guardian Bedok,26.77397019415242,29
+CUST001599,Walk-in,0-12,None,False,1,Guardian Jurong,58.58727981111055,54
+CUST001600,Walk-in,0-12,None,False,1,Guardian Jurong,78.7160972447607,46
+CUST001601,Walk-in,0-12,None,False,2,Guardian Bedok,129.44643717847717,31
+CUST001602,Walk-in,0-12,None,False,2,Guardian Bedok,53.12624105300719,52
+CUST001603,Walk-in,0-12,None,False,1,Guardian Bedok,35.889815038805104,38
+CUST001604,Walk-in,0-12,None,False,2,Guardian Ang Mo Kio,63.73343360958444,40
+CUST001605,Walk-in,0-12,None,False,2,Guardian Bedok,31.75401579508234,27
+CUST001606,Walk-in,0-12,None,False,2,Guardian Ang Mo Kio,114.12237438918213,52
+CUST001607,Walk-in,0-12,None,False,2,Guardian Ang Mo Kio,33.93326055755369,35
+CUST001608,Walk-in,0-12,None,False,1,Guardian Bedok,94.13490923765278,35
+CUST001609,Walk-in,0-12,None,False,2,Guardian Tampines,149.76163366522812,33
+CUST001610,Walk-in,0-12,None,False,2,Guardian Ang Mo Kio,133.74948133866354,3
+CUST001611,Walk-in,0-12,None,False,1,Guardian Ang Mo Kio,130.00196601858894,29
+CUST001612,Walk-in,0-12,None,False,1,Guardian Orchard,116.45807941957149,43
+CUST001613,Walk-in,0-12,None,False,2,Guardian Orchard,69.61256898032245,15
+CUST001614,Walk-in,0-12,None,False,2,Guardian Tampines,74.82873683568121,43
+CUST001615,Walk-in,0-12,None,False,2,Guardian Ang Mo Kio,92.2696889156136,12
+CUST001616,Walk-in,0-12,None,False,1,Guardian Jurong,136.5634222663901,50
+CUST001617,Walk-in,0-12,None,False,1,Guardian Orchard,144.6965314008555,40
+CUST001618,Walk-in,0-12,None,False,1,Guardian Tampines,149.35944402898963,33
+CUST001619,Walk-in,0-12,None,False,1,Guardian Orchard,55.36306135742661,16
+CUST001620,Walk-in,0-12,None,False,2,Guardian Tampines,97.20623416073181,7
+CUST001621,Walk-in,0-12,None,False,1,Guardian Tampines,43.41139612081548,22
+CUST001622,Walk-in,0-12,None,False,2,Guardian Tampines,74.8553779117589,53
+CUST001623,Walk-in,0-12,None,False,2,Guardian Orchard,36.98465327546454,13
+CUST001624,Walk-in,0-12,None,False,1,Guardian Jurong,79.80319618698701,25
+CUST001625,Walk-in,0-12,None,False,1,Guardian Bedok,107.94656447980245,53
+CUST001626,Walk-in,0-12,None,False,1,Guardian Jurong,95.29799745180004,33
+CUST001627,Walk-in,0-12,None,False,1,Guardian Jurong,92.75187611638087,28
+CUST001628,Walk-in,0-12,None,False,1,Guardian Orchard,90.92790871955864,43
+CUST001629,Walk-in,0-12,None,False,1,Guardian Tampines,112.70514624773878,31
+CUST001630,Walk-in,0-12,None,False,2,Guardian Jurong,64.93486001697379,20
+CUST001631,Walk-in,0-12,None,False,2,Guardian Orchard,101.90116710842447,2
+CUST001632,Walk-in,0-12,None,False,1,Guardian Ang Mo Kio,54.17738199269758,32
+CUST001633,Walk-in,0-12,None,False,1,Guardian Tampines,110.6153027444666,46
+CUST001634,Walk-in,0-12,None,False,1,Guardian Ang Mo Kio,104.05143804538275,58
+CUST001635,Walk-in,0-12,None,False,2,Guardian Tampines,56.232645465488396,47
+CUST001636,Walk-in,0-12,None,False,2,Guardian Ang Mo Kio,88.64189876129258,4
+CUST001637,Walk-in,0-12,None,False,2,Guardian Ang Mo Kio,69.75935502756022,18
+CUST001638,Walk-in,0-12,None,False,1,Guardian Bedok,88.38988904280141,33
+CUST001639,Walk-in,0-12,None,False,2,Guardian Bedok,40.38528706955407,58
+CUST001640,Walk-in,0-12,None,False,2,Guardian Orchard,25.233431588639224,12
+CUST001641,Walk-in,0-12,None,False,2,Guardian Bedok,72.88697989312232,35
+CUST001642,Walk-in,0-12,None,False,1,Guardian Jurong,69.12916801670188,6
+CUST001643,Walk-in,13-25,None,False,2,Guardian Ang Mo Kio,109.65841002004169,28
+CUST001644,Walk-in,13-25,None,False,1,Guardian Ang Mo Kio,72.33320448360399,45
+CUST001645,Walk-in,13-25,None,False,2,Guardian Bedok,141.95733266778558,11
+CUST001646,Walk-in,13-25,None,False,2,Guardian Ang Mo Kio,34.15864467303771,57
+CUST001647,Walk-in,13-25,None,False,1,Guardian Jurong,96.79104722456722,4
+CUST001648,Walk-in,13-25,None,False,1,Guardian Ang Mo Kio,50.39785075962871,38
+CUST001649,Walk-in,13-25,None,False,2,Guardian Bedok,63.37333387252681,12
+CUST001650,Walk-in,13-25,None,False,1,Guardian Tampines,79.1735669924046,21
+CUST001651,Walk-in,13-25,None,False,1,Guardian Ang Mo Kio,32.357333591336904,3
+CUST001652,Walk-in,13-25,None,False,1,Guardian Orchard,67.88824314276968,30
+CUST001653,Walk-in,13-25,None,False,2,Guardian Ang Mo Kio,97.42425526833233,5
+CUST001654,Walk-in,13-25,None,False,1,Guardian Bedok,76.40762467589894,43
+CUST001655,Walk-in,13-25,None,False,2,Guardian Bedok,49.83179971074645,48
+CUST001656,Walk-in,13-25,None,False,1,Guardian Ang Mo Kio,144.86489982569228,29
+CUST001657,Walk-in,13-25,None,False,1,Guardian Bedok,102.16339442691705,31
+CUST001658,Walk-in,13-25,None,False,2,Guardian Tampines,107.56563677598564,22
+CUST001659,Walk-in,13-25,None,False,2,Guardian Tampines,93.20864974661106,38
+CUST001660,Walk-in,13-25,None,False,1,Guardian Ang Mo Kio,30.27019700427627,43
+CUST001661,Walk-in,13-25,None,False,1,Guardian Jurong,44.44481723690737,55
+CUST001662,Walk-in,13-25,None,False,2,Guardian Ang Mo Kio,73.3655642604863,24
+CUST001663,Walk-in,13-25,None,False,2,Guardian Ang Mo Kio,92.58634445920036,25
+CUST001664,Walk-in,13-25,None,False,1,Guardian Ang Mo Kio,25.055835648557938,28
+CUST001665,Walk-in,13-25,None,False,1,Guardian Ang Mo Kio,132.79241161817814,11
+CUST001666,Walk-in,13-25,None,False,1,Guardian Ang Mo Kio,45.34560020396046,7
+CUST001667,Walk-in,13-25,None,False,2,Guardian Jurong,61.35905054812948,18
+CUST001668,Walk-in,13-25,None,False,2,Guardian Ang Mo Kio,128.9636245053843,21
+CUST001669,Walk-in,13-25,None,False,2,Guardian Ang Mo Kio,100.00997106623642,34
+CUST001670,Walk-in,13-25,None,False,1,Guardian Orchard,79.2110842798754,49
+CUST001671,Walk-in,13-25,None,False,2,Guardian Bedok,114.35055745222455,30
+CUST001672,Walk-in,13-25,None,False,1,Guardian Orchard,127.4737624783595,36
+CUST001673,Walk-in,13-25,None,False,2,Guardian Jurong,64.92256676876117,47
+CUST001674,Walk-in,13-25,None,False,1,Guardian Jurong,52.31687606433381,17
+CUST001675,Walk-in,13-25,None,False,1,Guardian Tampines,69.74132774439244,4
+CUST001676,Walk-in,13-25,None,False,1,Guardian Ang Mo Kio,140.9816660432443,53
+CUST001677,Walk-in,13-25,None,False,1,Guardian Orchard,130.29724451949227,18
+CUST001678,Walk-in,13-25,None,False,2,Guardian Jurong,22.530759208644582,32
+CUST001679,Walk-in,13-25,None,False,2,Guardian Orchard,91.30091036802709,6
+CUST001680,Walk-in,13-25,None,False,1,Guardian Jurong,98.31877582086625,55
+CUST001681,Walk-in,13-25,None,False,1,Guardian Bedok,148.09801412786297,31
+CUST001682,Walk-in,13-25,None,False,2,Guardian Ang Mo Kio,24.627047878397665,44
+CUST001683,Walk-in,13-25,None,False,2,Guardian Orchard,26.991843386592137,36
+CUST001684,Walk-in,13-25,None,False,1,Guardian Orchard,122.05077315094469,6
+CUST001685,Walk-in,13-25,None,False,1,Guardian Orchard,56.66300459442295,7
+CUST001686,Walk-in,13-25,None,False,2,Guardian Orchard,48.92014836241975,8
+CUST001687,Walk-in,13-25,None,False,1,Guardian Jurong,27.320855207896486,15
+CUST001688,Walk-in,13-25,None,False,1,Guardian Tampines,70.10922460579167,15
+CUST001689,Walk-in,13-25,None,False,1,Guardian Ang Mo Kio,59.46190952804678,28
+CUST001690,Walk-in,13-25,None,False,1,Guardian Bedok,135.9516488575773,25
+CUST001691,Walk-in,13-25,None,False,2,Guardian Ang Mo Kio,145.03164250404103,32
+CUST001692,Walk-in,13-25,None,False,2,Guardian Ang Mo Kio,63.93198168780514,36
+CUST001693,Walk-in,26-40,None,False,2,Guardian Ang Mo Kio,20.63584684188369,24
+CUST001694,Walk-in,26-40,None,False,2,Guardian Ang Mo Kio,31.01091336461295,51
+CUST001695,Walk-in,26-40,None,False,1,Guardian Tampines,67.64311920245883,25
+CUST001696,Walk-in,26-40,None,False,1,Guardian Ang Mo Kio,83.54091387239019,5
+CUST001697,Walk-in,26-40,None,False,2,Guardian Orchard,148.71740489472572,55
+CUST001698,Walk-in,26-40,None,False,1,Guardian Jurong,148.75687588536263,51
+CUST001699,Walk-in,26-40,None,False,2,Guardian Orchard,88.38542644819246,49
+CUST001700,Walk-in,26-40,None,False,1,Guardian Bedok,142.32680857551685,50
+CUST001701,Walk-in,26-40,None,False,1,Guardian Bedok,96.71515257398597,17
+CUST001702,Walk-in,26-40,None,False,2,Guardian Tampines,114.16783477046876,3
+CUST001703,Walk-in,26-40,None,False,2,Guardian Ang Mo Kio,67.7062141013161,5
+CUST001704,Walk-in,26-40,None,False,2,Guardian Tampines,20.262774478487465,31
+CUST001705,Walk-in,26-40,None,False,1,Guardian Orchard,36.82270376813244,39
+CUST001706,Walk-in,26-40,None,False,2,Guardian Ang Mo Kio,21.629314851053884,29
+CUST001707,Walk-in,26-40,None,False,2,Guardian Tampines,59.110172354684906,48
+CUST001708,Walk-in,26-40,None,False,2,Guardian Tampines,140.8803297147167,11
+CUST001709,Walk-in,26-40,None,False,2,Guardian Ang Mo Kio,94.29588282533659,46
+CUST001710,Walk-in,26-40,None,False,2,Guardian Orchard,91.45655928154906,27
+CUST001711,Walk-in,26-40,None,False,1,Guardian Bedok,106.62825759544856,11
+CUST001712,Walk-in,26-40,None,False,1,Guardian Ang Mo Kio,106.12992211401595,39
+CUST001713,Walk-in,26-40,None,False,2,Guardian Jurong,63.19013235151615,8
+CUST001714,Walk-in,26-40,None,False,1,Guardian Bedok,66.64128663677857,14
+CUST001715,Walk-in,26-40,None,False,2,Guardian Orchard,103.53668188794965,28
+CUST001716,Walk-in,26-40,None,False,1,Guardian Jurong,37.18389769535321,50
+CUST001717,Walk-in,26-40,None,False,2,Guardian Bedok,63.2642423180392,57
+CUST001718,Walk-in,26-40,None,False,2,Guardian Tampines,84.04623668304174,14
+CUST001719,Walk-in,26-40,None,False,1,Guardian Orchard,131.59965654866937,16
+CUST001720,Walk-in,26-40,None,False,1,Guardian Bedok,133.0786674083601,24
+CUST001721,Walk-in,26-40,None,False,1,Guardian Orchard,119.42191016553049,38
+CUST001722,Walk-in,26-40,None,False,2,Guardian Ang Mo Kio,77.4352412267813,9
+CUST001723,Walk-in,26-40,None,False,1,Guardian Ang Mo Kio,34.600546751679964,24
+CUST001724,Walk-in,26-40,None,False,2,Guardian Orchard,41.568274063712934,57
+CUST001725,Walk-in,26-40,None,False,1,Guardian Bedok,131.71760091572492,8
+CUST001726,Walk-in,26-40,None,False,2,Guardian Bedok,123.35826310792959,26
+CUST001727,Walk-in,26-40,None,False,2,Guardian Tampines,106.16978321531244,28
+CUST001728,Walk-in,26-40,None,False,1,Guardian Tampines,47.89083822320596,45
+CUST001729,Walk-in,26-40,None,False,1,Guardian Orchard,128.80612091471784,22
+CUST001730,Walk-in,26-40,None,False,1,Guardian Ang Mo Kio,100.80803935696967,18
+CUST001731,Walk-in,26-40,None,False,1,Guardian Orchard,56.88604864080816,59
+CUST001732,Walk-in,26-40,None,False,1,Guardian Ang Mo Kio,141.55787924463928,39
+CUST001733,Walk-in,26-40,None,False,2,Guardian Tampines,56.635404323849684,26
+CUST001734,Walk-in,26-40,None,False,2,Guardian Bedok,87.2177808075261,1
+CUST001735,Walk-in,26-40,None,False,2,Guardian Tampines,113.50349586906967,13
+CUST001736,Walk-in,26-40,None,False,1,Guardian Ang Mo Kio,88.76821487790448,12
+CUST001737,Walk-in,26-40,None,False,1,Guardian Orchard,114.12664415196612,30
+CUST001738,Walk-in,26-40,None,False,1,Guardian Ang Mo Kio,35.90135364785548,57
+CUST001739,Walk-in,26-40,None,False,2,Guardian Tampines,133.16555994302541,55
+CUST001740,Walk-in,26-40,None,False,2,Guardian Orchard,54.8021688022673,16
+CUST001741,Walk-in,26-40,None,False,2,Guardian Orchard,76.64562937236087,42
+CUST001742,Walk-in,26-40,None,False,1,Guardian Orchard,93.61093027153485,54
+CUST001743,Walk-in,26-40,None,False,2,Guardian Ang Mo Kio,122.96181976143502,57
+CUST001744,Walk-in,26-40,None,False,1,Guardian Ang Mo Kio,85.9692249190631,20
+CUST001745,Walk-in,26-40,None,False,2,Guardian Bedok,143.0033924746686,17
+CUST001746,Walk-in,26-40,None,False,2,Guardian Tampines,90.43604138316503,34
+CUST001747,Walk-in,26-40,None,False,1,Guardian Bedok,125.20727003779332,13
+CUST001748,Walk-in,26-40,None,False,2,Guardian Tampines,95.01775362313677,51
+CUST001749,Walk-in,26-40,None,False,2,Guardian Bedok,94.54151687413699,24
+CUST001750,Walk-in,26-40,None,False,1,Guardian Orchard,51.403295629693844,37
+CUST001751,Walk-in,26-40,None,False,1,Guardian Orchard,37.082238718772814,10
+CUST001752,Walk-in,26-40,None,False,2,Guardian Bedok,146.26540774810465,43
+CUST001753,Walk-in,26-40,None,False,1,Guardian Ang Mo Kio,20.498775249631294,24
+CUST001754,Walk-in,26-40,None,False,2,Guardian Orchard,66.687152820217,15
+CUST001755,Walk-in,26-40,None,False,1,Guardian Bedok,95.56575509461805,16
+CUST001756,Walk-in,26-40,None,False,2,Guardian Orchard,139.67932202145033,6
+CUST001757,Walk-in,26-40,None,False,1,Guardian Jurong,25.61781734257165,59
+CUST001758,Walk-in,26-40,None,False,2,Guardian Tampines,51.644109906216265,57
+CUST001759,Walk-in,41-60,None,False,2,Guardian Bedok,98.80919631092927,35
+CUST001760,Walk-in,41-60,None,False,1,Guardian Ang Mo Kio,117.33848335901709,36
+CUST001761,Walk-in,41-60,None,False,2,Guardian Tampines,99.80558059218251,50
+CUST001762,Walk-in,41-60,None,False,2,Guardian Bedok,88.87092352597425,21
+CUST001763,Walk-in,41-60,None,False,1,Guardian Tampines,93.35936374337969,38
+CUST001764,Walk-in,41-60,None,False,2,Guardian Tampines,44.127430922931396,55
+CUST001765,Walk-in,41-60,None,False,2,Guardian Tampines,91.6969313356989,31
+CUST001766,Walk-in,41-60,None,False,2,Guardian Bedok,93.08525690379709,22
+CUST001767,Walk-in,41-60,None,False,2,Guardian Tampines,46.76545287861385,43
+CUST001768,Walk-in,41-60,None,False,2,Guardian Tampines,101.02717372102987,51
+CUST001769,Walk-in,41-60,None,False,2,Guardian Ang Mo Kio,81.8714207178659,5
+CUST001770,Walk-in,41-60,None,False,2,Guardian Orchard,35.476162702298694,39
+CUST001771,Walk-in,41-60,None,False,2,Guardian Orchard,108.30924043838169,1
+CUST001772,Walk-in,41-60,None,False,1,Guardian Tampines,65.38615141711246,38
+CUST001773,Walk-in,41-60,None,False,2,Guardian Jurong,134.48170284540706,24
+CUST001774,Walk-in,41-60,None,False,1,Guardian Jurong,73.72298351193419,7
+CUST001775,Walk-in,41-60,None,False,2,Guardian Ang Mo Kio,47.38609872130195,26
+CUST001776,Walk-in,41-60,None,False,1,Guardian Ang Mo Kio,23.859676951014258,11
+CUST001777,Walk-in,41-60,None,False,1,Guardian Jurong,62.959806383663455,16
+CUST001778,Walk-in,41-60,None,False,1,Guardian Orchard,136.35287806701177,2
+CUST001779,Walk-in,41-60,None,False,1,Guardian Bedok,68.38012139671542,34
+CUST001780,Walk-in,41-60,None,False,1,Guardian Orchard,70.98718485578047,34
+CUST001781,Walk-in,41-60,None,False,1,Guardian Bedok,52.43886301004631,55
+CUST001782,Walk-in,41-60,None,False,1,Guardian Bedok,49.26757860690259,2
+CUST001783,Walk-in,41-60,None,False,2,Guardian Bedok,135.7031832330831,49
+CUST001784,Walk-in,41-60,None,False,1,Guardian Bedok,37.108043389621045,37
+CUST001785,Walk-in,41-60,None,False,2,Guardian Jurong,148.26281892719584,55
+CUST001786,Walk-in,41-60,None,False,1,Guardian Ang Mo Kio,84.70669178775539,27
+CUST001787,Walk-in,41-60,None,False,1,Guardian Ang Mo Kio,29.071977079646743,43
+CUST001788,Walk-in,41-60,None,False,2,Guardian Bedok,35.09943597102851,31
+CUST001789,Walk-in,41-60,None,False,1,Guardian Bedok,90.71745744166401,7
+CUST001790,Walk-in,41-60,None,False,2,Guardian Tampines,120.38360986833459,26
+CUST001791,Walk-in,41-60,None,False,1,Guardian Ang Mo Kio,40.312818105652084,40
+CUST001792,Walk-in,41-60,None,False,2,Guardian Bedok,64.42922432547164,56
+CUST001793,Walk-in,41-60,None,False,1,Guardian Orchard,102.83543568570425,54
+CUST001794,Walk-in,41-60,None,False,2,Guardian Jurong,129.885854957439,5
+CUST001795,Walk-in,41-60,None,False,1,Guardian Ang Mo Kio,139.5570789552675,35
+CUST001796,Walk-in,41-60,None,False,1,Guardian Ang Mo Kio,65.46290144468092,46
+CUST001797,Walk-in,41-60,None,False,1,Guardian Tampines,80.75342465592377,22
+CUST001798,Walk-in,41-60,None,False,2,Guardian Ang Mo Kio,144.1598027122106,3
+CUST001799,Walk-in,41-60,None,False,2,Guardian Bedok,65.31087414414131,7
+CUST001800,Walk-in,41-60,None,False,1,Guardian Jurong,107.86281149095382,9
+CUST001801,Walk-in,41-60,None,False,1,Guardian Tampines,89.66120308228709,45
+CUST001802,Walk-in,41-60,None,False,2,Guardian Bedok,89.77475411612572,22
+CUST001803,Walk-in,41-60,None,False,2,Guardian Jurong,30.418788413003192,39
+CUST001804,Walk-in,41-60,None,False,1,Guardian Ang Mo Kio,131.91705508527906,19
+CUST001805,Walk-in,41-60,None,False,1,Guardian Jurong,20.280139722461904,38
+CUST001806,Walk-in,41-60,None,False,2,Guardian Jurong,130.84287954959154,42
+CUST001807,Walk-in,41-60,None,False,1,Guardian Ang Mo Kio,55.35815101597794,37
+CUST001808,Walk-in,41-60,None,False,2,Guardian Tampines,31.306184665268958,3
+CUST001809,Walk-in,41-60,None,False,2,Guardian Jurong,101.92493653457902,59
+CUST001810,Walk-in,41-60,None,False,2,Guardian Bedok,130.9892058212818,43
+CUST001811,Walk-in,41-60,None,False,1,Guardian Tampines,101.11331654455333,41
+CUST001812,Walk-in,41-60,None,False,2,Guardian Ang Mo Kio,27.487245168368453,58
+CUST001813,Walk-in,41-60,None,False,2,Guardian Tampines,100.15135401573849,2
+CUST001814,Walk-in,41-60,None,False,2,Guardian Ang Mo Kio,137.51253647972732,38
+CUST001815,Walk-in,41-60,None,False,1,Guardian Tampines,35.34036453159179,20
+CUST001816,Walk-in,41-60,None,False,2,Guardian Tampines,41.95573707625545,21
+CUST001817,Walk-in,41-60,None,False,2,Guardian Bedok,31.60932072564613,14
+CUST001818,Walk-in,41-60,None,False,1,Guardian Ang Mo Kio,94.73759764149521,31
+CUST001819,Walk-in,41-60,None,False,1,Guardian Ang Mo Kio,90.33729972747572,11
+CUST001820,Walk-in,41-60,None,False,1,Guardian Ang Mo Kio,149.62238422561026,48
+CUST001821,Walk-in,41-60,None,False,2,Guardian Orchard,143.3785446409211,27
+CUST001822,Walk-in,41-60,None,False,2,Guardian Tampines,51.958667316910386,6
+CUST001823,Walk-in,41-60,None,False,2,Guardian Bedok,107.5435038620242,35
+CUST001824,Walk-in,41-60,None,False,1,Guardian Ang Mo Kio,127.21056785297597,22
+CUST001825,Walk-in,41-60,None,False,2,Guardian Jurong,21.13638305104007,49
+CUST001826,Walk-in,41-60,None,False,2,Guardian Ang Mo Kio,39.92386423776679,27
+CUST001827,Walk-in,41-60,None,False,2,Guardian Orchard,21.632408182378526,52
+CUST001828,Walk-in,41-60,None,False,2,Guardian Bedok,63.31086164918227,8
+CUST001829,Walk-in,41-60,None,False,1,Guardian Tampines,35.1395525292888,59
+CUST001830,Walk-in,41-60,None,False,2,Guardian Ang Mo Kio,130.1469150731158,39
+CUST001831,Walk-in,41-60,None,False,2,Guardian Ang Mo Kio,113.82068213800012,43
+CUST001832,Walk-in,41-60,None,False,2,Guardian Jurong,66.45227517941419,50
+CUST001833,Walk-in,41-60,None,False,1,Guardian Tampines,143.31124892537636,51
+CUST001834,Walk-in,41-60,None,False,1,Guardian Tampines,67.65451328474748,41
+CUST001835,Walk-in,41-60,None,False,1,Guardian Orchard,118.71883283657688,25
+CUST001836,Walk-in,41-60,None,False,1,Guardian Bedok,110.75151622804786,16
+CUST001837,Walk-in,41-60,None,False,1,Guardian Ang Mo Kio,20.315669858173475,4
+CUST001838,Walk-in,41-60,None,False,1,Guardian Tampines,106.8138514310204,10
+CUST001839,Walk-in,41-60,None,False,1,Guardian Bedok,119.18681129886369,28
+CUST001840,Walk-in,41-60,None,False,2,Guardian Bedok,77.37664043130601,57
+CUST001841,Walk-in,41-60,None,False,1,Guardian Jurong,107.87504648944288,25
+CUST001842,Walk-in,60+,None,False,2,Guardian Jurong,143.19417999654019,20
+CUST001843,Walk-in,60+,None,False,2,Guardian Orchard,100.40032195531562,58
+CUST001844,Walk-in,60+,None,False,1,Guardian Jurong,101.74708063041626,48
+CUST001845,Walk-in,60+,None,False,2,Guardian Bedok,78.98080371910254,3
+CUST001846,Walk-in,60+,None,False,1,Guardian Ang Mo Kio,71.97167670962378,37
+CUST001847,Walk-in,60+,None,False,2,Guardian Bedok,102.03794004553667,5
+CUST001848,Walk-in,60+,None,False,1,Guardian Jurong,109.01241871117523,8
+CUST001849,Walk-in,60+,None,False,2,Guardian Tampines,104.17009593134884,44
+CUST001850,Walk-in,60+,None,False,2,Guardian Ang Mo Kio,107.16996437090644,54
+CUST001851,Walk-in,60+,None,False,1,Guardian Orchard,31.66365903304726,18
+CUST001852,Walk-in,60+,None,False,1,Guardian Orchard,120.80531617964763,21
+CUST001853,Walk-in,60+,None,False,2,Guardian Orchard,99.89051691678804,52
+CUST001854,Walk-in,60+,None,False,1,Guardian Jurong,86.35238303833653,35
+CUST001855,Walk-in,60+,None,False,1,Guardian Ang Mo Kio,88.82497892604391,37
+CUST001856,Walk-in,60+,None,False,2,Guardian Ang Mo Kio,120.7772960001421,3
+CUST001857,Walk-in,60+,None,False,1,Guardian Ang Mo Kio,50.169500004834774,8
+CUST001858,Walk-in,60+,None,False,2,Guardian Tampines,48.589882371046514,42
+CUST001859,Walk-in,60+,None,False,2,Guardian Tampines,46.407198149807556,25
+CUST001860,Walk-in,60+,None,False,2,Guardian Ang Mo Kio,116.39506874632488,45
+CUST001861,Walk-in,60+,None,False,2,Guardian Bedok,88.26235923971032,48
+CUST001862,Walk-in,60+,None,False,1,Guardian Ang Mo Kio,72.57781926636936,59
+CUST001863,Walk-in,60+,None,False,2,Guardian Bedok,73.2227765221597,50
+CUST001864,Walk-in,60+,None,False,1,Guardian Tampines,43.83413705937218,42
+CUST001865,Walk-in,60+,None,False,2,Guardian Tampines,22.985567820479467,55
+CUST001866,Walk-in,60+,None,False,2,Guardian Bedok,77.04689042780757,44
+CUST001867,Walk-in,60+,None,False,2,Guardian Tampines,146.23666212762998,4
+CUST001868,Walk-in,60+,None,False,2,Guardian Ang Mo Kio,131.4319394630391,38
+CUST001869,Walk-in,60+,None,False,2,Guardian Orchard,24.487590413915463,18
+CUST001870,Walk-in,60+,None,False,1,Guardian Bedok,100.44323099031547,42
+CUST001871,Walk-in,60+,None,False,1,Guardian Jurong,141.7690880744977,44
+CUST001872,Walk-in,60+,None,False,1,Guardian Tampines,33.016967835300754,26
+CUST001873,Walk-in,60+,None,False,1,Guardian Bedok,106.80347317820174,7
+CUST001874,Walk-in,60+,None,False,2,Guardian Ang Mo Kio,59.243098720913984,36
+CUST001875,Walk-in,60+,None,False,2,Guardian Bedok,133.18385333231345,50
+CUST001876,Walk-in,60+,None,False,1,Guardian Jurong,100.8574609181096,35
+CUST001877,Walk-in,60+,None,False,1,Guardian Ang Mo Kio,138.36210037237373,4
+CUST001878,Walk-in,60+,None,False,1,Guardian Ang Mo Kio,67.21443807800328,30
+CUST001879,Walk-in,60+,None,False,1,Guardian Orchard,77.0738288450552,9
+CUST001880,Walk-in,60+,None,False,1,Guardian Orchard,101.00496356410622,52
+CUST001881,Walk-in,60+,None,False,2,Guardian Orchard,102.01685905654772,41
+CUST001882,Walk-in,60+,None,False,1,Guardian Tampines,104.5555902765915,21
+CUST001883,Walk-in,60+,None,False,1,Guardian Ang Mo Kio,54.425161840965146,25
+CUST001884,Walk-in,60+,None,False,1,Guardian Bedok,148.52535161293932,52
+CUST001885,Walk-in,60+,None,False,2,Guardian Ang Mo Kio,136.26253061741699,32
+CUST001886,Walk-in,60+,None,False,2,Guardian Ang Mo Kio,63.67566416491864,32
+CUST001887,Walk-in,60+,None,False,1,Guardian Ang Mo Kio,118.7805486355376,29
+CUST001888,Walk-in,60+,None,False,2,Guardian Jurong,141.69444378635976,33
+CUST001889,Walk-in,60+,None,False,2,Guardian Bedok,110.36634184037834,59
+CUST001890,Walk-in,60+,None,False,2,Guardian Orchard,73.106550478094,2
+CUST001891,Walk-in,60+,None,False,2,Guardian Ang Mo Kio,71.1093260990653,54
+CUST001892,Walk-in,60+,None,False,2,Guardian Ang Mo Kio,110.08490065871167,27
+CUST001893,Walk-in,60+,None,False,2,Guardian Jurong,90.4799902372391,11
+CUST001894,Walk-in,60+,None,False,2,Guardian Jurong,77.62244046457312,32
+CUST001895,Walk-in,60+,None,False,1,Guardian Ang Mo Kio,67.65811739809537,38
+CUST001896,Walk-in,60+,None,False,2,Guardian Ang Mo Kio,136.0662186189001,55
+CUST001897,Walk-in,60+,None,False,2,Guardian Orchard,136.64465197247486,49
+CUST001898,Walk-in,60+,None,False,1,Guardian Tampines,30.504236243409476,42
+CUST001899,Walk-in,60+,None,False,2,Guardian Jurong,57.75801815601053,32
+CUST001900,Walk-in,60+,None,False,1,Guardian Ang Mo Kio,136.59234022088003,29
+CUST001901,Walk-in,60+,None,False,2,Guardian Bedok,136.43437569759124,39
+CUST001902,Walk-in,60+,None,False,1,Guardian Bedok,52.37465592546693,28
+CUST001903,Walk-in,60+,None,False,2,Guardian Ang Mo Kio,97.60441905050745,22
+CUST001904,Walk-in,60+,None,False,2,Guardian Orchard,120.12017868632788,38
+CUST001905,Walk-in,60+,None,False,1,Guardian Orchard,108.59055723230931,39
+CUST001906,Walk-in,60+,None,False,1,Guardian Bedok,146.72862627345677,47
+CUST001907,Walk-in,60+,None,False,1,Guardian Ang Mo Kio,105.78337901693735,50
+CUST001908,Walk-in,60+,None,False,2,Guardian Ang Mo Kio,62.41635089391859,18
+CUST001909,Walk-in,60+,None,False,2,Guardian Tampines,73.61007835314052,48
+CUST001910,Walk-in,60+,None,False,2,Guardian Orchard,92.26612036870385,27
+CUST001911,Walk-in,60+,None,False,1,Guardian Orchard,144.37819883849062,24
+CUST001912,Walk-in,60+,None,False,1,Guardian Tampines,137.1945011660767,4
+CUST001913,Walk-in,60+,None,False,1,Guardian Tampines,62.76611746447672,37
+CUST001914,Walk-in,60+,None,False,2,Guardian Orchard,50.608331313437446,51
+CUST001915,Walk-in,60+,None,False,1,Guardian Ang Mo Kio,99.25655249940141,9
+CUST001916,Walk-in,60+,None,False,2,Guardian Orchard,22.19574236589993,31

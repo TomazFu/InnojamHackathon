@@ -1,0 +1,106 @@
+branch_id,branch_name,category,medicine_name,sku,current_stock,unit_cost,unit_price,daily_velocity,days_until_stockout,days_to_expiry,reorder_point,status,is_prescription
+B001,Guardian Ang Mo Kio,Cold & Flu,Paracetamol 500mg,SKU1000,275,5.1,8.5,10.59,25,489,148,Good,False
+B001,Guardian Ang Mo Kio,Cold & Flu,Cough Syrup,SKU1001,334,7.74,12.9,10.44,31,389,146,Good,False
+B001,Guardian Ang Mo Kio,Cold & Flu,Lozenges,SKU1002,313,3.9,6.5,11.19,27,228,156,Good,False
+B001,Guardian Ang Mo Kio,Cold & Flu,Decongestant,SKU1003,431,9.0,15.0,11.07,38,197,154,Good,False
+B001,Guardian Ang Mo Kio,Pain Relief,Ibuprofen 400mg,SKU1004,135,6.3,10.5,9.03,14,101,126,Low,False
+B001,Guardian Ang Mo Kio,Pain Relief,Aspirin,SKU1005,280,4.8,8.0,8.5,32,406,119,Good,False
+B001,Guardian Ang Mo Kio,Pain Relief,Muscle Relaxant,SKU1006,172,15.0,25.0,8.2,20,96,114,Low,True
+B001,Guardian Ang Mo Kio,Digestive,Antacid,SKU1007,327,7.2,12.0,8.86,36,509,123,Good,False
+B001,Guardian Ang Mo Kio,Digestive,Probiotics,SKU1008,278,21.0,35.0,7.96,34,352,111,Good,False
+B001,Guardian Ang Mo Kio,Digestive,Anti-diarrheal,SKU1009,359,10.8,18.0,9.21,38,307,128,Good,False
+B001,Guardian Ang Mo Kio,Chronic,Blood Pressure Med,SKU1010,588,27.0,45.0,11.77,49,406,164,Good,True
+B001,Guardian Ang Mo Kio,Chronic,Diabetes Med,SKU1011,478,39.0,65.0,12.28,38,268,171,Good,True
+B001,Guardian Ang Mo Kio,Chronic,Cholesterol Med,SKU1012,617,33.0,55.0,11.43,53,695,160,Good,True
+B001,Guardian Ang Mo Kio,Vitamins,Multivitamin,SKU1013,139,16.8,28.0,8.73,15,347,122,Low,False
+B001,Guardian Ang Mo Kio,Vitamins,Vitamin C,SKU1014,302,9.0,15.0,8.66,34,215,121,Good,False
+B001,Guardian Ang Mo Kio,Vitamins,Vitamin D,SKU1015,246,13.2,22.0,8.22,29,119,115,Good,False
+B001,Guardian Ang Mo Kio,Antibiotics,Amoxicillin,SKU1016,155,21.0,35.0,5.02,30,268,70,Good,True
+B001,Guardian Ang Mo Kio,Antibiotics,Azithromycin,SKU1017,138,25.2,42.0,4.48,30,519,62,Good,True
+B001,Guardian Ang Mo Kio,Skin Care,Antibiotic Cream,SKU1018,160,10.8,18.0,5.73,27,332,80,Good,False
+B001,Guardian Ang Mo Kio,Skin Care,Antifungal Cream,SKU1019,176,13.2,22.0,5.5,32,285,77,Good,False
+B001,Guardian Ang Mo Kio,Skin Care,Moisturizer,SKU1020,187,15.0,25.0,5.86,31,169,81,Good,False
+B002,Guardian Bedok,Cold & Flu,Paracetamol 500mg,SKU1021,735,5.1,8.5,25.37,28,510,355,Good,False
+B002,Guardian Bedok,Cold & Flu,Cough Syrup,SKU1022,669,7.74,12.9,25.77,25,207,360,Good,False
+B002,Guardian Bedok,Cold & Flu,Lozenges,SKU1023,628,3.9,6.5,25.14,24,98,352,Good,False
+B002,Guardian Bedok,Cold & Flu,Decongestant,SKU1024,634,9.0,15.0,25.39,24,341,355,Good,False
+B002,Guardian Bedok,Pain Relief,Ibuprofen 400mg,SKU1025,199,6.3,10.5,7.99,24,143,111,Good,False
+B002,Guardian Bedok,Pain Relief,Aspirin,SKU1026,347,4.8,8.0,7.89,43,236,110,Good,False
+B002,Guardian Bedok,Pain Relief,Muscle Relaxant,SKU1027,182,15.0,25.0,7.6,23,380,106,Good,True
+B002,Guardian Bedok,Digestive,Antacid,SKU1028,201,7.2,12.0,8.4,23,347,117,Good,False
+B002,Guardian Bedok,Digestive,Probiotics,SKU1029,193,21.0,35.0,8.42,22,439,117,Good,False
+B002,Guardian Bedok,Digestive,Anti-diarrheal,SKU1030,260,10.8,18.0,8.39,30,487,117,Good,False
+B002,Guardian Bedok,Chronic,Blood Pressure Med,SKU1031,476,27.0,45.0,13.24,35,482,185,Good,True
+B002,Guardian Bedok,Chronic,Diabetes Med,SKU1032,375,39.0,65.0,12.51,29,230,175,Good,True
+B002,Guardian Bedok,Chronic,Cholesterol Med,SKU1033,510,33.0,55.0,13.08,38,184,183,Good,True
+B002,Guardian Bedok,Vitamins,Multivitamin,SKU1034,340,16.8,28.0,8.3,40,227,116,Good,False
+B002,Guardian Bedok,Vitamins,Vitamin C,SKU1035,205,9.0,15.0,7.89,25,209,110,Good,False
+B002,Guardian Bedok,Vitamins,Vitamin D,SKU1036,204,13.2,22.0,8.91,22,193,124,Good,False
+B002,Guardian Bedok,Antibiotics,Amoxicillin,SKU1037,117,21.0,35.0,5.34,21,389,74,Good,True
+B002,Guardian Bedok,Antibiotics,Azithromycin,SKU1038,130,25.2,42.0,5.21,24,655,72,Good,True
+B002,Guardian Bedok,Skin Care,Antibiotic Cream,SKU1039,130,10.8,18.0,5.66,22,119,79,Good,False
+B002,Guardian Bedok,Skin Care,Antifungal Cream,SKU1040,85,13.2,22.0,5.69,14,208,79,Low,False
+B002,Guardian Bedok,Skin Care,Moisturizer,SKU1041,164,15.0,25.0,6.58,24,368,92,Good,False
+B003,Guardian Jurong,Cold & Flu,Paracetamol 500mg,SKU1042,399,5.1,8.5,11.76,33,393,164,Good,False
+B003,Guardian Jurong,Cold & Flu,Cough Syrup,SKU1043,223,7.74,12.9,11.18,19,417,156,Low,False
+B003,Guardian Jurong,Cold & Flu,Lozenges,SKU1044,265,3.9,6.5,10.2,25,251,142,Good,False
+B003,Guardian Jurong,Cold & Flu,Decongestant,SKU1045,463,9.0,15.0,11.04,41,407,154,Good,False
+B003,Guardian Jurong,Pain Relief,Ibuprofen 400mg,SKU1046,344,6.3,10.5,9.06,37,270,126,Good,False
+B003,Guardian Jurong,Pain Relief,Aspirin,SKU1047,352,4.8,8.0,9.29,37,352,130,Good,False
+B003,Guardian Jurong,Pain Relief,Muscle Relaxant,SKU1048,299,15.0,25.0,8.56,34,394,119,Good,True
+B003,Guardian Jurong,Digestive,Antacid,SKU1049,337,7.2,12.0,8.03,41,376,112,Good,False
+B003,Guardian Jurong,Digestive,Probiotics,SKU1050,199,21.0,35.0,7.66,25,351,107,Good,False
+B003,Guardian Jurong,Digestive,Anti-diarrheal,SKU1051,128,10.8,18.0,8.54,14,331,119,Low,False
+B003,Guardian Jurong,Chronic,Blood Pressure Med,SKU1052,509,27.0,45.0,11.07,45,473,154,Good,True
+B003,Guardian Jurong,Chronic,Diabetes Med,SKU1053,462,39.0,65.0,11.57,39,223,161,Good,True
+B003,Guardian Jurong,Chronic,Cholesterol Med,SKU1054,415,33.0,55.0,11.87,34,446,166,Good,True
+B003,Guardian Jurong,Vitamins,Multivitamin,SKU1055,323,16.8,28.0,9.81,32,224,137,Good,False
+B003,Guardian Jurong,Vitamins,Vitamin C,SKU1056,163,9.0,15.0,9.09,17,277,127,Low,False
+B003,Guardian Jurong,Vitamins,Vitamin D,SKU1057,176,13.2,22.0,8.84,19,344,123,Low,False
+B003,Guardian Jurong,Antibiotics,Amoxicillin,SKU1058,170,21.0,35.0,4.88,34,298,68,Good,True
+B003,Guardian Jurong,Antibiotics,Azithromycin,SKU1059,161,25.2,42.0,4.76,33,278,66,Good,True
+B003,Guardian Jurong,Skin Care,Antibiotic Cream,SKU1060,158,10.8,18.0,5.64,27,268,79,Good,False
+B003,Guardian Jurong,Skin Care,Antifungal Cream,SKU1061,127,13.2,22.0,5.32,23,385,74,Good,False
+B003,Guardian Jurong,Skin Care,Moisturizer,SKU1062,272,15.0,25.0,6.33,42,374,88,Good,False
+B004,Guardian Tampines,Cold & Flu,Paracetamol 500mg,SKU1063,576,5.1,8.5,25.06,22,165,350,Good,False
+B004,Guardian Tampines,Cold & Flu,Cough Syrup,SKU1064,517,7.74,12.9,25.86,19,277,361,Low,False
+B004,Guardian Tampines,Cold & Flu,Lozenges,SKU1065,734,3.9,6.5,25.32,28,219,354,Good,False
+B004,Guardian Tampines,Cold & Flu,Decongestant,SKU1066,925,9.0,15.0,24.37,37,356,341,Good,False
+B004,Guardian Tampines,Pain Relief,Ibuprofen 400mg,SKU1067,273,6.3,10.5,8.29,32,485,116,Good,False
+B004,Guardian Tampines,Pain Relief,Aspirin,SKU1068,174,4.8,8.0,8.31,20,415,116,Low,False
+B004,Guardian Tampines,Pain Relief,Muscle Relaxant,SKU1069,341,15.0,25.0,8.33,40,528,116,Good,True
+B004,Guardian Tampines,Digestive,Antacid,SKU1070,243,7.2,12.0,8.7,27,142,121,Good,False
+B004,Guardian Tampines,Digestive,Probiotics,SKU1071,251,21.0,35.0,8.12,30,125,113,Good,False
+B004,Guardian Tampines,Digestive,Anti-diarrheal,SKU1072,128,10.8,18.0,8.57,14,349,119,Low,False
+B004,Guardian Tampines,Chronic,Blood Pressure Med,SKU1073,779,27.0,45.0,13.91,55,540,194,Good,True
+B004,Guardian Tampines,Chronic,Diabetes Med,SKU1074,573,39.0,65.0,13.03,43,674,182,Good,True
+B004,Guardian Tampines,Chronic,Cholesterol Med,SKU1075,563,33.0,55.0,13.76,40,395,192,Good,True
+B004,Guardian Tampines,Vitamins,Multivitamin,SKU1076,271,16.8,28.0,7.33,36,97,102,Good,False
+B004,Guardian Tampines,Vitamins,Vitamin C,SKU1077,315,9.0,15.0,8.31,37,424,116,Good,False
+B004,Guardian Tampines,Vitamins,Vitamin D,SKU1078,348,13.2,22.0,8.72,39,210,122,Good,False
+B004,Guardian Tampines,Antibiotics,Amoxicillin,SKU1079,167,21.0,35.0,5.24,31,468,73,Good,True
+B004,Guardian Tampines,Antibiotics,Azithromycin,SKU1080,174,25.2,42.0,4.99,34,281,69,Good,True
+B004,Guardian Tampines,Skin Care,Antibiotic Cream,SKU1081,228,10.8,18.0,6.17,36,364,86,Good,False
+B004,Guardian Tampines,Skin Care,Antifungal Cream,SKU1082,237,13.2,22.0,6.26,37,90,87,Good,False
+B004,Guardian Tampines,Skin Care,Moisturizer,SKU1083,117,15.0,25.0,5.36,21,295,74,Good,False
+B005,Guardian Orchard,Cold & Flu,Paracetamol 500mg,SKU1084,207,5.1,8.5,10.91,18,274,152,Low,False
+B005,Guardian Orchard,Cold & Flu,Cough Syrup,SKU1085,384,7.74,12.9,12.01,31,148,168,Good,False
+B005,Guardian Orchard,Cold & Flu,Lozenges,SKU1086,229,3.9,6.5,11.48,19,487,160,Low,False
+B005,Guardian Orchard,Cold & Flu,Decongestant,SKU1087,283,9.0,15.0,11.32,24,343,158,Good,False
+B005,Guardian Orchard,Pain Relief,Ibuprofen 400mg,SKU1088,189,6.3,10.5,7.91,23,486,110,Good,False
+B005,Guardian Orchard,Pain Relief,Aspirin,SKU1089,371,4.8,8.0,8.63,42,333,120,Good,False
+B005,Guardian Orchard,Pain Relief,Muscle Relaxant,SKU1090,341,15.0,25.0,8.77,38,406,122,Good,True
+B005,Guardian Orchard,Digestive,Antacid,SKU1091,361,7.2,12.0,9.78,36,513,136,Good,False
+B005,Guardian Orchard,Digestive,Probiotics,SKU1092,127,21.0,35.0,8.47,15,306,118,Low,False
+B005,Guardian Orchard,Digestive,Anti-diarrheal,SKU1093,212,10.8,18.0,8.87,23,263,124,Good,False
+B005,Guardian Orchard,Chronic,Blood Pressure Med,SKU1094,645,27.0,45.0,11.94,54,571,167,Good,True
+B005,Guardian Orchard,Chronic,Diabetes Med,SKU1095,419,39.0,65.0,11.66,35,583,163,Good,True
+B005,Guardian Orchard,Chronic,Cholesterol Med,SKU1096,565,33.0,55.0,11.31,49,268,158,Good,True
+B005,Guardian Orchard,Vitamins,Multivitamin,SKU1097,231,16.8,28.0,9.27,24,422,129,Good,False
+B005,Guardian Orchard,Vitamins,Vitamin C,SKU1098,127,9.0,15.0,8.48,14,135,118,Low,False
+B005,Guardian Orchard,Vitamins,Vitamin D,SKU1099,335,13.2,22.0,9.32,35,261,130,Good,False
+B005,Guardian Orchard,Antibiotics,Amoxicillin,SKU1100,127,21.0,35.0,4.23,30,425,59,Good,True
+B005,Guardian Orchard,Antibiotics,Azithromycin,SKU1101,101,25.2,42.0,3.91,25,644,54,Good,True
+B005,Guardian Orchard,Skin Care,Antibiotic Cream,SKU1102,220,10.8,18.0,5.97,36,261,83,Good,False
+B005,Guardian Orchard,Skin Care,Antifungal Cream,SKU1103,156,13.2,22.0,5.8,26,171,81,Good,False
+B005,Guardian Orchard,Skin Care,Moisturizer,SKU1104,129,15.0,25.0,6.48,19,174,90,Low,False

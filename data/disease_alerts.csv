@@ -1,0 +1,451 @@
+date,branch_id,branch_name,district,disease_category,daily_sales_units,baseline_avg,spike_percentage,alert_level,estimated_affected_patients,day_number
+2025-06-29,B001,Guardian Ang Mo Kio,North,Cold & Flu,67,15.0,346.67,Critical,53,0
+2025-06-29,B002,Guardian Bedok,East,Cold & Flu,49,15.0,226.67,Critical,39,0
+2025-06-29,B003,Guardian Jurong,West,Cold & Flu,43,15.0,186.67,Critical,34,0
+2025-06-29,B004,Guardian Tampines,East,Cold & Flu,48,15.0,220.0,Critical,38,0
+2025-06-29,B005,Guardian Orchard,Central,Cold & Flu,48,15.0,220.0,Critical,38,0
+2025-06-30,B001,Guardian Ang Mo Kio,North,Cold & Flu,35,15.0,133.33,Critical,28,1
+2025-06-30,B002,Guardian Bedok,East,Cold & Flu,18,15.0,20.0,Normal,14,1
+2025-06-30,B003,Guardian Jurong,West,Cold & Flu,47,15.0,213.33,Critical,37,1
+2025-06-30,B004,Guardian Tampines,East,Cold & Flu,81,15.0,440.0,Critical,64,1
+2025-06-30,B005,Guardian Orchard,Central,Cold & Flu,68,15.0,353.33,Critical,54,1
+2025-07-01,B001,Guardian Ang Mo Kio,North,Cold & Flu,45,15.0,200.0,Critical,36,2
+2025-07-01,B002,Guardian Bedok,East,Cold & Flu,16,15.0,6.67,Normal,12,2
+2025-07-01,B003,Guardian Jurong,West,Cold & Flu,32,15.0,113.33,Critical,25,2
+2025-07-01,B004,Guardian Tampines,East,Cold & Flu,22,15.0,46.67,Monitor,17,2
+2025-07-01,B005,Guardian Orchard,Central,Cold & Flu,36,15.0,140.0,Critical,28,2
+2025-07-02,B001,Guardian Ang Mo Kio,North,Cold & Flu,65,15.0,333.33,Critical,52,3
+2025-07-02,B002,Guardian Bedok,East,Cold & Flu,45,15.0,200.0,Critical,36,3
+2025-07-02,B003,Guardian Jurong,West,Cold & Flu,41,15.0,173.33,Critical,32,3
+2025-07-02,B004,Guardian Tampines,East,Cold & Flu,45,15.0,200.0,Critical,36,3
+2025-07-02,B005,Guardian Orchard,Central,Cold & Flu,62,15.0,313.33,Critical,49,3
+2025-07-03,B001,Guardian Ang Mo Kio,North,Cold & Flu,55,15.0,266.67,Critical,44,4
+2025-07-03,B002,Guardian Bedok,East,Cold & Flu,39,15.0,160.0,Critical,31,4
+2025-07-03,B003,Guardian Jurong,West,Cold & Flu,56,15.0,273.33,Critical,44,4
+2025-07-03,B004,Guardian Tampines,East,Cold & Flu,22,15.0,46.67,Monitor,17,4
+2025-07-03,B005,Guardian Orchard,Central,Cold & Flu,45,15.0,200.0,Critical,36,4
+2025-07-04,B001,Guardian Ang Mo Kio,North,Cold & Flu,59,15.0,293.33,Critical,47,5
+2025-07-04,B002,Guardian Bedok,East,Cold & Flu,30,15.0,100.0,Warning,24,5
+2025-07-04,B003,Guardian Jurong,West,Cold & Flu,63,15.0,320.0,Critical,50,5
+2025-07-04,B004,Guardian Tampines,East,Cold & Flu,50,15.0,233.33,Critical,40,5
+2025-07-04,B005,Guardian Orchard,Central,Cold & Flu,21,15.0,40.0,Monitor,16,5
+2025-07-05,B001,Guardian Ang Mo Kio,North,Cold & Flu,42,15.0,180.0,Critical,33,6
+2025-07-05,B002,Guardian Bedok,East,Cold & Flu,33,15.0,120.0,Critical,26,6
+2025-07-05,B003,Guardian Jurong,West,Cold & Flu,61,15.0,306.67,Critical,48,6
+2025-07-05,B004,Guardian Tampines,East,Cold & Flu,39,15.0,160.0,Critical,31,6
+2025-07-05,B005,Guardian Orchard,Central,Cold & Flu,66,15.0,340.0,Critical,52,6
+2025-07-06,B001,Guardian Ang Mo Kio,North,Cold & Flu,41,52.57,-22.01,Normal,32,7
+2025-07-06,B002,Guardian Bedok,East,Cold & Flu,43,32.86,30.87,Monitor,34,7
+2025-07-06,B003,Guardian Jurong,West,Cold & Flu,54,49.0,10.2,Normal,43,7
+2025-07-06,B004,Guardian Tampines,East,Cold & Flu,49,43.86,11.73,Normal,39,7
+2025-07-06,B005,Guardian Orchard,Central,Cold & Flu,29,49.43,-41.33,Normal,23,7
+2025-07-07,B001,Guardian Ang Mo Kio,North,Cold & Flu,54,48.86,10.53,Normal,43,8
+2025-07-07,B002,Guardian Bedok,East,Cold & Flu,55,32.0,71.88,Warning,44,8
+2025-07-07,B003,Guardian Jurong,West,Cold & Flu,75,50.57,48.31,Monitor,60,8
+2025-07-07,B004,Guardian Tampines,East,Cold & Flu,37,44.0,-15.91,Normal,29,8
+2025-07-07,B005,Guardian Orchard,Central,Cold & Flu,66,46.71,41.28,Monitor,52,8
+2025-07-08,B001,Guardian Ang Mo Kio,North,Cold & Flu,53,51.57,2.77,Normal,42,9
+2025-07-08,B002,Guardian Bedok,East,Cold & Flu,21,37.29,-43.68,Normal,16,9
+2025-07-08,B003,Guardian Jurong,West,Cold & Flu,40,54.57,-26.7,Normal,32,9
+2025-07-08,B004,Guardian Tampines,East,Cold & Flu,39,37.71,3.41,Normal,31,9
+2025-07-08,B005,Guardian Orchard,Central,Cold & Flu,38,46.43,-18.15,Normal,30,9
+2025-07-09,B001,Guardian Ang Mo Kio,North,Cold & Flu,32,52.71,-39.3,Normal,25,10
+2025-07-09,B002,Guardian Bedok,East,Cold & Flu,55,38.0,44.74,Monitor,44,10
+2025-07-09,B003,Guardian Jurong,West,Cold & Flu,59,55.71,5.9,Normal,47,10
+2025-07-09,B004,Guardian Tampines,East,Cold & Flu,51,40.14,27.05,Monitor,40,10
+2025-07-09,B005,Guardian Orchard,Central,Cold & Flu,59,46.71,26.3,Monitor,47,10
+2025-07-10,B001,Guardian Ang Mo Kio,North,Cold & Flu,37,48.0,-22.92,Normal,29,11
+2025-07-10,B002,Guardian Bedok,East,Cold & Flu,27,39.43,-31.52,Normal,21,11
+2025-07-10,B003,Guardian Jurong,West,Cold & Flu,46,58.29,-21.08,Normal,36,11
+2025-07-10,B004,Guardian Tampines,East,Cold & Flu,33,41.0,-19.51,Normal,26,11
+2025-07-10,B005,Guardian Orchard,Central,Cold & Flu,37,46.29,-20.06,Normal,29,11
+2025-07-11,B001,Guardian Ang Mo Kio,North,Cold & Flu,39,45.43,-14.15,Normal,31,12
+2025-07-11,B002,Guardian Bedok,East,Cold & Flu,46,37.71,21.97,Monitor,36,12
+2025-07-11,B003,Guardian Jurong,West,Cold & Flu,57,56.86,0.25,Normal,45,12
+2025-07-11,B004,Guardian Tampines,East,Cold & Flu,42,42.57,-1.34,Normal,33,12
+2025-07-11,B005,Guardian Orchard,Central,Cold & Flu,20,45.14,-55.7,Normal,16,12
+2025-07-12,B001,Guardian Ang Mo Kio,North,Cold & Flu,47,42.57,10.4,Normal,37,13
+2025-07-12,B002,Guardian Bedok,East,Cold & Flu,59,40.0,47.5,Monitor,47,13
+2025-07-12,B003,Guardian Jurong,West,Cold & Flu,32,56.0,-42.86,Normal,25,13
+2025-07-12,B004,Guardian Tampines,East,Cold & Flu,35,41.43,-15.52,Normal,28,13
+2025-07-12,B005,Guardian Orchard,Central,Cold & Flu,44,45.0,-2.22,Normal,35,13
+2025-07-13,B001,Guardian Ang Mo Kio,North,Cold & Flu,72,43.29,66.34,Warning,57,14
+2025-07-13,B002,Guardian Bedok,East,Cold & Flu,73,43.71,66.99,Warning,58,14
+2025-07-13,B003,Guardian Jurong,West,Cold & Flu,54,51.86,4.13,Normal,43,14
+2025-07-13,B004,Guardian Tampines,East,Cold & Flu,56,40.86,37.06,Monitor,44,14
+2025-07-13,B005,Guardian Orchard,Central,Cold & Flu,39,41.86,-6.83,Normal,31,14
+2025-07-14,B001,Guardian Ang Mo Kio,North,Cold & Flu,38,47.71,-20.36,Normal,30,15
+2025-07-14,B002,Guardian Bedok,East,Cold & Flu,78,48.0,62.5,Warning,62,15
+2025-07-14,B003,Guardian Jurong,West,Cold & Flu,82,51.86,58.13,Warning,65,15
+2025-07-14,B004,Guardian Tampines,East,Cold & Flu,59,41.86,40.96,Monitor,47,15
+2025-07-14,B005,Guardian Orchard,Central,Cold & Flu,49,43.29,13.2,Normal,39,15
+2025-07-15,B001,Guardian Ang Mo Kio,North,Cold & Flu,57,45.43,25.47,Monitor,45,16
+2025-07-15,B002,Guardian Bedok,East,Cold & Flu,37,51.29,-27.86,Normal,29,16
+2025-07-15,B003,Guardian Jurong,West,Cold & Flu,43,52.86,-18.65,Normal,34,16
+2025-07-15,B004,Guardian Tampines,East,Cold & Flu,48,45.0,6.67,Normal,38,16
+2025-07-15,B005,Guardian Orchard,Central,Cold & Flu,56,40.86,37.06,Monitor,44,16
+2025-07-16,B001,Guardian Ang Mo Kio,North,Cold & Flu,29,46.0,-36.96,Normal,23,17
+2025-07-16,B002,Guardian Bedok,East,Cold & Flu,46,53.57,-14.13,Normal,36,17
+2025-07-16,B003,Guardian Jurong,West,Cold & Flu,48,53.29,-9.92,Normal,38,17
+2025-07-16,B004,Guardian Tampines,East,Cold & Flu,28,46.29,-39.51,Normal,22,17
+2025-07-16,B005,Guardian Orchard,Central,Cold & Flu,57,43.43,31.25,Monitor,45,17
+2025-07-17,B001,Guardian Ang Mo Kio,North,Cold & Flu,49,45.57,7.52,Normal,39,18
+2025-07-17,B002,Guardian Bedok,East,Cold & Flu,36,52.29,-31.15,Normal,28,18
+2025-07-17,B003,Guardian Jurong,West,Cold & Flu,7,51.71,-86.46,Normal,5,18
+2025-07-17,B004,Guardian Tampines,East,Cold & Flu,41,43.0,-4.65,Normal,32,18
+2025-07-17,B005,Guardian Orchard,Central,Cold & Flu,22,43.14,-49.01,Normal,17,18
+2025-07-18,B001,Guardian Ang Mo Kio,North,Cold & Flu,32,47.29,-32.33,Normal,25,19
+2025-07-18,B002,Guardian Bedok,East,Cold & Flu,62,53.57,15.73,Normal,49,19
+2025-07-18,B003,Guardian Jurong,West,Cold & Flu,44,46.14,-4.64,Normal,35,19
+2025-07-18,B004,Guardian Tampines,East,Cold & Flu,49,44.14,11.0,Normal,39,19
+2025-07-18,B005,Guardian Orchard,Central,Cold & Flu,52,41.0,26.83,Monitor,41,19
+2025-07-19,B001,Guardian Ang Mo Kio,North,Cold & Flu,36,46.29,-22.22,Normal,28,20
+2025-07-19,B002,Guardian Bedok,East,Cold & Flu,43,55.86,-23.02,Normal,34,20
+2025-07-19,B003,Guardian Jurong,West,Cold & Flu,37,44.29,-16.45,Normal,29,20
+2025-07-19,B004,Guardian Tampines,East,Cold & Flu,51,45.14,12.97,Normal,40,20
+2025-07-19,B005,Guardian Orchard,Central,Cold & Flu,36,45.57,-21.0,Normal,28,20
+2025-07-20,B001,Guardian Ang Mo Kio,North,Cold & Flu,54,44.71,20.77,Monitor,43,21
+2025-07-20,B002,Guardian Bedok,East,Cold & Flu,53,53.57,-1.07,Normal,42,21
+2025-07-20,B003,Guardian Jurong,West,Cold & Flu,39,45.0,-13.33,Normal,31,21
+2025-07-20,B004,Guardian Tampines,East,Cold & Flu,39,47.43,-17.77,Normal,31,21
+2025-07-20,B005,Guardian Orchard,Central,Cold & Flu,69,44.43,55.31,Warning,55,21
+2025-07-21,B001,Guardian Ang Mo Kio,North,Cold & Flu,76,42.14,80.34,Warning,60,22
+2025-07-21,B002,Guardian Bedok,East,Cold & Flu,44,50.71,-13.24,Normal,35,22
+2025-07-21,B003,Guardian Jurong,West,Cold & Flu,39,42.86,-9.0,Normal,31,22
+2025-07-21,B004,Guardian Tampines,East,Cold & Flu,70,45.0,55.56,Warning,56,22
+2025-07-21,B005,Guardian Orchard,Central,Cold & Flu,37,48.71,-24.05,Normal,29,22
+2025-07-22,B001,Guardian Ang Mo Kio,North,Cold & Flu,47,47.57,-1.2,Normal,37,23
+2025-07-22,B002,Guardian Bedok,East,Cold & Flu,26,45.86,-43.3,Normal,20,23
+2025-07-22,B003,Guardian Jurong,West,Cold & Flu,22,36.71,-40.08,Normal,17,23
+2025-07-22,B004,Guardian Tampines,East,Cold & Flu,25,46.57,-46.32,Normal,20,23
+2025-07-22,B005,Guardian Orchard,Central,Cold & Flu,46,47.0,-2.13,Normal,36,23
+2025-07-23,B001,Guardian Ang Mo Kio,North,Cold & Flu,29,46.14,-37.15,Normal,23,24
+2025-07-23,B002,Guardian Bedok,East,Cold & Flu,49,44.29,10.65,Normal,39,24
+2025-07-23,B003,Guardian Jurong,West,Cold & Flu,32,33.71,-5.08,Normal,25,24
+2025-07-23,B004,Guardian Tampines,East,Cold & Flu,38,43.29,-12.21,Normal,30,24
+2025-07-23,B005,Guardian Orchard,Central,Cold & Flu,61,45.57,33.86,Monitor,48,24
+2025-07-24,B001,Guardian Ang Mo Kio,North,Cold & Flu,28,46.14,-39.32,Normal,22,25
+2025-07-24,B002,Guardian Bedok,East,Cold & Flu,44,44.71,-1.6,Normal,35,25
+2025-07-24,B003,Guardian Jurong,West,Cold & Flu,32,31.43,1.82,Normal,25,25
+2025-07-24,B004,Guardian Tampines,East,Cold & Flu,33,44.71,-26.2,Normal,26,25
+2025-07-24,B005,Guardian Orchard,Central,Cold & Flu,80,46.14,73.37,Warning,64,25
+2025-07-25,B001,Guardian Ang Mo Kio,North,Cold & Flu,27,43.14,-37.42,Normal,21,26
+2025-07-25,B002,Guardian Bedok,East,Cold & Flu,25,45.86,-45.48,Normal,20,26
+2025-07-25,B003,Guardian Jurong,West,Cold & Flu,18,35.0,-48.57,Normal,14,26
+2025-07-25,B004,Guardian Tampines,East,Cold & Flu,51,43.57,17.05,Normal,40,26
+2025-07-25,B005,Guardian Orchard,Central,Cold & Flu,44,54.43,-19.16,Normal,35,26
+2025-07-26,B001,Guardian Ang Mo Kio,North,Cold & Flu,41,42.43,-3.37,Normal,32,27
+2025-07-26,B002,Guardian Bedok,East,Cold & Flu,61,40.57,50.35,Warning,48,27
+2025-07-26,B003,Guardian Jurong,West,Cold & Flu,71,31.29,126.94,Critical,56,27
+2025-07-26,B004,Guardian Tampines,East,Cold & Flu,42,43.86,-4.23,Normal,33,27
+2025-07-26,B005,Guardian Orchard,Central,Cold & Flu,53,53.29,-0.54,Normal,42,27
+2025-07-27,B001,Guardian Ang Mo Kio,North,Cold & Flu,33,43.14,-23.51,Normal,26,28
+2025-07-27,B002,Guardian Bedok,East,Cold & Flu,62,43.14,43.71,Monitor,49,28
+2025-07-27,B003,Guardian Jurong,West,Cold & Flu,44,36.14,21.74,Monitor,35,28
+2025-07-27,B004,Guardian Tampines,East,Cold & Flu,53,42.57,24.5,Monitor,42,28
+2025-07-27,B005,Guardian Orchard,Central,Cold & Flu,54,55.71,-3.08,Normal,43,28
+2025-07-28,B001,Guardian Ang Mo Kio,North,Cold & Flu,51,40.14,27.05,Monitor,40,29
+2025-07-28,B002,Guardian Bedok,East,Cold & Flu,85,44.43,91.32,Warning,68,29
+2025-07-28,B003,Guardian Jurong,West,Cold & Flu,63,36.86,70.93,Warning,50,29
+2025-07-28,B004,Guardian Tampines,East,Cold & Flu,74,44.57,66.03,Warning,59,29
+2025-07-28,B005,Guardian Orchard,Central,Cold & Flu,61,53.57,13.87,Normal,48,29
+2025-07-29,B001,Guardian Ang Mo Kio,North,Cold & Flu,27,36.57,-26.17,Normal,21,30
+2025-07-29,B002,Guardian Bedok,East,Cold & Flu,43,50.29,-14.49,Normal,34,30
+2025-07-29,B003,Guardian Jurong,West,Cold & Flu,21,40.29,-47.87,Normal,16,30
+2025-07-29,B004,Guardian Tampines,East,Cold & Flu,33,45.14,-26.9,Normal,26,30
+2025-07-29,B005,Guardian Orchard,Central,Cold & Flu,34,57.0,-40.35,Normal,27,30
+2025-07-30,B001,Guardian Ang Mo Kio,North,Cold & Flu,45,33.71,33.47,Monitor,36,31
+2025-07-30,B002,Guardian Bedok,East,Cold & Flu,26,52.71,-50.68,Normal,20,31
+2025-07-30,B003,Guardian Jurong,West,Cold & Flu,23,40.14,-42.7,Normal,18,31
+2025-07-30,B004,Guardian Tampines,East,Cold & Flu,48,46.29,3.7,Normal,38,31
+2025-07-30,B005,Guardian Orchard,Central,Cold & Flu,35,55.29,-36.69,Normal,28,31
+2025-07-31,B001,Guardian Ang Mo Kio,North,Cold & Flu,38,36.0,5.56,Normal,30,32
+2025-07-31,B002,Guardian Bedok,East,Cold & Flu,34,49.43,-31.21,Normal,27,32
+2025-07-31,B003,Guardian Jurong,West,Cold & Flu,54,38.86,38.97,Monitor,43,32
+2025-07-31,B004,Guardian Tampines,East,Cold & Flu,33,47.71,-30.84,Normal,26,32
+2025-07-31,B005,Guardian Orchard,Central,Cold & Flu,63,51.57,22.16,Monitor,50,32
+2025-08-01,B001,Guardian Ang Mo Kio,North,Cold & Flu,12,37.43,-67.94,Normal,9,33
+2025-08-01,B002,Guardian Bedok,East,Cold & Flu,36,48.0,-25.0,Normal,28,33
+2025-08-01,B003,Guardian Jurong,West,Cold & Flu,44,42.0,4.76,Normal,35,33
+2025-08-01,B004,Guardian Tampines,East,Cold & Flu,55,47.71,15.27,Normal,44,33
+2025-08-01,B005,Guardian Orchard,Central,Cold & Flu,65,49.14,32.27,Monitor,52,33
+2025-08-02,B001,Guardian Ang Mo Kio,North,Cold & Flu,36,35.29,2.02,Normal,28,34
+2025-08-02,B002,Guardian Bedok,East,Cold & Flu,59,49.57,19.02,Normal,47,34
+2025-08-02,B003,Guardian Jurong,West,Cold & Flu,38,45.71,-16.88,Normal,30,34
+2025-08-02,B004,Guardian Tampines,East,Cold & Flu,49,48.29,1.48,Normal,39,34
+2025-08-02,B005,Guardian Orchard,Central,Cold & Flu,73,52.14,40.0,Monitor,58,34
+2025-08-03,B001,Guardian Ang Mo Kio,North,Cold & Flu,48,34.57,38.84,Monitor,38,35
+2025-08-03,B002,Guardian Bedok,East,Cold & Flu,46,49.29,-6.67,Normal,36,35
+2025-08-03,B003,Guardian Jurong,West,Cold & Flu,28,41.0,-31.71,Normal,22,35
+2025-08-03,B004,Guardian Tampines,East,Cold & Flu,86,49.29,74.49,Warning,68,35
+2025-08-03,B005,Guardian Orchard,Central,Cold & Flu,52,55.0,-5.45,Normal,41,35
+2025-08-04,B001,Guardian Ang Mo Kio,North,Cold & Flu,60,36.71,63.42,Warning,48,36
+2025-08-04,B002,Guardian Bedok,East,Cold & Flu,73,47.0,55.32,Warning,58,36
+2025-08-04,B003,Guardian Jurong,West,Cold & Flu,50,38.71,29.15,Monitor,40,36
+2025-08-04,B004,Guardian Tampines,East,Cold & Flu,46,54.0,-14.81,Normal,36,36
+2025-08-04,B005,Guardian Orchard,Central,Cold & Flu,51,54.71,-6.79,Normal,40,36
+2025-08-05,B001,Guardian Ang Mo Kio,North,Cold & Flu,42,38.0,10.53,Normal,33,37
+2025-08-05,B002,Guardian Bedok,East,Cold & Flu,46,45.29,1.58,Normal,36,37
+2025-08-05,B003,Guardian Jurong,West,Cold & Flu,37,36.86,0.39,Normal,29,37
+2025-08-05,B004,Guardian Tampines,East,Cold & Flu,27,50.0,-46.0,Normal,21,37
+2025-08-05,B005,Guardian Orchard,Central,Cold & Flu,25,53.29,-53.08,Normal,20,37
+2025-08-06,B001,Guardian Ang Mo Kio,North,Cold & Flu,32,40.14,-20.28,Normal,25,38
+2025-08-06,B002,Guardian Bedok,East,Cold & Flu,25,45.71,-45.31,Normal,20,38
+2025-08-06,B003,Guardian Jurong,West,Cold & Flu,42,39.14,7.3,Normal,33,38
+2025-08-06,B004,Guardian Tampines,East,Cold & Flu,35,49.14,-28.78,Normal,28,38
+2025-08-06,B005,Guardian Orchard,Central,Cold & Flu,42,52.0,-19.23,Normal,33,38
+2025-08-07,B001,Guardian Ang Mo Kio,North,Cold & Flu,21,38.29,-45.15,Normal,16,39
+2025-08-07,B002,Guardian Bedok,East,Cold & Flu,48,45.57,5.33,Normal,38,39
+2025-08-07,B003,Guardian Jurong,West,Cold & Flu,43,41.86,2.73,Normal,34,39
+2025-08-07,B004,Guardian Tampines,East,Cold & Flu,65,47.29,37.46,Monitor,52,39
+2025-08-07,B005,Guardian Orchard,Central,Cold & Flu,40,53.0,-24.53,Normal,32,39
+2025-08-08,B001,Guardian Ang Mo Kio,North,Cold & Flu,32,35.86,-10.76,Normal,25,40
+2025-08-08,B002,Guardian Bedok,East,Cold & Flu,58,47.57,21.92,Monitor,46,40
+2025-08-08,B003,Guardian Jurong,West,Cold & Flu,19,40.29,-52.84,Normal,15,40
+2025-08-08,B004,Guardian Tampines,East,Cold & Flu,40,51.86,-22.87,Normal,32,40
+2025-08-08,B005,Guardian Orchard,Central,Cold & Flu,41,49.71,-17.53,Normal,32,40
+2025-08-09,B001,Guardian Ang Mo Kio,North,Cold & Flu,30,38.71,-22.51,Normal,24,41
+2025-08-09,B002,Guardian Bedok,East,Cold & Flu,59,50.71,16.34,Normal,47,41
+2025-08-09,B003,Guardian Jurong,West,Cold & Flu,64,36.71,74.32,Warning,51,41
+2025-08-09,B004,Guardian Tampines,East,Cold & Flu,53,49.71,6.61,Normal,42,41
+2025-08-09,B005,Guardian Orchard,Central,Cold & Flu,40,46.29,-13.58,Normal,32,41
+2025-08-10,B001,Guardian Ang Mo Kio,North,Cold & Flu,57,37.86,50.57,Warning,45,42
+2025-08-10,B002,Guardian Bedok,East,Cold & Flu,31,50.71,-38.87,Normal,24,42
+2025-08-10,B003,Guardian Jurong,West,Cold & Flu,73,40.43,80.57,Warning,58,42
+2025-08-10,B004,Guardian Tampines,East,Cold & Flu,23,50.29,-54.26,Normal,18,42
+2025-08-10,B005,Guardian Orchard,Central,Cold & Flu,53,41.57,27.49,Monitor,42,42
+2025-08-11,B001,Guardian Ang Mo Kio,North,Cold & Flu,34,39.14,-13.14,Normal,27,43
+2025-08-11,B002,Guardian Bedok,East,Cold & Flu,44,48.57,-9.41,Normal,35,43
+2025-08-11,B003,Guardian Jurong,West,Cold & Flu,44,46.86,-6.1,Normal,35,43
+2025-08-11,B004,Guardian Tampines,East,Cold & Flu,36,41.29,-12.8,Normal,28,43
+2025-08-11,B005,Guardian Orchard,Central,Cold & Flu,52,41.71,24.66,Monitor,41,43
+2025-08-12,B001,Guardian Ang Mo Kio,North,Cold & Flu,28,35.43,-20.97,Normal,22,44
+2025-08-12,B002,Guardian Bedok,East,Cold & Flu,37,44.43,-16.72,Normal,29,44
+2025-08-12,B003,Guardian Jurong,West,Cold & Flu,31,46.0,-32.61,Normal,24,44
+2025-08-12,B004,Guardian Tampines,East,Cold & Flu,44,39.86,10.39,Normal,35,44
+2025-08-12,B005,Guardian Orchard,Central,Cold & Flu,27,41.86,-35.49,Normal,21,44
+2025-08-13,B001,Guardian Ang Mo Kio,North,Cold & Flu,46,33.43,37.61,Monitor,36,45
+2025-08-13,B002,Guardian Bedok,East,Cold & Flu,25,43.14,-42.05,Normal,20,45
+2025-08-13,B003,Guardian Jurong,West,Cold & Flu,29,45.14,-35.76,Normal,23,45
+2025-08-13,B004,Guardian Tampines,East,Cold & Flu,24,42.29,-43.24,Normal,19,45
+2025-08-13,B005,Guardian Orchard,Central,Cold & Flu,42,42.14,-0.34,Normal,33,45
+2025-08-14,B001,Guardian Ang Mo Kio,North,Cold & Flu,53,35.43,49.6,Monitor,42,46
+2025-08-14,B002,Guardian Bedok,East,Cold & Flu,49,43.14,13.58,Normal,39,46
+2025-08-14,B003,Guardian Jurong,West,Cold & Flu,18,43.29,-58.42,Normal,14,46
+2025-08-14,B004,Guardian Tampines,East,Cold & Flu,34,40.71,-16.49,Normal,27,46
+2025-08-14,B005,Guardian Orchard,Central,Cold & Flu,29,42.14,-31.19,Normal,23,46
+2025-08-15,B001,Guardian Ang Mo Kio,North,Cold & Flu,44,40.0,10.0,Normal,35,47
+2025-08-15,B002,Guardian Bedok,East,Cold & Flu,49,43.29,13.2,Normal,39,47
+2025-08-15,B003,Guardian Jurong,West,Cold & Flu,26,39.71,-34.53,Normal,20,47
+2025-08-15,B004,Guardian Tampines,East,Cold & Flu,26,36.29,-28.35,Normal,20,47
+2025-08-15,B005,Guardian Orchard,Central,Cold & Flu,36,40.57,-11.27,Normal,28,47
+2025-08-16,B001,Guardian Ang Mo Kio,North,Cold & Flu,74,41.71,77.4,Warning,59,48
+2025-08-16,B002,Guardian Bedok,East,Cold & Flu,47,42.0,11.9,Normal,37,48
+2025-08-16,B003,Guardian Jurong,West,Cold & Flu,49,40.71,20.35,Monitor,39,48
+2025-08-16,B004,Guardian Tampines,East,Cold & Flu,56,34.29,63.33,Warning,44,48
+2025-08-16,B005,Guardian Orchard,Central,Cold & Flu,36,39.86,-9.68,Normal,28,48
+2025-08-17,B001,Guardian Ang Mo Kio,North,Cold & Flu,54,48.0,12.5,Normal,43,49
+2025-08-17,B002,Guardian Bedok,East,Cold & Flu,36,40.29,-10.64,Normal,28,49
+2025-08-17,B003,Guardian Jurong,West,Cold & Flu,63,38.57,63.33,Warning,50,49
+2025-08-17,B004,Guardian Tampines,East,Cold & Flu,55,34.71,58.44,Warning,44,49
+2025-08-17,B005,Guardian Orchard,Central,Cold & Flu,52,39.29,32.36,Monitor,41,49
+2025-08-18,B001,Guardian Ang Mo Kio,North,Cold & Flu,57,47.57,19.82,Normal,45,50
+2025-08-18,B002,Guardian Bedok,East,Cold & Flu,53,41.0,29.27,Monitor,42,50
+2025-08-18,B003,Guardian Jurong,West,Cold & Flu,56,37.14,50.77,Warning,44,50
+2025-08-18,B004,Guardian Tampines,East,Cold & Flu,51,39.29,29.82,Monitor,40,50
+2025-08-18,B005,Guardian Orchard,Central,Cold & Flu,70,39.14,78.83,Warning,56,50
+2025-08-19,B001,Guardian Ang Mo Kio,North,Cold & Flu,36,50.86,-29.21,Normal,28,51
+2025-08-19,B002,Guardian Bedok,East,Cold & Flu,70,42.29,65.54,Warning,56,51
+2025-08-19,B003,Guardian Jurong,West,Cold & Flu,31,38.86,-20.22,Normal,24,51
+2025-08-19,B004,Guardian Tampines,East,Cold & Flu,45,41.43,8.62,Normal,36,51
+2025-08-19,B005,Guardian Orchard,Central,Cold & Flu,32,41.71,-23.29,Normal,25,51
+2025-08-20,B001,Guardian Ang Mo Kio,North,Cold & Flu,38,52.0,-26.92,Normal,30,52
+2025-08-20,B002,Guardian Bedok,East,Cold & Flu,27,47.0,-42.55,Normal,21,52
+2025-08-20,B003,Guardian Jurong,West,Cold & Flu,24,38.86,-38.24,Normal,19,52
+2025-08-20,B004,Guardian Tampines,East,Cold & Flu,30,41.57,-27.84,Normal,24,52
+2025-08-20,B005,Guardian Orchard,Central,Cold & Flu,38,42.43,-10.44,Normal,30,52
+2025-08-21,B001,Guardian Ang Mo Kio,North,Cold & Flu,34,50.86,-33.15,Normal,27,53
+2025-08-21,B002,Guardian Bedok,East,Cold & Flu,40,47.29,-15.41,Normal,32,53
+2025-08-21,B003,Guardian Jurong,West,Cold & Flu,56,38.14,46.82,Monitor,44,53
+2025-08-21,B004,Guardian Tampines,East,Cold & Flu,59,42.43,39.06,Monitor,47,53
+2025-08-21,B005,Guardian Orchard,Central,Cold & Flu,35,41.86,-16.38,Normal,28,53
+2025-08-22,B001,Guardian Ang Mo Kio,North,Cold & Flu,40,48.14,-16.91,Normal,32,54
+2025-08-22,B002,Guardian Bedok,East,Cold & Flu,56,46.0,21.74,Monitor,44,54
+2025-08-22,B003,Guardian Jurong,West,Cold & Flu,66,43.57,51.48,Warning,52,54
+2025-08-22,B004,Guardian Tampines,East,Cold & Flu,56,46.0,21.74,Monitor,44,54
+2025-08-22,B005,Guardian Orchard,Central,Cold & Flu,53,42.71,24.08,Monitor,42,54
+2025-08-23,B001,Guardian Ang Mo Kio,North,Cold & Flu,51,47.57,7.21,Normal,40,55
+2025-08-23,B002,Guardian Bedok,East,Cold & Flu,29,47.0,-38.3,Normal,23,55
+2025-08-23,B003,Guardian Jurong,West,Cold & Flu,43,49.29,-12.75,Normal,34,55
+2025-08-23,B004,Guardian Tampines,East,Cold & Flu,63,50.29,25.28,Monitor,50,55
+2025-08-23,B005,Guardian Orchard,Central,Cold & Flu,26,45.14,-42.41,Normal,20,55
+2025-08-24,B001,Guardian Ang Mo Kio,North,Cold & Flu,55,44.29,24.19,Monitor,44,56
+2025-08-24,B002,Guardian Bedok,East,Cold & Flu,41,44.43,-7.72,Normal,32,56
+2025-08-24,B003,Guardian Jurong,West,Cold & Flu,59,48.43,21.83,Monitor,47,56
+2025-08-24,B004,Guardian Tampines,East,Cold & Flu,35,51.29,-31.75,Normal,28,56
+2025-08-24,B005,Guardian Orchard,Central,Cold & Flu,70,43.71,60.13,Warning,56,56
+2025-08-25,B001,Guardian Ang Mo Kio,North,Cold & Flu,66,44.43,48.55,Monitor,52,57
+2025-08-25,B002,Guardian Bedok,East,Cold & Flu,62,45.14,37.34,Monitor,49,57
+2025-08-25,B003,Guardian Jurong,West,Cold & Flu,82,47.86,71.34,Warning,65,57
+2025-08-25,B004,Guardian Tampines,East,Cold & Flu,42,48.43,-13.27,Normal,33,57
+2025-08-25,B005,Guardian Orchard,Central,Cold & Flu,47,46.29,1.54,Normal,37,57
+2025-08-26,B001,Guardian Ang Mo Kio,North,Cold & Flu,27,45.71,-40.94,Normal,21,58
+2025-08-26,B002,Guardian Bedok,East,Cold & Flu,61,46.43,31.38,Monitor,48,58
+2025-08-26,B003,Guardian Jurong,West,Cold & Flu,32,51.57,-37.95,Normal,25,58
+2025-08-26,B004,Guardian Tampines,East,Cold & Flu,58,47.14,23.03,Monitor,46,58
+2025-08-26,B005,Guardian Orchard,Central,Cold & Flu,34,43.0,-20.93,Normal,27,58
+2025-08-27,B001,Guardian Ang Mo Kio,North,Cold & Flu,30,44.43,-32.48,Normal,24,59
+2025-08-27,B002,Guardian Bedok,East,Cold & Flu,30,45.14,-33.54,Normal,24,59
+2025-08-27,B003,Guardian Jurong,West,Cold & Flu,36,51.71,-30.39,Normal,28,59
+2025-08-27,B004,Guardian Tampines,East,Cold & Flu,53,49.0,8.16,Normal,42,59
+2025-08-27,B005,Guardian Orchard,Central,Cold & Flu,30,43.29,-30.69,Normal,24,59
+2025-08-28,B001,Guardian Ang Mo Kio,North,Cold & Flu,43,43.29,-0.66,Normal,34,60
+2025-08-28,B002,Guardian Bedok,East,Cold & Flu,93,45.57,104.08,Critical,74,60
+2025-08-28,B003,Guardian Jurong,West,Cold & Flu,23,53.43,-56.95,Normal,18,60
+2025-08-28,B004,Guardian Tampines,East,Cold & Flu,117,52.29,123.77,Critical,93,60
+2025-08-28,B005,Guardian Orchard,Central,Cold & Flu,27,42.14,-35.93,Normal,21,60
+2025-08-29,B001,Guardian Ang Mo Kio,North,Cold & Flu,47,44.57,5.45,Normal,37,61
+2025-08-29,B002,Guardian Bedok,East,Cold & Flu,130,53.14,144.62,Critical,104,61
+2025-08-29,B003,Guardian Jurong,West,Cold & Flu,30,48.71,-38.42,Normal,24,61
+2025-08-29,B004,Guardian Tampines,East,Cold & Flu,120,60.57,98.11,Warning,96,61
+2025-08-29,B005,Guardian Orchard,Central,Cold & Flu,39,41.0,-4.88,Normal,31,61
+2025-08-30,B001,Guardian Ang Mo Kio,North,Cold & Flu,24,45.57,-47.34,Normal,19,62
+2025-08-30,B002,Guardian Bedok,East,Cold & Flu,263,63.71,312.78,Critical,210,62
+2025-08-30,B003,Guardian Jurong,West,Cold & Flu,64,43.57,46.89,Monitor,51,62
+2025-08-30,B004,Guardian Tampines,East,Cold & Flu,258,69.71,270.08,Critical,206,62
+2025-08-30,B005,Guardian Orchard,Central,Cold & Flu,59,39.0,51.28,Warning,47,62
+2025-08-31,B001,Guardian Ang Mo Kio,North,Cold & Flu,42,41.71,0.68,Normal,33,63
+2025-08-31,B002,Guardian Bedok,East,Cold & Flu,201,97.14,106.91,Critical,160,63
+2025-08-31,B003,Guardian Jurong,West,Cold & Flu,52,46.57,11.66,Normal,41,63
+2025-08-31,B004,Guardian Tampines,East,Cold & Flu,248,97.57,154.17,Critical,198,63
+2025-08-31,B005,Guardian Orchard,Central,Cold & Flu,52,43.71,18.95,Normal,41,63
+2025-09-01,B001,Guardian Ang Mo Kio,North,Cold & Flu,39,39.86,-2.15,Normal,31,64
+2025-09-01,B002,Guardian Bedok,East,Cold & Flu,364,120.0,203.33,Critical,291,64
+2025-09-01,B003,Guardian Jurong,West,Cold & Flu,71,45.57,55.8,Warning,56,64
+2025-09-01,B004,Guardian Tampines,East,Cold & Flu,333,128.0,160.16,Critical,266,64
+2025-09-01,B005,Guardian Orchard,Central,Cold & Flu,63,41.14,53.12,Warning,50,64
+2025-09-02,B001,Guardian Ang Mo Kio,North,Cold & Flu,35,36.0,-2.78,Normal,28,65
+2025-09-02,B002,Guardian Bedok,East,Cold & Flu,190,163.14,16.46,Normal,152,65
+2025-09-02,B003,Guardian Jurong,West,Cold & Flu,39,44.0,-11.36,Normal,31,65
+2025-09-02,B004,Guardian Tampines,East,Cold & Flu,188,169.57,10.87,Normal,150,65
+2025-09-02,B005,Guardian Orchard,Central,Cold & Flu,37,43.43,-14.8,Normal,29,65
+2025-09-03,B001,Guardian Ang Mo Kio,North,Cold & Flu,23,37.14,-38.08,Normal,18,66
+2025-09-03,B002,Guardian Bedok,East,Cold & Flu,340,181.57,87.25,Warning,272,66
+2025-09-03,B003,Guardian Jurong,West,Cold & Flu,55,45.0,22.22,Monitor,44,66
+2025-09-03,B004,Guardian Tampines,East,Cold & Flu,226,188.14,20.12,Monitor,180,66
+2025-09-03,B005,Guardian Orchard,Central,Cold & Flu,30,43.86,-31.6,Normal,24,66
+2025-09-04,B001,Guardian Ang Mo Kio,North,Cold & Flu,51,36.14,41.11,Monitor,40,67
+2025-09-04,B002,Guardian Bedok,East,Cold & Flu,242,225.86,7.15,Normal,193,67
+2025-09-04,B003,Guardian Jurong,West,Cold & Flu,35,47.71,-26.65,Normal,28,67
+2025-09-04,B004,Guardian Tampines,East,Cold & Flu,360,212.86,69.13,Warning,288,67
+2025-09-04,B005,Guardian Orchard,Central,Cold & Flu,54,43.86,23.13,Monitor,43,67
+2025-09-05,B001,Guardian Ang Mo Kio,North,Cold & Flu,43,37.29,15.33,Normal,34,68
+2025-09-05,B002,Guardian Bedok,East,Cold & Flu,354,247.14,43.24,Monitor,283,68
+2025-09-05,B003,Guardian Jurong,West,Cold & Flu,40,49.43,-19.08,Normal,32,68
+2025-09-05,B004,Guardian Tampines,East,Cold & Flu,368,247.57,48.64,Monitor,294,68
+2025-09-05,B005,Guardian Orchard,Central,Cold & Flu,36,47.71,-24.55,Normal,28,68
+2025-09-06,B001,Guardian Ang Mo Kio,North,Cold & Flu,42,36.71,14.4,Normal,33,69
+2025-09-06,B002,Guardian Bedok,East,Cold & Flu,488,279.14,74.82,Warning,390,69
+2025-09-06,B003,Guardian Jurong,West,Cold & Flu,30,50.86,-41.01,Normal,24,69
+2025-09-06,B004,Guardian Tampines,East,Cold & Flu,427,283.0,50.88,Warning,341,69
+2025-09-06,B005,Guardian Orchard,Central,Cold & Flu,62,47.29,31.12,Monitor,49,69
+2025-09-07,B001,Guardian Ang Mo Kio,North,Cold & Flu,23,39.29,-41.45,Normal,18,70
+2025-09-07,B002,Guardian Bedok,East,Cold & Flu,601,311.29,93.07,Warning,480,70
+2025-09-07,B003,Guardian Jurong,West,Cold & Flu,41,46.0,-10.87,Normal,32,70
+2025-09-07,B004,Guardian Tampines,East,Cold & Flu,507,307.14,65.07,Warning,405,70
+2025-09-07,B005,Guardian Orchard,Central,Cold & Flu,66,47.71,38.32,Monitor,52,70
+2025-09-08,B001,Guardian Ang Mo Kio,North,Cold & Flu,71,36.57,94.14,Warning,56,71
+2025-09-08,B002,Guardian Bedok,East,Cold & Flu,555,368.43,50.64,Warning,444,71
+2025-09-08,B003,Guardian Jurong,West,Cold & Flu,51,44.43,14.79,Normal,40,71
+2025-09-08,B004,Guardian Tampines,East,Cold & Flu,501,344.14,45.58,Monitor,400,71
+2025-09-08,B005,Guardian Orchard,Central,Cold & Flu,44,49.71,-11.49,Normal,35,71
+2025-09-09,B001,Guardian Ang Mo Kio,North,Cold & Flu,46,41.14,11.81,Normal,36,72
+2025-09-09,B002,Guardian Bedok,East,Cold & Flu,275,395.71,-30.51,Normal,220,72
+2025-09-09,B003,Guardian Jurong,West,Cold & Flu,58,41.57,39.52,Monitor,46,72
+2025-09-09,B004,Guardian Tampines,East,Cold & Flu,394,368.14,7.02,Normal,315,72
+2025-09-09,B005,Guardian Orchard,Central,Cold & Flu,38,47.0,-19.15,Normal,30,72
+2025-09-10,B001,Guardian Ang Mo Kio,North,Cold & Flu,30,42.71,-29.77,Normal,24,73
+2025-09-10,B002,Guardian Bedok,East,Cold & Flu,302,407.86,-25.95,Normal,241,73
+2025-09-10,B003,Guardian Jurong,West,Cold & Flu,65,44.29,46.77,Monitor,52,73
+2025-09-10,B004,Guardian Tampines,East,Cold & Flu,408,397.57,2.62,Normal,326,73
+2025-09-10,B005,Guardian Orchard,Central,Cold & Flu,22,47.14,-53.33,Normal,17,73
+2025-09-11,B001,Guardian Ang Mo Kio,North,Cold & Flu,22,43.71,-49.67,Normal,17,74
+2025-09-11,B002,Guardian Bedok,East,Cold & Flu,366,402.43,-9.05,Normal,292,74
+2025-09-11,B003,Guardian Jurong,West,Cold & Flu,21,45.71,-54.06,Normal,16,74
+2025-09-11,B004,Guardian Tampines,East,Cold & Flu,325,423.57,-23.27,Normal,260,74
+2025-09-11,B005,Guardian Orchard,Central,Cold & Flu,41,46.0,-10.87,Normal,32,74
+2025-09-12,B001,Guardian Ang Mo Kio,North,Cold & Flu,48,39.57,21.3,Monitor,38,75
+2025-09-12,B002,Guardian Bedok,East,Cold & Flu,174,420.14,-58.59,Normal,139,75
+2025-09-12,B003,Guardian Jurong,West,Cold & Flu,50,43.71,14.38,Normal,40,75
+2025-09-12,B004,Guardian Tampines,East,Cold & Flu,278,418.57,-33.58,Normal,222,75
+2025-09-12,B005,Guardian Orchard,Central,Cold & Flu,43,44.14,-2.59,Normal,34,75
+2025-09-13,B001,Guardian Ang Mo Kio,North,Cold & Flu,45,40.29,11.7,Normal,36,76
+2025-09-13,B002,Guardian Bedok,East,Cold & Flu,313,394.43,-20.64,Normal,250,76
+2025-09-13,B003,Guardian Jurong,West,Cold & Flu,37,45.14,-18.04,Normal,29,76
+2025-09-13,B004,Guardian Tampines,East,Cold & Flu,192,405.71,-52.68,Normal,153,76
+2025-09-13,B005,Guardian Orchard,Central,Cold & Flu,28,45.14,-37.97,Normal,22,76
+2025-09-14,B001,Guardian Ang Mo Kio,North,Cold & Flu,37,40.71,-9.12,Normal,29,77
+2025-09-14,B002,Guardian Bedok,East,Cold & Flu,338,369.43,-8.51,Normal,270,77
+2025-09-14,B003,Guardian Jurong,West,Cold & Flu,34,46.14,-26.32,Normal,27,77
+2025-09-14,B004,Guardian Tampines,East,Cold & Flu,204,372.14,-45.18,Normal,163,77
+2025-09-14,B005,Guardian Orchard,Central,Cold & Flu,50,40.29,24.11,Monitor,40,77
+2025-09-15,B001,Guardian Ang Mo Kio,North,Cold & Flu,51,42.71,19.4,Normal,40,78
+2025-09-15,B002,Guardian Bedok,East,Cold & Flu,209,331.86,-37.02,Normal,167,78
+2025-09-15,B003,Guardian Jurong,West,Cold & Flu,57,45.14,26.27,Monitor,45,78
+2025-09-15,B004,Guardian Tampines,East,Cold & Flu,187,328.86,-43.14,Normal,149,78
+2025-09-15,B005,Guardian Orchard,Central,Cold & Flu,58,38.0,52.63,Warning,46,78
+2025-09-16,B001,Guardian Ang Mo Kio,North,Cold & Flu,33,39.86,-17.2,Normal,26,79
+2025-09-16,B002,Guardian Bedok,East,Cold & Flu,132,282.43,-53.26,Normal,105,79
+2025-09-16,B003,Guardian Jurong,West,Cold & Flu,52,46.0,13.04,Normal,41,79
+2025-09-16,B004,Guardian Tampines,East,Cold & Flu,154,284.0,-45.77,Normal,123,79
+2025-09-16,B005,Guardian Orchard,Central,Cold & Flu,32,40.0,-20.0,Normal,25,79
+2025-09-17,B001,Guardian Ang Mo Kio,North,Cold & Flu,50,38.0,31.58,Monitor,40,80
+2025-09-17,B002,Guardian Bedok,East,Cold & Flu,138,262.0,-47.33,Normal,110,80
+2025-09-17,B003,Guardian Jurong,West,Cold & Flu,35,45.14,-22.47,Normal,28,80
+2025-09-17,B004,Guardian Tampines,East,Cold & Flu,146,249.71,-41.53,Normal,116,80
+2025-09-17,B005,Guardian Orchard,Central,Cold & Flu,59,39.14,50.73,Warning,47,80
+2025-09-18,B001,Guardian Ang Mo Kio,North,Cold & Flu,38,40.86,-6.99,Normal,30,81
+2025-09-18,B002,Guardian Bedok,East,Cold & Flu,40,238.57,-83.23,Normal,32,81
+2025-09-18,B003,Guardian Jurong,West,Cold & Flu,29,40.86,-29.02,Normal,23,81
+2025-09-18,B004,Guardian Tampines,East,Cold & Flu,35,212.29,-83.51,Normal,28,81
+2025-09-18,B005,Guardian Orchard,Central,Cold & Flu,28,44.43,-36.98,Normal,22,81
+2025-09-19,B001,Guardian Ang Mo Kio,North,Cold & Flu,46,43.14,6.62,Normal,36,82
+2025-09-19,B002,Guardian Bedok,East,Cold & Flu,39,192.0,-79.69,Normal,31,82
+2025-09-19,B003,Guardian Jurong,West,Cold & Flu,56,42.0,33.33,Monitor,44,82
+2025-09-19,B004,Guardian Tampines,East,Cold & Flu,51,170.86,-70.15,Normal,40,82
+2025-09-19,B005,Guardian Orchard,Central,Cold & Flu,32,42.57,-24.83,Normal,25,82
+2025-09-20,B001,Guardian Ang Mo Kio,North,Cold & Flu,81,42.86,89.0,Warning,64,83
+2025-09-20,B002,Guardian Bedok,East,Cold & Flu,47,172.71,-72.79,Normal,37,83
+2025-09-20,B003,Guardian Jurong,West,Cold & Flu,34,42.86,-20.67,Normal,27,83
+2025-09-20,B004,Guardian Tampines,East,Cold & Flu,51,138.43,-63.16,Normal,40,83
+2025-09-20,B005,Guardian Orchard,Central,Cold & Flu,63,41.0,53.66,Warning,50,83
+2025-09-21,B001,Guardian Ang Mo Kio,North,Cold & Flu,28,48.0,-41.67,Normal,22,84
+2025-09-21,B002,Guardian Bedok,East,Cold & Flu,52,134.71,-61.4,Normal,41,84
+2025-09-21,B003,Guardian Jurong,West,Cold & Flu,50,42.43,17.85,Normal,40,84
+2025-09-21,B004,Guardian Tampines,East,Cold & Flu,38,118.29,-67.87,Normal,30,84
+2025-09-21,B005,Guardian Orchard,Central,Cold & Flu,55,46.0,19.57,Normal,44,84
+2025-09-22,B001,Guardian Ang Mo Kio,North,Cold & Flu,57,46.71,22.02,Monitor,45,85
+2025-09-22,B002,Guardian Bedok,East,Cold & Flu,63,93.86,-32.88,Normal,50,85
+2025-09-22,B003,Guardian Jurong,West,Cold & Flu,69,44.71,54.31,Warning,55,85
+2025-09-22,B004,Guardian Tampines,East,Cold & Flu,61,94.57,-35.5,Normal,48,85
+2025-09-22,B005,Guardian Orchard,Central,Cold & Flu,55,46.71,17.74,Normal,44,85
+2025-09-23,B001,Guardian Ang Mo Kio,North,Cold & Flu,20,47.57,-57.96,Normal,16,86
+2025-09-23,B002,Guardian Bedok,East,Cold & Flu,36,73.0,-50.68,Normal,28,86
+2025-09-23,B003,Guardian Jurong,West,Cold & Flu,46,46.43,-0.92,Normal,36,86
+2025-09-23,B004,Guardian Tampines,East,Cold & Flu,53,76.57,-30.78,Normal,42,86
+2025-09-23,B005,Guardian Orchard,Central,Cold & Flu,24,46.29,-48.15,Normal,19,86
+2025-09-24,B001,Guardian Ang Mo Kio,North,Cold & Flu,55,45.71,20.31,Monitor,44,87
+2025-09-24,B002,Guardian Bedok,East,Cold & Flu,47,59.29,-20.72,Normal,37,87
+2025-09-24,B003,Guardian Jurong,West,Cold & Flu,28,45.57,-38.56,Normal,22,87
+2025-09-24,B004,Guardian Tampines,East,Cold & Flu,41,62.14,-34.02,Normal,32,87
+2025-09-24,B005,Guardian Orchard,Central,Cold & Flu,47,45.14,4.11,Normal,37,87
+2025-09-25,B001,Guardian Ang Mo Kio,North,Cold & Flu,44,46.43,-5.23,Normal,35,88
+2025-09-25,B002,Guardian Bedok,East,Cold & Flu,14,46.29,-69.75,Normal,11,88
+2025-09-25,B003,Guardian Jurong,West,Cold & Flu,37,44.57,-16.99,Normal,29,88
+2025-09-25,B004,Guardian Tampines,East,Cold & Flu,46,47.14,-2.42,Normal,36,88
+2025-09-25,B005,Guardian Orchard,Central,Cold & Flu,51,43.43,17.43,Normal,40,88
+2025-09-26,B001,Guardian Ang Mo Kio,North,Cold & Flu,65,47.29,37.46,Monitor,52,89
+2025-09-26,B002,Guardian Bedok,East,Cold & Flu,44,42.57,3.36,Normal,35,89
+2025-09-26,B003,Guardian Jurong,West,Cold & Flu,25,45.71,-45.31,Normal,20,89
+2025-09-26,B004,Guardian Tampines,East,Cold & Flu,27,48.71,-44.57,Normal,21,89
+2025-09-26,B005,Guardian Orchard,Central,Cold & Flu,42,46.71,-10.09,Normal,33,89

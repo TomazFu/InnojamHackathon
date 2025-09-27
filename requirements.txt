@@ -1,0 +1,12 @@
+streamlit==1.32.0
+pandas==2.2.0
+plotly==5.19.0
+openai
+python-dotenv==1.0.1
+numpy==1.26.4
+scikit-learn==1.4.1
+seaborn==0.13.2
+geopy==2.4.1
+folium==0.15.1
+streamlit-folium==0.17.0
+reportlab

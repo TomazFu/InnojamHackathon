@@ -1,0 +1,3 @@
+campaign_id,campaign_name,start_date,end_date,target_segment,category,discount_pct,budget,branches,status
+CAMP001,Flu Season Prep,2025-08-13,2025-08-20,All Customers,Cold & Flu,15,5000,All,Completed
+CAMP002,Chronic Care Month,2025-07-29,2025-08-28,Chronic Patient,Chronic,10,8000,All,Completed
