@@ -496,29 +496,6 @@ Detailed pharmacy-level data available upon request.
                     st.success(f"✅ Report sent to {recipient}")
                     st.info("Email notification dispatched to:\n- director@moh.gov.sg\n- emergency@cdc.gov.sg")
     
-    # Alert Configuration
-    st.divider()
-    st.subheader("🔔 Automated Alert Configuration")
-    
-    col1, col2, col3 = st.columns(3)
-    
-    with col1:
-        alert_threshold = st.slider("Alert Threshold (%)", 50, 200, 100)
-        st.caption(f"Alert when network spike exceeds {alert_threshold}%")
-    
-    with col2:
-        affected_districts = st.slider("Min Affected Districts", 1, 5, 2)
-        st.caption(f"Alert when {affected_districts}+ districts affected")
-    
-    with col3:
-        notification_method = st.multiselect(
-            "Notification Method",
-            ["Email", "SMS", "Dashboard Alert", "WhatsApp", "API Webhook"],
-            default=["Email", "Dashboard Alert"]
-        )
-    
-    if st.button("💾 Save Alert Configuration"):
-        st.success(f"✅ Alert rules saved! Will notify via {', '.join(notification_method)} when conditions met.")
 
 
 def generate_external_factors(selected_date):

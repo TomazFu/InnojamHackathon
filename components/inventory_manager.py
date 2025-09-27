@@ -96,44 +96,6 @@ def render_inventory_management(inventory_df, sales_df):
         )
         st.plotly_chart(fig_velocity, use_container_width=True)
     
-    # Expiry Management
-    st.subheader("Medicine Expiry Tracking")
-    
-    expiring_soon = inventory_df[inventory_df['days_to_expiry'] < 90].sort_values('days_to_expiry')
-    
-    if len(expiring_soon) > 0:
-        col1, col2 = st.columns([2, 1])
-        
-        with col1:
-            st.warning(f"⏳ **{len(expiring_soon)} medicines expiring within 90 days**")
-            
-            display_expiry = expiring_soon[[
-                'branch_name', 'medicine_name', 'current_stock', 
-                'days_to_expiry', 'unit_cost'
-            ]].head(10)
-            
-            display_expiry['potential_loss'] = display_expiry['current_stock'] * display_expiry['unit_cost']
-            display_expiry.columns = ['Branch', 'Medicine', 'Stock', 'Days to Expiry', 'Unit Cost', 'Potential Loss']
-            
-            st.dataframe(
-                display_expiry.style.format({
-                    'Unit Cost': '${:.2f}',
-                    'Potential Loss': '${:.2f}'
-                }).background_gradient(subset=['Days to Expiry'], cmap='Reds_r'),
-                use_container_width=True
-            )
-        
-        with col2:
-            total_expiry_value = expiring_soon['current_stock'].sum() * expiring_soon['unit_cost'].mean()
-            st.metric("At-Risk Value", f"${total_expiry_value:,.0f}")
-            
-            st.markdown("### 💡 Actions")
-            st.info("• Run clearance promotions")
-            st.info("• Discount 20-30%")
-            st.info("• Notify chronic patients")
-    else:
-        st.success("No medicines expiring soon. Inventory rotation is healthy.")
-    
     # AI Demand Forecasting
     st.subheader("AI-Powered Demand Forecasting")
     
@@ -230,43 +192,4 @@ Be specific with numbers and actionable recommendations."""
                 mime="text/plain"
             )
     
-    # Slow-Moving Inventory
-    st.subheader("Slow-Moving Inventory Analysis")
-    
-    # Calculate sell-through rate (sales vs stock)
-    inventory_df['sell_through_rate'] = (
-        inventory_df['daily_velocity'] * 30 / inventory_df['current_stock'] * 100
-    ).fillna(0)
-    
-    slow_movers = inventory_df[inventory_df['sell_through_rate'] < 30].sort_values('sell_through_rate')
-    
-    if len(slow_movers) > 0:
-        st.warning(f"**{len(slow_movers)} items have low sell-through rates (<30%)**")
-        
-        col1, col2 = st.columns([2, 1])
-        
-        with col1:
-            import plotly.express as px
-            fig_slow = px.bar(
-                slow_movers.head(10), 
-                x='medicine_name', 
-                y='sell_through_rate',
-                color='branch_name',
-                title="Slowest Moving Items (Bottom 10)",
-                labels={'sell_through_rate': 'Sell-Through Rate %', 'medicine_name': 'Medicine'}
-            )
-            st.plotly_chart(fig_slow, use_container_width=True)
-        
-        with col2:
-            st.markdown("### 💡 Clearance Actions")
-            
-            for idx, row in slow_movers.head(3).iterrows():
-                st.error(
-                    f"**{row['medicine_name']}**  \n"
-                    f"Branch: {row['branch_name']}  \n"
-                    f"Sell-through: {row['sell_through_rate']:.1f}%  \n"
-                    f"Suggest 30-40% discount"
-                )
-    else:
-        st.success("All inventory moving well. No clearance needed.")
 
