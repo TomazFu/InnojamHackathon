@@ -112,12 +112,9 @@ def analyze_sales_spike_factors(medicine_name, period_type, sales_df, campaigns_
 
         recent_period_data = medicine_sales[medicine_sales['date'] >= recent_cutoff]
         recent_period_sales = recent_period_data['quantity'].sum()
+        
 
         spike_percentage = ((recent_period_sales - expected_period_sales) / expected_period_sales * 100) if expected_period_sales > 0 else 0
-
-        # Cap extreme outliers (data quality issue if >500%)
-        if abs(spike_percentage) > 500:
-            spike_percentage = 500 if spike_percentage > 0 else -500
 
         analysis = {
             'medicine': medicine_name,
@@ -139,10 +136,6 @@ def analyze_sales_spike_factors(medicine_name, period_type, sales_df, campaigns_
 
 
         spike_percentage = ((recent_period['total_quantity'] - baseline_avg) / baseline_avg * 100) if baseline_avg > 0 else 0
-
-        # Cap extreme outliers (data quality issue if >500%)
-        if abs(spike_percentage) > 500:
-            spike_percentage = 500 if spike_percentage > 0 else -500
 
         analysis = {
             'medicine': medicine_name,
@@ -308,7 +301,7 @@ def calculate_outbreak_confidence(analysis_result):
     if not analysis_result:
         return 0
 
-    # Start with spike-based confidence - handle negative spikes properly
+    # Start with spike-based confidence - more conservative medical approach
     spike_pct = analysis_result.get('spike_percentage', 0)
 
     # Negative spikes (decreasing sales) should indicate LOW outbreak risk
@@ -316,53 +309,100 @@ def calculate_outbreak_confidence(analysis_result):
         # Decreasing sales = lower disease activity
         abs_spike = abs(spike_pct)
         if abs_spike > 50:
-            confidence = 5   # Large decrease = very low risk
-        elif abs_spike > 20:
-            confidence = 10  # Medium decrease = low risk
+            confidence = 1   # Very large decrease = extremely low risk
+        elif abs_spike > 30:
+            confidence = 2   # Large decrease = very low risk
+        elif abs_spike > 15:
+            confidence = 4   # Medium decrease = low risk
+        elif abs_spike > 5:
+            confidence = 7   # Small decrease = low-medium risk
         else:
-            confidence = 15  # Small decrease = slightly low risk
+            confidence = 10  # Tiny decrease = medium-low risk
     else:
         # Positive spikes (increasing sales) = potential outbreak
-        if spike_pct < 20:
-            confidence = 20  # Small increase = low risk
-        elif spike_pct < 50:
-            confidence = 35  # Medium increase = medium risk
+        # More conservative thresholds - need significant spikes for outbreak concern
+        if spike_pct < 15:
+            confidence = 5   # Small increase = very low risk
+        elif spike_pct < 30:
+            confidence = 10  # Moderate increase = low risk
+        elif spike_pct < 60:
+            confidence = 20  # Significant increase = medium-low risk
         elif spike_pct < 100:
-            confidence = 60  # Large increase = high risk
+            confidence = 35  # Large increase = medium risk
+        elif spike_pct < 200:
+            confidence = 55  # Very large increase = high risk
         else:
-            confidence = 75  # Very large increase = very high risk
+            confidence = 75  # Extreme increase = very high risk
 
     # Count reducing vs increasing factors
     reducing_factors = [f for f in analysis_result['factors'] if f.get('reduces_outbreak_probability')]
     increasing_factors = [f for f in analysis_result['factors'] if f.get('increases_outbreak_probability')]
 
-    # Apply factor adjustments with less aggressive scoring
-    for factor in reducing_factors:
-        if factor['impact'] == 'high':
-            confidence -= 35
-        elif factor['impact'] == 'medium':
-            confidence -= 20
-        else:
-            confidence -= 10
+    # Apply factor adjustments - much more conservative for decreasing sales
+    if spike_pct < 0:
+        # For decreasing sales, factor adjustments should be minimal
+        for factor in reducing_factors:
+            if factor['impact'] == 'high':
+                confidence -= 2   # Very small adjustment
+            elif factor['impact'] == 'medium':
+                confidence -= 1   # Minimal adjustment
+            else:
+                confidence -= 0.5 # Tiny adjustment
 
-    for factor in increasing_factors:
-        if factor['impact'] == 'high':
-            confidence += 25  # Reduced from 30
-        elif factor['impact'] == 'medium':
-            confidence += 12  # Reduced from 15
+        for factor in increasing_factors:
+            if factor['impact'] == 'high':
+                confidence += 2   # Very small adjustment
+            elif factor['impact'] == 'medium':
+                confidence += 1   # Minimal adjustment
+            else:
+                confidence += 0.5 # Tiny adjustment
+    else:
+        # For increasing sales, use normal factor adjustments
+        for factor in reducing_factors:
+            if factor['impact'] == 'high':
+                confidence -= 15
+            elif factor['impact'] == 'medium':
+                confidence -= 8
+            else:
+                confidence -= 4
+
+        for factor in increasing_factors:
+            if factor['impact'] == 'high':
+                confidence += 12
+            elif factor['impact'] == 'medium':
+                confidence += 6
+            else:
+                confidence += 3
+    
+    # Special logic for decreasing sales - factors should have minimal impact
+    if spike_pct < 0:
+        # For decreasing sales, cap the maximum risk based on the size of decrease
+        if abs(spike_pct) > 50:
+            max_risk = 5   # Very large decrease: max 5% risk
+        elif abs(spike_pct) > 20:
+            max_risk = 10  # Large decrease: max 10% risk
         else:
-            confidence += 6   # Reduced from 10
+            max_risk = 15  # Small decrease: max 15% risk
+        
+        confidence = min(confidence, max_risk)
 
     # Add debug info to analysis result
     analysis_result['debug_info'] = {
-        'base_confidence': spike_pct,
+        'spike_percentage': spike_pct,
         'spike_direction': 'Decreasing' if spike_pct < 0 else 'Increasing',
+        'base_risk_from_spike': confidence,
         'reducing_factors_count': len(reducing_factors),
         'increasing_factors_count': len(increasing_factors),
+        'factor_adjustments': {
+            'reducing_total': sum([-2 if f['impact'] == 'high' else -1 if f['impact'] == 'medium' else -0.5 for f in reducing_factors]) if spike_pct < 0 else sum([-15 if f['impact'] == 'high' else -8 if f['impact'] == 'medium' else -4 for f in reducing_factors]),
+            'increasing_total': sum([2 if f['impact'] == 'high' else 1 if f['impact'] == 'medium' else 0.5 for f in increasing_factors]) if spike_pct < 0 else sum([12 if f['impact'] == 'high' else 6 if f['impact'] == 'medium' else 3 for f in increasing_factors])
+        },
         'final_confidence': max(0, min(100, confidence)),
         'current_sales': analysis_result.get('current_sales', 0),
         'baseline_avg': analysis_result.get('baseline_avg', 0),
-        'calculation_method': 'insufficient_data' if analysis_result.get('insufficient_data') else 'sufficient_periods'
+        'calculation_method': 'insufficient_data' if analysis_result.get('insufficient_data') else 'sufficient_periods',
+        'decreasing_sales_cap_applied': spike_pct < 0,
+        'max_risk_cap': 5 if spike_pct < -50 else 10 if spike_pct < -20 else 15 if spike_pct < 0 else 100
     }
 
     return max(0, min(100, confidence))
@@ -454,22 +494,6 @@ def render_disease_prediction(sales_df, disease_df, branches_df):
                 if analysis.get('insufficient_data'):
                     st.info(f"ℹ️ **Limited Data Warning**: Only {analysis.get('period_count', 'few')} {analysis_period.lower()} periods found for {selected_medicine}. Analysis uses overall average as baseline.")
 
-                # Show debug info to understand scoring
-                if analysis.get('debug_info'):
-                    debug = analysis['debug_info']
-                    with st.expander("🔍 Debug Scoring Details"):
-                        st.write(f"**Calculation Method**: {debug['calculation_method']}")
-                        st.write(f"**Current Sales**: {debug['current_sales']} units")
-                        st.write(f"**Baseline Average**: {debug['baseline_avg']:.1f} units")
-                        st.write(f"**Spike Percentage**: {analysis['spike_percentage']:.1f}%")
-                        st.write(f"**Base Confidence**: {debug['base_confidence']:.1f}%")
-                        st.write(f"**Reducing Factors**: {debug['reducing_factors_count']}")
-                        st.write(f"**Increasing Factors**: {debug['increasing_factors_count']}")
-                        st.write(f"**Final Score**: {debug['final_confidence']:.1f}%")
-
-                        # Show calculation
-                        if debug['baseline_avg'] > 0:
-                            st.write(f"**Calculation**: ({debug['current_sales']} - {debug['baseline_avg']:.1f}) / {debug['baseline_avg']:.1f} × 100 = {analysis['spike_percentage']:.1f}%")
 
                 # Factor breakdown
                 st.subheader("📊 Factor Analysis")
@@ -519,19 +543,20 @@ def render_disease_prediction(sales_df, disease_df, branches_df):
     # Intelligent Alert Overview - Replace old disease_df system
     st.subheader("🚨 Intelligent Disease Monitoring Overview")
 
-    # Analyze multiple medicines for overview (TEMPORARILY DISABLED FOR DEBUG)
-    overview_medicines = ['Paracetamol 500mg', 'Decongestant', 'Cough Syrup', 'Ibuprofen 400mg', 'Vitamin C']
+    # Analyze the same medicines as the table for consistency
+    overview_medicines = sales_df['medicine_name'].unique()[:10]  # Same as table
     high_risk_count = 0
     total_analyzed = 0
+    total_confidence = 0
 
-    # DISABLED: for med in overview_medicines:
-    #     if med in sales_df['medicine_name'].values:
-    #         overview_analysis = analyze_sales_spike_factors(med, "Weekly", sales_df, campaigns_df)
-    #         if overview_analysis:
-    #             confidence = calculate_outbreak_confidence(overview_analysis)
-    #             total_analyzed += 1
-    #             if confidence >= 70:
-    #                 high_risk_count += 1
+    for med in overview_medicines:
+        overview_analysis = analyze_sales_spike_factors(med, "Weekly", sales_df, campaigns_df)
+        if overview_analysis:
+            confidence = calculate_outbreak_confidence(overview_analysis)
+            total_analyzed += 1
+            total_confidence += confidence
+            if confidence >= 70:
+                high_risk_count += 1
 
     col1, col2, col3, col4 = st.columns(4)
     
@@ -547,20 +572,12 @@ def render_disease_prediction(sales_df, disease_df, branches_df):
         st.metric(
             "Medicines Analyzed",
             total_analyzed,
-            delta=f"out of {len(overview_medicines)} monitored"
+            delta=f"out of {len(overview_medicines)} top medicines"
         )
 
     with col3:
         # Calculate average confidence across analyzed medicines
-        avg_confidence = 0
-        if total_analyzed > 0:
-            confidence_sum = 0
-            for med in overview_medicines:
-                if med in sales_df['medicine_name'].values:
-                    med_analysis = analyze_sales_spike_factors(med, "Weekly", sales_df, campaigns_df)
-                    if med_analysis:
-                        confidence_sum += calculate_outbreak_confidence(med_analysis)
-            avg_confidence = confidence_sum / total_analyzed if total_analyzed > 0 else 0
+        avg_confidence = total_confidence / total_analyzed if total_analyzed > 0 else 0
 
         st.metric(
             "Avg Risk Level",
@@ -585,38 +602,150 @@ def render_disease_prediction(sales_df, disease_df, branches_df):
     # Medicine Risk Analysis Table
     st.subheader("📋 Medicine Risk Analysis")
 
+
     # Create a comprehensive analysis table
     analysis_results = []
+    detailed_factors = {}
+    
     for med in sales_df['medicine_name'].unique()[:10]:  # Top 10 medicines
         med_analysis = analyze_sales_spike_factors(med, "Weekly", sales_df, campaigns_df)
         if med_analysis:
             confidence = calculate_outbreak_confidence(med_analysis)
-
+            
+            # Store detailed factors for display outside table
+            detailed_factors[med] = med_analysis['factors']
+            
+            # Calculate more meaningful metrics
+            baseline = med_analysis.get('baseline_avg', 0)
+            current = med_analysis.get('current_sales', 0)
+            spike_pct = med_analysis.get('spike_percentage', 0)
+            
+            
+            # Determine status based on clearer logic
+            if confidence >= 70:
+                status = 'High Risk'
+                status_color = '🔴'
+            elif confidence >= 40:
+                status = 'Monitor'
+                status_color = '🟡'
+            else:
+                status = 'Low Risk'
+                status_color = '🟢'
 
             analysis_results.append({
                 'Medicine': med,
-                'Current Sales': med_analysis['current_sales'],
-                'Spike %': f"{med_analysis['spike_percentage']:.1f}%",
-                'Risk Level': f"{confidence:.0f}%",
-                'Status': 'High Risk' if confidence >= 70 else 'Low Risk' if confidence <= 30 else 'Monitor',
-                'Factors': len(med_analysis['factors'])
+                'Baseline Sales': f"{baseline:.0f}",
+                'Current Sales': f"{current:.0f}",
+                'Change %': f"{spike_pct:+.1f}%",
+                'Outbreak Risk': f"{confidence:.0f}%",
+                'Status': f"{status_color} {status}"
             })
 
     if analysis_results:
         analysis_df = pd.DataFrame(analysis_results)
+        
+        # Reset index to start from 1 instead of 0
+        analysis_df.index = range(1, len(analysis_df) + 1)
+        analysis_df.index.name = '#'
 
-        # Color code the status
+        # Color code the status column
         def highlight_status(val):
-            if val == 'High Risk':
-                return 'background-color: #ffebee'
-            elif val == 'Monitor':
-                return 'background-color: #fff3e0'
+            if 'High Risk' in val:
+                return 'background-color: #ffebee; color: #c62828'
+            elif 'Monitor' in val:
+                return 'background-color: #fff3e0; color: #ef6c00'
             else:
-                return 'background-color: #e8f5e8'
+                return 'background-color: #e8f5e8; color: #2e7d32'
 
+        # Display the table
         st.dataframe(
             analysis_df.style.applymap(highlight_status, subset=['Status']),
             use_container_width=True
         )
+        
+        # Display detailed factors outside the table
+        st.subheader("🔍 Detailed Risk Factors Analysis")
+        
+        for med, factors in detailed_factors.items():
+            if factors:  # Only show if there are factors
+                with st.expander(f"📊 {med} - Risk Factors ({len(factors)} factors)"):
+                    # Show calculation breakdown
+                    med_analysis = analyze_sales_spike_factors(med, "Weekly", sales_df, campaigns_df)
+                    if med_analysis and 'debug_info' in med_analysis:
+                        debug = med_analysis['debug_info']
+                        st.markdown("**🧮 Risk Calculation Breakdown:**")
+                        
+                        # Calculate step-by-step
+                        base_risk = debug['base_risk_from_spike']
+                        reducing_adj = debug['factor_adjustments']['reducing_total']
+                        increasing_adj = debug['factor_adjustments']['increasing_total']
+                        final_risk = debug['final_confidence']
+                        
+                        st.markdown(f"""
+                        **Step 1 - Sales Analysis:**
+                        - Sales Change: {debug['spike_direction']} by {debug['spike_percentage']:.1f}%
+                        - Base Risk from Sales: {base_risk:.0f}%
+                        
+                        **Step 2 - Factor Adjustments:**
+                        - Reducing Factors: {debug['reducing_factors_count']} factors → {reducing_adj:+.0f}%
+                        - Increasing Factors: {debug['increasing_factors_count']} factors → {increasing_adj:+.0f}%
+                        
+                        **Step 3 - Calculation:**
+                        - Before cap: {base_risk:.0f}% + {reducing_adj:+.0f}% + {increasing_adj:+.0f}% = {base_risk + reducing_adj + increasing_adj:.0f}%
+                        - Max allowed for {debug['spike_percentage']:.1f}% decrease: {debug['max_risk_cap']}%
+                        - **Final Risk: {final_risk:.0f}%** (capped at {debug['max_risk_cap']}%)
+                        
+                        **🔍 Debug Info:**
+                        - Current Sales: {debug['current_sales']:.0f} units
+                        - Baseline Avg: {debug['baseline_avg']:.0f} units
+                        - Calculation Method: {debug['calculation_method']}
+                        """)
+                        st.divider()
+                    
+                    for i, factor in enumerate(factors, 1):
+                        factor_type = factor.get('type', 'unknown')
+                        impact = factor.get('impact', 'unknown')
+                        details = factor.get('details', 'No details available')
+                        
+                        # Create readable factor descriptions
+                        if factor_type == 'campaign':
+                            icon = "📢"
+                            factor_name = "Marketing Campaign"
+                        elif factor_type == 'geographic_spread':
+                            icon = "🌍"
+                            factor_name = "Geographic Spread"
+                        elif factor_type == 'demographics':
+                            icon = "👥"
+                            factor_name = "Demographic Pattern"
+                        elif factor_type == 'sustained_pattern':
+                            icon = "📈"
+                            factor_name = "Sustained Pattern"
+                        elif factor_type == 'cross_category':
+                            icon = "🔄"
+                            factor_name = "Cross-Category Purchases"
+                        elif factor_type == 'seasonal_expected':
+                            icon = "🗓️"
+                            factor_name = "Seasonal Pattern"
+                        else:
+                            icon = "🔍"
+                            factor_name = factor_type.replace('_', ' ').title()
+                        
+                        # Impact color coding
+                        impact_color = {
+                            'high': '🔴',
+                            'medium': '🟡', 
+                            'low': '🟢'
+                        }.get(impact, '⚪')
+                        
+                        # Direction indicator
+                        direction = "⬆️ Increases" if factor.get('increases_outbreak_probability') else "⬇️ Reduces" if factor.get('reduces_outbreak_probability') else "➡️ Neutral"
+                        
+                        st.markdown(f"""
+                        **{i}. {icon} {factor_name}** {impact_color} {impact.upper()}
+                        
+                        {direction} outbreak probability
+                        
+                        *{details}*
+                        """)
     else:
         st.info("No medicine analysis data available")

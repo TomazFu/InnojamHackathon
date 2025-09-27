@@ -110,6 +110,11 @@ st.markdown("""
 def get_data():
     return load_all_data()
 
+# Cache clearing button for testing
+if st.sidebar.button("🔄 Clear Cache & Reload Data"):
+    st.cache_data.clear()
+    st.rerun()
+
 try:
     sales_df, customer_df, inventory_df, staff_df, disease_df, campaigns_df, branches_df = get_data()
     COMPANY_NAME = "Guardian Pharmacy"
