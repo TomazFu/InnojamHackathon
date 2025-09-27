@@ -29,7 +29,7 @@ from components.regional_intelligence import render_regional_intelligence
 # ============================================================================
 
 st.set_page_config(
-    page_title="PharmaFlow AI",
+    page_title="PharmaCity",
     page_icon="💊",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -131,7 +131,7 @@ with st.sidebar:
     # Company Logo/Header
     st.markdown("""
     <div style='text-align: center; padding: 20px 0;'>
-        <h2 style='margin: 5px 0;'>PharmaFlow AI</h2>
+        <h2 style='margin: 5px 0;'>PharmaCity</h2>
         <p style='color: #666; margin: 0;'>Intelligent Pharmacy Analytics</p>
     </div>
     """, unsafe_allow_html=True)
@@ -217,7 +217,7 @@ with st.sidebar:
 
 st.markdown(f"""
 <div class='main-header'>
-    <h1>{COMPANY_NAME} - PharmaFlow AI</h1>
+    <h1>{COMPANY_NAME} - PharmaCity</h1>
     <p style='margin: 5px 0 0 0; opacity: 0.9;'>
         AI-Powered Pharmacy Analytics & Health Intelligence Platform
     </p>
@@ -488,7 +488,7 @@ with col5:
 st.markdown("---")
 st.markdown(f"""
 <div style='text-align: center; color: #666; padding: 20px 0;'>
-    <p style='margin: 5px 0;'>🏥 <strong>{COMPANY_NAME}</strong> - PharmaFlow AI</p>
+    <p style='margin: 5px 0;'>🏥 <strong>{COMPANY_NAME}</strong> - PharmaCity</p>
     <p style='margin: 5px 0; font-size: 0.9em;'>Powered by Claude AI | Real-time Analytics & Disease Prediction</p>
     <p style='margin: 5px 0; font-size: 0.8em;'>© 2025 All Rights Reserved</p>
 </div>
