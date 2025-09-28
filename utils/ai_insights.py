@@ -5,13 +5,22 @@ import streamlit as st
 @st.cache_resource
 def get_openai_client():
     """Initialize OpenAI client with caching"""
+    # Debug: Show what we're looking for
+    st.write("🔍 Debug: Checking for API key...")
+    
     # Try Streamlit secrets first (for cloud deployment)
     try:
         api_key = st.secrets["OPENAI_API_KEY"]
-    except:
+        st.write("✅ Found API key in Streamlit secrets")
+    except Exception as e:
+        st.write(f"❌ Streamlit secrets error: {str(e)}")
         # Fallback to environment variable (for local development)
         api_key = os.getenv("OPENAI_API_KEY")
-    
+        if api_key:
+            st.write("✅ Found API key in environment variable")
+        else:
+            st.write("❌ No API key in environment variable")
+            
     if not api_key:
         st.error("OpenAI API key not found!")
         st.info("""
