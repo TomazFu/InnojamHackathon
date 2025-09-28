@@ -115,6 +115,16 @@ if st.sidebar.button("🔄 Clear Cache & Reload Data"):
     st.cache_data.clear()
     st.rerun()
 
+# AI API test button
+if st.sidebar.button("🤖 Test AI Connection"):
+    try:
+        from utils.ai_insights import get_openai_client
+        client = get_openai_client()
+        st.sidebar.success("✅ AI connection successful!")
+    except Exception as e:
+        st.sidebar.error(f"❌ AI connection failed: {str(e)}")
+
+
 try:
     sales_df, customer_df, inventory_df, staff_df, disease_df, campaigns_df, branches_df = get_data()
     COMPANY_NAME = "Guardian Pharmacy"

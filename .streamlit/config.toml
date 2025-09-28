@@ -4,3 +4,6 @@ port = 8501
 
 [browser]
 gatherUsageStats = false
+
+[secrets]
+files = [ "~/.streamlit/secrets.toml", "~/.streamlit/secrets.toml",]

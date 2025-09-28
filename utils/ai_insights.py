@@ -5,18 +5,38 @@ import streamlit as st
 @st.cache_resource
 def get_openai_client():
     """Initialize OpenAI client with caching"""
-    api_key = os.getenv("OPENAI_API_KEY")
+    # Try Streamlit secrets first (for cloud deployment)
+    try:
+        api_key = st.secrets["OPENAI_API_KEY"]
+    except:
+        # Fallback to environment variable (for local development)
+        api_key = os.getenv("OPENAI_API_KEY")
+    
     if not api_key:
-        st.error("OPENAI_API_KEY not found in environment")
-        st.info("Add to .env file: OPENAI_API_KEY=your_key_here")
+        st.error("OpenAI API key not found!")
+        st.info("""
+        **For Streamlit Cloud:**
+        1. Go to your app settings
+        2. Add to Secrets: `OPENAI_API_KEY = "your_key_here"`
+        
+        **For Local Development:**
+        Add to .env file: `OPENAI_API_KEY=your_key_here`
+        """)
         st.stop()
-    return OpenAI(api_key=api_key)
+    
+    # Initialize client with minimal parameters to avoid version conflicts
+    try:
+        return OpenAI(api_key=api_key)
+    except Exception as e:
+        st.error(f"Failed to initialize OpenAI client: {str(e)}")
+        st.info("This might be a version compatibility issue. Try updating the OpenAI library.")
+        st.stop()
 
 def generate_ai_insight(prompt, context, max_tokens=800):
     """Generate AI insights using OpenAI"""
-    client = get_openai_client()
-
     try:
+        client = get_openai_client()
+        
         response = client.chat.completions.create(
             model="gpt-4o",
             max_tokens=max_tokens,
@@ -30,6 +50,7 @@ def generate_ai_insight(prompt, context, max_tokens=800):
         return response.choices[0].message.content
     except Exception as e:
         st.error(f"AI Error: {str(e)}")
+        st.info("This might be due to API key issues or model availability.")
         return "Unable to generate AI insights at this time."
 
 def analyze_outbreak(disease_df, sales_df, context_data):
